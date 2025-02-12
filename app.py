@@ -31,11 +31,12 @@ def slack_events():
             user = event["user"]
             text = event["text"]
 
-            try:
-                client.chat_postMessage(
-                    channel=channel, text=f"Hello <@{user}>, you said: {text}")
-            except SlackApiError as e:
-                print(f"Error: {e.response['error']}")
+            if text.lower() == "hello":
+                try:
+                    client.chat_postMessage(
+                        channel=channel, text=f"Hello <@{user}>")
+                except SlackApiError as e:
+                    print(f"Error: {e.response['error']}")
 
     return jsonify({"status": "ok"}), 200
 
