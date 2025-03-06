@@ -7,4 +7,5 @@ Data Solutions Internal Insights
 https://developers.notion.com/docs/create-a-notion-integration
 
 ### Python Libraries to Install
-pip install slack_sdk flask python-dotenv requests beautifulsoup4
+
+pip install slack_sdk flask python-dotenv requests beautifulsoup4 transformers torch
