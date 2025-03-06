@@ -1,0 +1,21 @@
+# GitHub Permissions Structure
+
+Author: Jay Sella
+Branch: Operations, Software
+Hidden: No
+
+Generate operates a Github organization and Github account. All work related to Generate projects **must** exist in and be owned by Generate’s organization.
+
+Access shall be granted as follows:
+
+- **Organization Owners**: Generate email, Executive Director, Software Director, Operations Director
+- **Organization Members**: Software Chiefs, Project Leads, and Technical Leads
+- **Outside Collaborators**: everyone else who needs access to one or more repositories
+    - *Each collaborator can be assigned one of: read, triage, write, maintain, admin*
+    - Software Engineers should be assigned **Write**
+    - Product Leads & Technical Leads should be assigned **Admin**
+        
+        <aside>
+        <img src="https://www.notion.so/icons/arrow-right-basic_lightgray.svg" alt="https://www.notion.so/icons/arrow-right-basic_lightgray.svg" width="40px" /> Admin is the only role that can manage and invite members to a repository.
+        
+        </aside>

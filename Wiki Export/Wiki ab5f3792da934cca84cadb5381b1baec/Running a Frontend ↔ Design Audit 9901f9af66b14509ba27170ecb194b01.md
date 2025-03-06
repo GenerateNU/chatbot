@@ -1,0 +1,25 @@
+# Running a Frontend ↔ Design Audit
+
+Author: frank, erin
+Branch: Software
+Hidden: No
+Parent page: Breaking Silos (Breaking%20Silos%202d26a01f9689444bbb069f20491b80ac.md)
+
+Before any Features are merged from Development → Production they should undergo a **Design Audit**:
+
+1. Engineers complete the development of the Feature
+2. Engineers notify the designer and set up a time to Demo and review
+3. Designer and Engineer walk through the completed feature together, alongside the Figma designs, and identify necessary improvements (as required):
+    
+    → Necessary improvements are noted and added to the Squad’s backlog for the next week
+    
+    → If an improvement is deemed too time-intensive, the proposed changes can be discussed with Leads, Chiefs, and other team members.
+    
+4. The designer approves the implementation and the feature is merged into Production (assuming it also meets code quality standards).
+
+<aside>
+📣 This is a perfect use of Squad meetups in team meetings, or team channels for members to show their work and receive feedback on it. 
+
+Note: if doing this in a team meeting, having a paper trail is a great way to make sure all the feedback is adequately recorded
+
+</aside>

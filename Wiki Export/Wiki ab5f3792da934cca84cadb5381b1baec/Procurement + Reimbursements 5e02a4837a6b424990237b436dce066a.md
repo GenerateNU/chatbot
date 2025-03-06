@@ -1,0 +1,133 @@
+# Procurement + Reimbursements
+
+Author: frank, Jay Sella
+Branch: Operations
+Hidden: No
+Tags: FAQ, Leads/Chiefs Must-read
+
+Over the course of your time in Generate, you will likely need to purchase *something*. Perhaps a tool for a hardware project, stickers for an engagement event, a subscription for a software client, or catering for a morale event.
+
+<aside>
+<img src="https://www.notion.so/icons/info-alternate_blue.svg" alt="https://www.notion.so/icons/info-alternate_blue.svg" width="40px" /> This guide is designed to help you understand our policies and procedures for making Generate-related purchases. If you have questions, **ASK!** → **`#ops-help`** on Slack.
+
+</aside>
+
+---
+
+## **Procurement / Online Orders**
+
+<aside>
+<img src="https://www.notion.so/icons/clipping_green.svg" alt="https://www.notion.so/icons/clipping_green.svg" width="40px" /> **Key Takeaways:**
+
+- All orders/procurement requests must be submitted via our [FinOps Dashboard](https://finops.generatenu.com).
+- **Plan ahead** and know what items will need to be purchased as soon as possible. See [**When are orders placed?**](Procurement%20+%20Reimbursements%205e02a4837a6b424990237b436dce066a.md) to ensure your orders are submitted on-time.
+- Routinely connect with your lead to ensure that your team’s resources are effectively allocated and in-line with your needs.
+- **If you are a Director, Chief, or Lead**, please make sure you also familiarize yourself with [Digital Stewardship](Digital%20Stewardship%2039a51d1e3f4447419eb43c4d9601167d.md)
+- **TO SUBMIT AN ORDER**, submit a request through our [**FinOps Dashboard**](https://finops.generatenu.com/orders/new).
+</aside>
+
+**FAQs:**
+
+- **What are our supported vendors?**
+    
+    Supported vendors must be used whenever possible. We have tax-free accounts set up with these services and your items will be processed and arrive faster.
+    
+    <aside>
+    <img src="https://www.notion.so/icons/info-alternate_orange.svg" alt="https://www.notion.so/icons/info-alternate_orange.svg" width="40px" />
+    
+    *eBay is no longer a supported vendor.*
+    
+    </aside>
+    
+    - 4imprint
+    - Adafruit
+    - Amazon
+    - AndyMark
+    - Arduino
+    - Custom Ink
+    - DigiKey
+    - EasyEDA
+    - Edmund Optics
+    - Formlabs
+    - Harbor Freight
+    - Home Depot
+    - McMaster-Carr
+    - Misumi
+    - Mouser Electronics
+    - Prolabs
+    - Protolabs
+    - SendCutSend
+    - ServoCity
+    - Sparkfun
+    - Stepper Online
+    - Sticker Mule
+    - ULINE
+    - US Plastics
+    - Vevor
+    - Vex Robotics
+    - Vistaprint
+    - WaveShare
+    - Xometry
+- **What if I want to place orders from other vendors?**
+    - Please use custom orders sparingly as they take much more time to set up.
+    - In some cases, we are not able to order from certain vendors. See “[How does tax-exemption work?](Procurement%20+%20Reimbursements%205e02a4837a6b424990237b436dce066a.md)” above for one potential issue.
+    - Be aware that issues are common with custom orders.
+- **When are orders placed?**
+    - The Fall 2024 schedule requires all procurement/order requests to be submitted by **7:30pm every Tuesday and Thursday** to ensure same-day ordering. ****Reach out in [**`#ops-help`**](https://sherman-center.slack.com/channels/ops-help) on Slack with any questions in the meantime.
+    - Any orders not received on time will be submitted at the next scheduled date.
+- **Where are orders shipped? Can my order be shipped to me?**
+    
+    Orders may only be mailed to the Sherman Center. If necessary, orders may be shipped to the relevant lead following approval from Generate’s CFO or Operations Director.
+    
+- **How does tax-exemption work?**
+    - As a part of Northeastern University—and therefore the Sherman Center—we are tax-exempt**.**
+    - If a company is unwilling to remove sales tax, we cannot order from them. No exceptions.
+- **What if I have an urgent order? / I need something ASAP!**
+    - An order is “urgent” if there is a legitimate, justifiable reason that it absolutely cannot wait to be placed until the next order date. See [**When are orders placed?**](Procurement%20+%20Reimbursements%205e02a4837a6b424990237b436dce066a.md)
+    - If the need for an urgent order arises, reach out in [**`#ops-help`**](https://sherman-center.slack.com/channels/ops-help) on Slack explaining the situation. Be sure to tag **both** Generate’s Operations Director and Chief Financial Officer. They will determine whether the urgent order is necessary.
+    - **The Operations Director and CFO reserve the right to deem orders as urgent or non-urgent in their sole discretion.**
+    
+    <aside>
+    <img src="https://www.notion.so/icons/info-alternate_blue.svg" alt="https://www.notion.so/icons/info-alternate_blue.svg" width="40px" /> In most cases, weekend and holiday orders cannot be expedited due to the business nature of most vendors we utilize. Please consider this in your urgent request before reaching out.
+    
+    </aside>
+    
+- **How do I process a return?**
+    
+    Policies and timelines vary by vendor. The receiving team is responsible for notifying Operations on Slack (`#ops-help`) about the return to obtain the necessary labels. Please provide the original order ID and a description of all items to be returned. The receiving team is responsible for boxing and shipping out the return.
+    
+
+## **Reimbursements**
+
+Generally, all morale purchases must be paid for out-of-pocket and then reimbursed. **Project materials should *never* be bought out-of-pocket.**
+
+<aside>
+<img src="https://www.notion.so/icons/clipping_green.svg" alt="https://www.notion.so/icons/clipping_green.svg" width="40px" /> **Key Takeaways:**
+
+- Reimbursements requests must be submitted **within 14 days** of purchase.
+- **Keep your *itemized* receipt!** Without it, you cannot be reimbursed.
+- Reimbursements **over $75 require** **prior approval from Generate’s CFO or Operations Director**, unless morale-related.
+    - ***Failure to do so may result in rejection of your reimbursement request.***
+- **Pay attention, and triple check your requests.** Incomplete, inaccurate, or late submissions may be rejected and non-reimbursable.
+- **TO SUBMIT A REIMBURSEMENT**, submit a request through our [**FinOps Dashboard**](https://finops.generatenu.com/reimbursements/new).
+</aside>
+
+**FAQs:**
+
+- **What can be reimbursed?**
+    - **Morale**: Unless otherwise communicated, all **morale** expenses should be paid out-of-pocket and reimbursed by Generate.
+    - **Urgent Project Materials**: **If approved by your Director**, urgent project materials **$75 or less** may be purchased out-of-pocket and reimbursed by Generate. Urgent project materials over $75 must be approved by Generate’s CFO or Operations Director. **All other project material purchases must flow through our standard procurement policies**.
+- **What is required?**
+    
+    Reimbursement Requests must…
+    
+    - be submitted **within 14 days** of the purchase.
+    - include a **PDF** of an ***itemized receipt*** showing the vendor name, purchase date, items purchased, total price, and payment method.
+        - *Please take 2 extra seconds to find a clean and flat surface, take a clear picture, and crop photos to show just the receipt.*
+- **How long do reimbursements take?**
+    - Reimbursement requests take time. They must be processed by Generate, the Sherman Center, and Northeastern University, as well as either the USPS (physical checks are mailed if you don’t have direct deposit set up) or your bank.
+    - Please be patient; this process usually takes **3-4 weeks**.
+
+## Questions or Issues?
+
+Reach out in [**`#ops-help`**](https://sherman-center.slack.com/channels/ops-help) on Slack. We’re here to help!

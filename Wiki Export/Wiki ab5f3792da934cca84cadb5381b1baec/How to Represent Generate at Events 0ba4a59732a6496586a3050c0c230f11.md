@@ -1,0 +1,33 @@
+# How to Represent Generate at Events
+
+Author: Chirag Chadha
+Branch: Engagement
+Hidden: No
+Sub-page: Instructions for Tabling (Instructions%20for%20Tabling%208d8b2bb35b364c6cae27a6756487f6dd.md)
+
+<aside>
+🚨
+
+**You may not represent Generate at public events without explicit approval from @Chirag Chadha (Engagement Director).**
+
+*If are you interested in representing Generate at a public event or would like table please contact @Josephine or @Chirag Chadha on Slack.*
+
+</aside>
+
+**If you have been asked to perform set up or take down for tabling events please see [Instructions for Tabling](Instructions%20for%20Tabling%208d8b2bb35b364c6cae27a6756487f6dd.md)** 
+
+**If asked to table for Generate at an event, please keep in mind the following guidelines:**
+
+1. [**Embody Generate's and Sherman Center's values](Mission,%20Values,%20&%20Priorities%20367f5423fb454a21a7fb9f5a9e328993.md):** Reference the three values of the Sherman Center: developmental, inclusive, and intentional. Keep in mind the values that each member represents and how our priorities align with the organization and its members.
+2. **Know your audience and highlight Generate's impact**: Tailor your pitch to students, potential clients, or partners as appropriate. Be prepared to share key statistics about our projects, members, and community. Emphasize the real-world experience members gain through Generate.
+3. **Showcase diversity and inclusivity**: Mention that Generate welcomes students from all 7 undergraduate colleges at Northeastern, with members from 50+ different majors. Discuss both Hardware and Software project varieties, as well as our Operations, Engagement, and Data Solutions opportunities.
+4. **Share success stories with enthusiasm**: If you're in HW or SW, have 1-2 client success stories ready, like Hot Date Kitchen, Alia, or Jurni. Let your passion for Generate shine through in your interactions.
+5. **Be knowledgeable and humble**: Be ready to discuss Generate's work, but know your limits. If you're unsure about something, offer to connect the person with the appropriate Generate leader.
+
+**Example pitch:**
+
+Generate is a student-led product development studio at Northeastern University. We bring together passionate students from all majors to work on real-world projects for startups and industry clients. Our community of over 160 active members tackles both hardware and software challenges, providing innovative solutions while gaining invaluable professional experience.
+
+We've completed over 100 projects for 95+ clients, ranging from mobile apps to physical prototypes. Our work has helped startups scale their operations and bring new products to market. For example, we developed a machine for Hot Date Kitchen that tripled their production capacity.
+
+Generate offers students a unique opportunity to apply classroom knowledge to real projects, develop leadership skills, and build a strong professional network. We're always looking for driven, innovative students to join our community and contribute to exciting projects.
