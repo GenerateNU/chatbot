@@ -1,0 +1,38 @@
+# Electric Component Library
+
+Author: Anna Birge
+Branch: Hardware
+Hidden: No
+Sub-page: LEDs (LEDs%2014af18dd5a948091a736de4c31471c8d.md), Motors (Motors%2014af18dd5a9480e6a3e4d9c951f8cbb7.md), Power Supplies (Power%20Supplies%20150f18dd5a9480fe825bc7719d9cd547.md), MCUs (MCUs%20150f18dd5a9480e4ad1cfc587977bea9.md), Voltage Regulation (Voltage%20Regulation%20150f18dd5a94801aa0fff8bc344f9063.md)
+
+This folder is a library for all electronic components that have been used by Generate Hardware ECE teams in the past. It is intended to be the first step in component selection, so teams can confidently choose parts that have been used and proven to work in the past.
+
+Note that this is not a comprehensive guide of all hardware available to you. It is simply a collection of items that have been used in the past by previous Generate groups.
+
+This includes parts from the following projects:
+
+AutoPasser (v1 & v2)
+
+HiddenLock
+
+Hot Date Kitchen (v1 & v2)
+
+TatumRobotics
+
+Fufu Pot (v1 & v2)
+
+WaveWise (v1 & v2)
+
+RoboUmp
+
+CStar
+
+Muscle Recovery
+
+PCB Components:
+
+[LEDs](LEDs%2014af18dd5a948091a736de4c31471c8d.md) 
+
+[MCUs](MCUs%20150f18dd5a9480e4ad1cfc587977bea9.md) 
+
+[Voltage Regulation](Voltage%20Regulation%20150f18dd5a94801aa0fff8bc344f9063.md)

@@ -1,0 +1,20 @@
+# Downloading SamacSys Library Loader
+
+Author: Aaliyah Yan
+Branch: Hardware
+Hidden: No
+Parent page: Software Installation and Setup (Software%20Installation%20and%20Setup%2014bf18dd5a948054ae9df39c601a5c44.md)
+
+![image.png](Downloading%20SamacSys%20Library%20Loader%20150f18dd5a948099a84fc9692789a592/image.png)
+
+SamacSyS library loader is a powerful FREE tool that can be used to import footprint downloads from mouser directly into your ECAD software. This comes in handy, as it saves you the time of looking for the footprint and organizing it yourself. The only thing you need to do for this is set it to the right directory within the application settings.
+
+Head to the link below and **scroll all the way down:**
+
+[SamacSys Library Loader](https://componentsearchengine.com/learn-more?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjTHhCQq-y9lLjfL6ReHwkI-F3PxTK34wBpSXwm1W4ByJlE56nQaUu4aAj4cEALw_wcB)
+
+![image.png](Downloading%20SamacSys%20Library%20Loader%20150f18dd5a948099a84fc9692789a592/image%201.png)
+
+This program is also relatively easy to download. Run the executable file downloaded and you should be importing footprints like a pro!
+
+- Note that this application will require you to create a SamacSys account.

@@ -1,0 +1,6 @@
+# Software Installation and Setup
+
+Author: Anna Birge
+Branch: Hardware
+Hidden: No
+Sub-page: KiCAD Installation and Setup (KiCAD%20Installation%20and%20Setup%2014af18dd5a9480b3bd5af70ae4b843df.md), Git Installation and Setup (Git%20Installation%20and%20Setup%20150f18dd5a948042b379f86130343664.md), Downloading SamacSys Library Loader (Downloading%20SamacSys%20Library%20Loader%20150f18dd5a948099a84fc9692789a592.md)

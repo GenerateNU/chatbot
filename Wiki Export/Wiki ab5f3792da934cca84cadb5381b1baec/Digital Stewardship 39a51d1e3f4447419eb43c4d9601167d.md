@@ -1,0 +1,66 @@
+# Digital Stewardship
+
+Author: Jay Sella
+Branch: Operations
+Hidden: No
+Tags: Leads/Chiefs Must-read
+
+As a leader in Generate, you play a vital role in maintaining the integrity and effectiveness of our digital presence, tools, and financial stability. All Generate-related accounts, from Amazon to TikTok to GitHub, are managed by Operations.
+
+## Existing Accounts
+
+Generate holds a number of accounts that we’ve accumulated over the years. These should be used whenever possible.
+
+## Creating New Accounts
+
+### Be Timely
+
+If you know you will need an account, request it as soon as possible. Don’t wait until you’re ready to begin work with it; this may block your team and slow down progress.
+
+### Avoid Duplication
+
+Before creating any new account, ask yourself:
+
+- Is there an existing account or service that can fulfill this need?
+- Can we expand the use of a current service instead of creating a new one?
+
+<aside>
+<img src="https://www.notion.so/icons/clipping_green.svg" alt="https://www.notion.so/icons/clipping_green.svg" width="40px" /> *If creating a new account is absolutely necessary, be sure to follow the principles described below.*
+
+</aside>
+
+---
+
+# Digital Stewardship Principles
+
+## Email Accounts
+
+- Our official email address, generate@northeastern.edu, must be attached as the primary email to all Generate-related accounts.
+- Do not create new emails such as project- or team-specific Gmail accounts. If access to a service is needed, request credentials from your Director or reach out to the Operations Chief Information Architect (CIA). Be prepared with your justification.
+
+## Documentation and Security
+
+- Provide Operations CIA with all necessary info to create account by sending a message in `#ops-help`. They will create the account, save credentials in Proton Pass, and share a Proton Pass link with you, if necessary.
+- Generate random, strong passwords from within Proton Pass, using at least 20 characters when able.
+- **Do not share account credentials** unless necessary for another member to perform their role.
+
+## Phone Numbers and MFA
+
+- Configure token-based 2FA via Proton Pass whenever possible.
+- Save any security questions with answers and recovery/backup codes in Proton Pass.
+- Do not use personal phone numbers for 2FA or other account-related details.
+    - If a number is necessary to have on file, use Frank’s. DM your lead if you don’t have his number.
+
+## Subscriptions
+
+- If a new service will require a paid subscription, or if you need to sign up for a new or modified paid subscription on an existing account:
+    - Secure approval from your branch Director.
+    - Submit a Procurement Request for the service.
+    - Inform the Operations CFO directly on Slack of the frequency and cost.
+- Northeastern University is a **tax-exempt** institution. Generate can not pay for, and members may not be reimbursed for, sales tax on purchases. Most official accounts already have our tax-exempt status on file with the vendor.
+
+# Questions
+
+If you have any questions, please reach out to your Lead, branch Director, or in `#ops-help` on Slack.
+
+December 11, 2024 to update

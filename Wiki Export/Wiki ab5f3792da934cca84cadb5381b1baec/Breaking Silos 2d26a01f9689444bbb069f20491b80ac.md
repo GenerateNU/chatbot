@@ -1,0 +1,6 @@
+# Breaking Silos
+
+Author: Generate Management
+Branch: Software
+Hidden: No
+Sub-page: Team Structure for Collaboration (Team%20Structure%20for%20Collaboration%204f7be20b762141c582917dee2fc734e2.md), Running a Frontend ↔ Design Audit (Running%20a%20Frontend%20%E2%86%94%20Design%20Audit%209901f9af66b14509ba27170ecb194b01.md), Design ↔ Frontend ↔ Backend Impacts (Design%20%E2%86%94%20Frontend%20%E2%86%94%20Backend%20Impacts%2010729e4dbd0e40afbccbead40a0237c0.md), Writing and Assigning Features (Stories) and Enablers (Tickets) (Writing%20and%20Assigning%20Features%20(Stories)%20and%20Enabl%204f2ab474b12d4f2cb1ab772062d845b9.md), Figma → Dev Handoff: Best Practices (Figma%20%E2%86%92%20Dev%20Handoff%20Best%20Practices%20a5df8b52ab98443e81d1d60385660dde.md)

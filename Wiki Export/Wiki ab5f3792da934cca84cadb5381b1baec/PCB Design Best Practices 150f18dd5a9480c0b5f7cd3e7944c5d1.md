@@ -1,0 +1,244 @@
+# PCB Design: Best Practices
+
+Author: Aaliyah Yan
+Branch: Hardware
+Hidden: No
+Parent page: Development Resources (Development%20Resources%2014bf18dd5a9480dcb4cbfec87e0cb38b.md)
+
+## **Preface**
+
+This Confluence page is meant to serve as an introductory guide into the creation and manufacturing of PCB’s (Printed Circuit Boards). This guide will show you best practices and guidelines to follow when creating a PCB after completing a schematic.
+
+## **1. Introduction**
+
+When creating a PCB, it is important to follow certain practices to ensure that the final product is reliable, functional, and safe. The PCB manufacturing process typically involves designing the PCB layout, selecting components, assembling the board, and testing/validating the final product.
+
+![image.png](PCB%20Design%20Best%20Practices%20150f18dd5a9480c0b5f7cd3e7944c5d1/image.png)
+
+**This step should FOLLOW the creation/completion of a schematic. This is to ensure that you can import all the parts needed to meet product specifications.**
+
+## **2. Design Considerations**
+
+Designing a PCB layout that is optimized for manufacturing and reliability is crucial for the success of a project. Here are some design considerations to keep in mind:
+
+### PCB Layout Guidelines
+
+- Use standard PCB footprints to ensure compatibility with PCB assembly equipment
+- Minimize the number of vias and keep them away from sensitive components to avoid signal interference/noise
+- Place decoupling capacitors close to the power pins of their respective components to reduce noise and voltage fluctuations
+
+![image.png](PCB%20Design%20Best%20Practices%20150f18dd5a9480c0b5f7cd3e7944c5d1/image%201.png)
+
+Proper decoupling capacitor placement. It is important to also reference a ground plane through something called a “via”, which is a hole to another layer of the board
+
+### Component Selection
+
+- Choose components that are rated for the desired operating conditions (temperature, voltage, etc)
+- Consider the availability and cost of components when selecting them
+- Use components from reputable manufacturers to ensure quality and reliability
+
+### Thermal Management
+
+- Proper thermal management is essential for components that generate heat, such as power amplifiers, voltage regulators, and microprocessors
+- Consider the use of thermal vias, heat sinks, and thermal pads to dissipate heat and maintain component temperatures within safe operating limits
+
+### EMI/RFI Considerations
+
+- Minimize the length of traces carrying high-frequency signals to reduce electromagnetic interference (EMI) and radio-frequency interference (RFI)
+- Use shielding techniques such as grounded metal cans or shielding tape to reduce EMI/RFI
+- Don’t route traces with 90 degree bends in them
+
+## **3. Assembly Process**
+
+The assembly process involves soldering the components to the PCB and ensuring that the board is functional and meets the required quality standards.
+
+**For simpler boards, assembly can be done by hand, with the engineer soldering all of the components to the board. However, for more complex boards, it becomes much harder/impossible to hand-solder certain components. In situations like these, assembly will be done by an assembly house.**
+
+### Soldering Techniques
+
+- Use a high-quality solder paste with the correct particle size for the components being soldered
+- Use a consistent and repeatable soldering process to ensure consistent quality
+- Consider the use of solder paste stencils to apply a precise amount of solder paste to each component
+
+### Quality Control
+
+- Perform inspections (either visual or with a DMM) to ensure that components are properly aligned and soldered
+
+### Testing and Validation
+
+- Test the functionality of the board using appropriate test equipment and procedures
+- Perform environmental testing (temperature, humidity, vibration, etc.) to ensure that the board is reliable in a range of conditions
+- Validate that the board meets the required performance specifications
+
+## **4. PCB Stackups and Layer Considerations**
+
+The number of layers in a PCB is a critical consideration that affects the cost, performance, and manufacturability of the board. Here are some factors to consider when deciding on the number of layers for your PCB.
+
+![This is a typical PCB stackup that a fabrication house will send you. A stackup will typically include layer thickness, as well as the materials that will be used.](PCB%20Design%20Best%20Practices%20150f18dd5a9480c0b5f7cd3e7944c5d1/image%202.png)
+
+This is a typical PCB stackup that a fabrication house will send you. A stackup will typically include layer thickness, as well as the materials that will be used.
+
+### PCB Stackups
+
+A PCB stackup is the arrangement of copper and insulating layers that make up the PCB. The stackup is critical for determining the electrical and mechanical properties of the board. Here are some common stackups:
+
+- 2-layer stackup: This is the simplest and least expensive stackup. It consists of a top layer and a bottom layer separate by an insulating layer. This stackup is suitable for simple circuits with few componets and signals.
+- 4-layer stackup: This stackup consists of two signal layers and two power/ground planes. It provides better signal integrity and EMI/RFI performance than a 2-layer stackup, and is suitable for more complex circuits with multiple signals and components.
+- 6-layer stackup: This stackup consists of four signal layers and two power/ground planes. It provides even better signal integrity and EMI/RFI performance than a 4-layer stackup, making it suitable for high-speed circuits and mixed-signal designs.
+- 8-layer stackup and above: These stackups are used for very high-speed circuits and designs with multiple power domains. They can provide even better signal integrity and EMI/RFI performance than a 6-layer stackup, but they are more expensive.
+
+### Layer Considerations
+
+When deciding on the number of layers for your PCB, consider the following factors:
+
+- Complexity of the circuit: More complex circuits require more layers to accommodate the additional components and signals.
+- Signal integrity: High-speed signals require controlled impedance routing and multiple layers to reduce signal reflections and crosstalk.
+- Power and ground planes: Multiple power and ground planes can provide better noise immunity and thermal management
+- Size and cost: The number of layers in a PCB affects its size and cost. More layers increases the size and cost of the board.
+- Manufacturing constraints: PCB manufacturers may have limitations on the number of layers that they can provide, so it’s important to check with your manufacturer before deciding on the number of layers.
+
+### Different Examples of 4 Layer Stackups
+
+1. Top layer: Signal; Layer 2: Ground plane; Layer 3: Power plane; Bottom layer: Signal This stackup is commonly used for designs that have multiple power domains and require good signal integrity.
+2. Top layer: Signal; Layer 2: Power plane; Layer 3: Ground plane; Bottom layer: Signal This stackup is commonly used for designs that have high current requirements and require good EMI shielding.
+3. Top layer: Signal; Layer 2: Ground plane; Layer 3: Signal; Bottom layer: Ground plane This stackup is commonly used for designs that require high-speed signal routing and good EMI shielding.
+4. Top layer: Signal; Layer 2: Ground plane; Layer 3: Signal; Bottom layer: Power plane This stackup is commonly used for designs that have mixed analog and digital signals and require good EMI shielding.
+5. Top layer: Signal; Layer 2: Power plane; Layer 3: Signal; Bottom layer: Ground plane This stackup is commonly used for designs that have mixed analog and digital signals and require good power distribution.
+
+It’s important to note that the choice of stackup depends on the specific requirements of the design, such as the number of power domains, signal speeds, and EMI considerations.
+
+## **5. Ground Pours and Power Planes**
+
+Ground and power planes are critical components of PCB design, providing electrical and thermal stability to the board. Here are some guidelines for using ground pours and power/ground planes in your PCB design
+
+![image.png](PCB%20Design%20Best%20Practices%20150f18dd5a9480c0b5f7cd3e7944c5d1/image%203.png)
+
+![image.png](PCB%20Design%20Best%20Practices%20150f18dd5a9480c0b5f7cd3e7944c5d1/image%204.png)
+
+### Ground Pours
+
+A ground pour is a large copper area on the PCB that is connected to the ground net. Ground pours are used to reduce electromagnetic interference (EMI) and to provide a low impedance path to ground. Here are some considerations when using ground pours:
+
+- Connect the ground pour to the ground pins of all components on the PCB
+- Keep the ground pour away from high-speed signal traces to avoid interference
+- Use multiple smaller ground pours instead of a single large pour to reduce the risk of a short circuit
+- (If 2-layer) Place ground pours on both sides of the PCB to increase the effectiveness of EMI shielding
+
+### Power Planes
+
+Power and ground planes are large copper areas on the PCB that are used to provide a low impedance path for power and ground. Power planes are used to distribute power to the components, while ground planes provide a low impedance return path for the current. Here are some considerations when using power and ground planes.
+
+- Use power and ground planes to reduce electromagnetic interference (EMI) and to provide a low impedance path for current.
+- Place the power and ground planes adjacent to each other to reduce the inductance and resistance of the power distribution network.
+- Use multiple power and ground planes for designs with multiple power domains or high current requirements.
+- Place vias to connect the power and ground planes on different layers of the PCB.
+- Consider the thickness and conductivity of the power and ground planes to ensure they can handle the required current.
+
+## **6. Vias in PCB Design**
+
+Vias are small plated-through holes in a PCB that provide a connection between different layers of the board.
+
+![image.png](PCB%20Design%20Best%20Practices%20150f18dd5a9480c0b5f7cd3e7944c5d1/image%205.png)
+
+Vias are used to route signals, power, and ground between different layers of the board. Here are some considerations when using vias in your PCB design:
+
+- Use smaller vias for high-density designs to save space on the board.
+- Consider the aspect ratio of the via (the ratio of the hole diameter to the board thickness) to ensure manufacturability.
+- Place vias away from high-speed signals to avoid interference.
+- Use blind and buried vias to save space on the board and to reduce signal reflections.
+- Avoid placing vias too close to pads to prevent solder wicking during assembly.
+
+## **7. General Good Practice for PCB Routing**
+
+When routing a PCB, there are several good practices to follow to ensure reliable and stable performance. Here are some guidelines to consider:
+
+### Trace Width and Clearance
+
+The width of a trace and the clearance between traces and components are critical factors in PCB design. The width of a trace determines the amount of current it can carry, while the clearance between traces and components determines the risk of a short circuit. Here are some considerations when setting trace width and clearance:
+
+- Use wider traces for higher current requirements.
+- Use narrower traces for signals with lower current requirements to save space on the board.
+- Consider the thickness of the copper layers when setting the trace width.
+- Use minimum clearance between traces and components to reduce the risk of a short circuit.
+- Increase the clearance between high-voltage traces and other components to reduce the risk of electrical arcing.
+
+### Signals Routing
+
+Signal routing is critical for ensuring reliable and stable performance of the PCB. Here are some considerations when routing signals:
+
+- Follow the datasheet recommendations for routing high-speed signals to reduce the risk of signal reflections and crosstalk.
+- Use differential pairs for high-speed signals to reduce EMI and improve signal integrity.
+- Route signals away from high-voltage traces and components to reduce the risk of electrical arcing.
+- Place decoupling capacitors near the power pins of components to reduce noise and improve stability.
+
+By following these good practices and guidelines for PCB routing, you can ensure that your design is reliable, manufacturable, and meets your performance requirements.
+
+## **8. Design Rule Check (DRC)**
+
+A Design Rule Check (DRC) is an automated process that checks your PCB design for errors and inconsistencies. The DRC helps to ensure that your design meets the manufacturing requirements of your PCB manufacturer, and that your PCB will function as intended.
+
+The DRC checks your design against a set of rules that you define. These rules can include parameters such as minimum trace width, minimum trace spacing, minimum drill size, and many others. The DRC will flag any errors or violations of these rules, allowing you to correct them before you send your design to the manufacturer.
+
+Creating a DRC in KiCAD is a straightforward process. Here are the steps to create a DRC:
+
+1. Open your PCB design in KiCAD and click on "Tools" in the menu bar.
+2. Select "Design Rule Checker" from the drop-down menu.
+3. In the DRC window, you can define the rules for your design. For example, you can set minimum trace width, minimum trace spacing, and minimum drill size.
+4. Once you have defined your rules, click "Run DRC" to check your design for errors and violations.
+5. The DRC will flag any errors or violations of the rules you have defined. You can then make the necessary changes to your design to correct these errors.
+
+It is important to run a DRC before sending your design to the manufacturer. This will help to ensure that your design meets the manufacturing requirements of your PCB manufacturer, and that your PCB will function as intended. Running a DRC can save you time and money in the long run, by catching errors early in the design process.
+
+## **9. Getting Your PCB Manufactured**
+
+Once you have completed your PCB design, the next step is to get it manufactured. There are many PCB manufacturers to choose from, including online PCB fabs such as JLCPCB, PCBWay, and OshPark. Here are some steps to follow to get your PCB manufactured:
+
+1. Generate Gerber files: Gerber files are the industry standard file format for PCB manufacturing. They contain the information needed to produce the PCB, including the copper layers, solder mask, and drill files. Most PCB design software packages have built-in Gerber file generation tools.
+2. Check your design: Before submitting your design to the manufacturer, it's important to double-check your design for errors or mistakes. Check that all the connections are correct, that there are no overlapping traces, and that the design follows the manufacturer's design rules.
+3. Place an order: Most PCB manufacturers have an online portal for submitting orders. You will need to specify the number of PCBs you need, the type of board material, the board thickness, the number of layers, the copper weight, and other details.
+4. Upload your Gerber files: After placing your order, you will need to upload your Gerber files to the manufacturer's website. Be sure to include all the necessary files, including the drill files and any special instructions or notes.
+5. Review the design: Once you have submitted your files, the manufacturer will review your design to ensure that it can be manufactured. They may contact you if they have any questions or concerns.
+6. Payment and shipping: After your design has been reviewed and approved, you will need to pay for the order and provide a shipping address. The PCBs will typically be manufactured and shipped within a few days.
+
+In addition to Gerber files, some manufacturers may also require other file formats such as Excellon drill files, pick-and-place files, and assembly drawings. Be sure to check with the manufacturer to confirm which files are required.
+
+By following these steps, you can get your PCB manufactured and bring your project to life.
+
+## **10. Additional Resources**
+
+Here are some additional resources that you may find helpful for creating a PCB in KiCad:
+
+- **KiCad Tutorial** by Chris Gammell: [https://www.youtube.com/watch?v=1AXwjZoyNno](https://www.youtube.com/watch?v=1AXwjZoyNno)
+
+These YouTube video tutorials provide a comprehensive guide to using KiCad for PCB design. By watching these videos and following along with the examples, you can learn the fundamentals of PCB design in KiCad and create your own custom PCBs.
+
+---
+
+# **KICAD PCB Editor Explained:**
+
+## **KiCad PCB Editor Interface and Layer Overview**
+
+KiCad PCB editor is a powerful tool that provides a variety of features to help you design a professional-quality printed circuit board. Here are some of the key buttons and tools in the KiCad PCB editor interface:
+
+### Important Buttons to Know:
+
+- **Place Component:** This button allows you to place components on the board. You can select a component from the library browser and place it on the board by clicking on the desired location.
+- **Add Track:** This button allows you to add a new track to the board. You can specify the start and end points of the track, and KiCad will automatically route the track between them.
+- **Add Via:** This button allows you to add a new via to the board. A via is used to connect a trace on one layer of the board to a trace on another layer.
+- **Add Text:** This button allows you to add text to the board. You can specify the text content, font, size, and location.
+- **Design Rule Check (DRC):** This button allows you to run a design rule check on your board. The DRC checks your board against a set of predefined rules to ensure that it meets certain design criteria.
+
+### What Each Layer in the PCB Board Editor Means:
+
+- **Top Layer:** This is the layer of the board that is visible from the top. It typically contains the component footprints and the traces that connect them.
+- **Bottom Layer:** This is the layer of the board that is visible from the bottom. It typically contains the ground and power planes, as well as additional traces.
+- **Silk Screen:** This layer is used to provide additional information about the board, such as component outlines, reference designators, and other text.
+- **Top Silk Screen:** This is the silk screen layer that is visible from the top of the board.
+- **Bottom Silk Screen:** This is the silk screen layer that is visible from the bottom of the board.
+- **Board Outline:** This layer defines the outline of the board. It is used to specify the shape and size of the board.
+- **Solder Mask:** The solder mask layer is used to define areas where solder mask material will be applied to the board. The solder mask is a protective layer that prevents solder from flowing where it is not supposed to during assembly. The solder mask layer is typically colored green, but other colors are possible.
+- **Top Paste:** The top paste layer is used to define the areas where solder paste will be applied to the board during assembly. The solder paste layer is typically used for surface mount components that are attached to the top layer of the board.
+- **Bottom Paste:** The bottom paste layer is used to define the areas where solder paste will be applied to the board during assembly. The solder paste layer is typically used for surface mount components that are attached to the bottom layer of the board.
+- **Drill File:** The drill file is used to define the locations of the holes that will be drilled into the board during fabrication. This file provides the manufacturer with the precise dimensions and locations of each hole.
+- **Board Outline:** The board outline layer is used to define the shape and size of the board. The board outline is typically a closed polygon that defines the outermost perimeter of the board.
+- **Mechanical Layers:** Mechanical layers are used to add additional information about the board, such as mounting holes, cutouts, and other mechanical features. These layers are typically used to provide additional information to the manufacturer about how the board should be fabricated.

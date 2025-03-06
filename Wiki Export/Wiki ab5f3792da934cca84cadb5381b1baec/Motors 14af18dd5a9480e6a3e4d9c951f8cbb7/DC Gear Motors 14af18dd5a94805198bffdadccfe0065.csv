@@ -1,0 +1,6 @@
+﻿Name,Picture,Used In,Voltage,Torque,RPM,Motor Driver,Link(s)
+Brushed DC Motor Standard 11605 RPM 5VDC,Motors%2014af18dd5a9480e6a3e4d9c951f8cbb7/6f852c2b-051b-49af-957f-e03055c38134.jpeg,"HiddenLockOpen ",5V,Low,11605,N/A,https://www.digikey.com/en/products/detail/nmb-technologies-corporation/PPN7PA12C1/2417079
+CIM Motor,Motors%2014af18dd5a9480e6a3e4d9c951f8cbb7/e42de331-d963-4265-81aa-1e41c7fb023d.jpeg,"AutoPasser ",12V,64Oz-In,4320,https://www.vexrobotics.com/217-9191.html,https://www.vexrobotics.com/217-2000.html
+Neo Motor,Motors%2014af18dd5a9480e6a3e4d9c951f8cbb7/ed1ede94-e202-42aa-944d-f71bbe304cd2.jpeg,AutoPasser,12V,2.6Nm,5676,https://www.revrobotics.com/rev-11-2158/,https://www.revrobotics.com/rev-21-1650/
+"5203 Series Yellow Jacket Planetary Gear Motor (19.2:1 Ratio, 24mm Length 8mm REX™ Shaft, 312 RPM, 3.3 - 5V Encoder)",Motors%2014af18dd5a9480e6a3e4d9c951f8cbb7/7b3c9eed-d5ed-4db2-8af0-2ae988490347.jpeg,CStarOpen,12V,24.3kg-cm,312,"https://www.digikey.com/en/products/detail/texas-instruments/DRV8842PWPR/2695911 
+",https://www.servocity.com/5203-series-yellow-jacket-planetary-gear-motor-19-2-1-ratio-24mm-length-8mm-rex-shaft-312-rpm-3-3-5v-encoder/
