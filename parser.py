@@ -5,7 +5,7 @@ import urllib.parse
 
 def extract_page(wiki_file):
     """
-    Extracts Notion page names and it's Markdown filenames from the Wiki markdown file.
+    Extracts Notion page names and its Markdown filenames from the Wiki markdown file.
     Returns a dictionary {Notion page name: Markdown filename}.
     """
     with open(wiki_file, "r", encoding="utf-8") as file:
@@ -20,7 +20,7 @@ def extract_page(wiki_file):
 
     notion_pages = {}
 
-    # Create dictionary to store {Notion Page Name: Notion Page Link}
+    # Create a dictionary to store {Notion Page Name: Notion Page Link}
     for link in links:
         page_name = link.text.strip()
         file_path = link.get("href")
@@ -44,7 +44,7 @@ def extract_text(notion_folder, notion_page):
     with open(notion_file, "r", encoding="utf-8") as file:
         notion_content = file.read()
 
-    # Convert Markdown to HTML, HTML to text
+    # Convert Markdown to HTML, then HTML to text
     html_content = markdown(notion_content)
     text = BeautifulSoup(html_content, "html.parser").get_text()
 
@@ -53,17 +53,29 @@ def extract_text(notion_folder, notion_page):
 def extract_wiki(wiki_file, notion_folder):
     """
     Extracts Notion page names and their corresponding filenames from the Wiki markdown file,
-    fetches the text from corresponding Notion markdown files, and prints them.
+    fetches the text from corresponding Notion markdown files, and organizes the content in a dictionary.
     """
     notion_pages = extract_page(wiki_file)
-
+    
+    wiki_content = {}
+    
+    # Extract and organize the content for each page
     for page_name, notion_filename in notion_pages.items():
-        print(f"\n=== {page_name} ===\n")
         notion_text = extract_text(notion_folder, notion_filename)
-        print(notion_text)
+        wiki_content[page_name] = notion_text
+        
+    return wiki_content
+
+# Example usage (for testing purposes):
+if __name__ == "__main__":
+    wiki_file = "Wiki ab5f3792da934cca84cadb5381b1baec.md"  # Path to your exported wiki markdown file
+    notion_folder = "Wiki Export"  # Folder containing the Notion markdown files
+
+    # Extract the wiki data
+    wiki_data = extract_wiki(wiki_file, notion_folder)
+
+    # Print the extracted data (for testing purposes)
+    for page_name, content in wiki_data.items():
+        print(f"\n=== {page_name} ===\n")
+        print(content)
         print("\n" + "=" * 50)
-
-wiki_file = "Wiki ab5f3792da934cca84cadb5381b1baec.md"
-notion_folder = "Wiki Export"
-
-wiki = extract_wiki(wiki_file, notion_folder)
