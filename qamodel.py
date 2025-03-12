@@ -8,24 +8,29 @@ def answer_question(question, wiki_data):
     Given a query and the wiki data (context), fetch the answer using DistilBERT QA model.
     
     Args:
-        query (str): The question to be answered.
+        question (str): The question to be answered.
         wiki_data (dict): A dictionary with Notion page names as keys and their corresponding content as values.
     
     Returns:
         str: The answer to the query based on the wiki data.
     """
-    # Search for the most relevant page in the wiki data
-    for page_name, page_content in wiki_data.items():
-        if page_name.lower() in question.lower():  # Match page names to question
-            context = page_content
-            result = qa_pipeline(question=question, context=context)
-            return result['answer']
+    # Iterate over each page in the wiki data to check for a match
+    for page_name, context in wiki_data.items():
+        print(f"=== Searching in: {page_name} ===")
+        
+        # Ask the question using the current page's content as context
+        result = qa_pipeline(question=question, context=context)  # Change query to question here
+
+        if result['answer']:
+            print(f"Answer found in '{page_name}': {result['answer']}")
+            return result['answer']  # Return the first match found
     
-    return "Sorry, I couldn't find an answer to that."
+    # If no answer is found in any of the pages, return a default message
+    return "Sorry, I couldn't find an answer in the wiki."
 
 def test_qa_model(wiki_data):
     """
-    Test function for asking a few simple questions.
+    Function to run a few simple test questions on the QA model and print the answers.
     """
     test_questions = [
         "What factors should you consider when selecting electrical components?",
