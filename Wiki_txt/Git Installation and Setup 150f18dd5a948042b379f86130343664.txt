@@ -1,0 +1,69 @@
+Git Installation and Setup
+
+
+Author: Aaliyah Yan
+Branch: Hardware
+Hidden: No
+Parent page: Software Installation and Setup (Software%20Installation%20and%20Setup%2014bf18dd5a948054ae9df39c601a5c44.md)
+
+
+
+
+Create a GitHub account
+
+
+Install Git
+
+
+Mac:
+
+
+Git is already installed on MacOS devices
+
+
+
+
+
+
+Windows:
+
+
+Download for Windows
+
+
+Make sure to also install Git Bash during the installation, everything else can be left as default
+
+
+
+
+
+
+
+
+
+
+Linux:
+
+
+You probably already know what Git is/have it installed, but if not:
+
+
+Ubuntu: In the terminal, run:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jsx
+apt-get install git

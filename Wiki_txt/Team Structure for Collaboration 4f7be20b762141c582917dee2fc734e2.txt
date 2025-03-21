@@ -1,0 +1,32 @@
+Team Structure for Collaboration
+
+
+Author: frank
+Branch: Software
+Hidden: No
+Parent page: Breaking Silos (Breaking%20Silos%202d26a01f9689444bbb069f20491b80ac.md)
+
+
+Below is a diagram of how teams are set up into multiple streams to complete work for the project. 
+
+
+Feature Squads are made of at least one designer, one frontend-focused developer, and one backend-focused developer. 
+
+
+Together, these cross-disciplinary teams complete Stories, written by the PL, (aka Features).
+
+
+Engineering/Design Chapters are made of either all the engineers or all the designers on a team. 
+
+
+Together, Chapters work on Enablers, written by the TLs/DL, to complete work which helps the team better complete its work. This can include Brand Identity, Logos, Typography, Figma Component/Swatch setup, on the design side, and CI/CD, linting, automations, system architecture design, etc. on the engineering side.
+
+
+The goal of this model is to get people to work together better than if each of them worked alone. 
+
+
+Over management and/or bad management means people do less than they could have alone. 
+
+
+On the flip-side, “just enough” management means people do their best (and feel their best doing it)
+
