@@ -1,4 +1,5 @@
 from transformers import pipeline
+# use pytorch.save to save model, load in trained weights, save and apply weights to model, run model
 
 # Load DistilBERT model for question answering
 qa_pipeline = pipeline("question-answering", model="twmkn9/distilbert-base-uncased-squad2")
