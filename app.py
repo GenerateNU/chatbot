@@ -134,4 +134,4 @@ If you notice a keycard reader isn’t working, please let someone know so we ca
 
 if __name__ == "__main__":
     from os import getenv
-    app.run(host="0.0.0.0", port=int(getenv("PORT", 3000)))
+    app.run(host="0.0.0.0")
