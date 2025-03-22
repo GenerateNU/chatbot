@@ -1,0 +1,65 @@
+Running an Engineering Meeting
+
+
+Author: frank
+Branch: Software
+Hidden: No
+Parent page: Running Meetings (Running%20Meetings%20a9e22541dedd4d0c8ebef43c89521ea6.md)
+
+
+
+
+
+
+Example Agenda (45 mins)
+
+
+
+
+
+
+Enabler prioritization and assignment (10 mins)
+
+
+
+
+Team discusses most important Enablers to build, allocate work on building amongst themselves.
+
+
+
+
+
+💡 Features ≠ Enablers; Features are work to be done that contributes to the end product. Enablers are work that contributes to the team’s future ability to complete work.
+
+
+
+
+
+
+
+
+Code review (30 mins)
+
+
+
+
+Review any code being merged from Feature branches into Dev; team discusses how to improve code and design quality
+
+
+
+
+
+
+Blocker removal (5+ mins, team members may leave if they have no out-standing blockers)
+
+
+Team members discuss any blockers which need to be removed so that the engineers can continue to complete work
+
+
+
+
+
+
+
+
+

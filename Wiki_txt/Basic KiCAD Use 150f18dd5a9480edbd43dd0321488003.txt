@@ -1,0 +1,52 @@
+Basic KiCAD Use
+
+
+Author: Aaliyah Yan
+Branch: Hardware
+Hidden: No
+Parent page: Development Resources (Development%20Resources%2014bf18dd5a9480dcb4cbfec87e0cb38b.md)
+
+
+Intro to KiCad.pdf
+
+
+The above workshop details some KiCAD basics such as:
+
+
+
+
+What KiCAD is
+
+
+Important file types within KiCAD (and other eCAD applications)
+
+
+How to create a KiCAD project
+
+
+Some basic schematic stuff in KiCAD
+
+
+Note that the method of downloading component files for use is outdated in the above slideshow
+
+
+Instead, you can often find models in the Digikey page for a component, which most of the time do not require an account to download
+
+
+Components on Mouser require an account to download
+
+
+Accounts are also required for direct downloads from SnapEDA and Ultra Librarian
+
+
+
+
+
+
+
+
+
+
+
+
+Make sure to keep all KiCAD files for your project in the /production/ecad directory of the git repository

@@ -1,0 +1,104 @@
+Sherm Access Not Working
+
+
+Author: frank, Jay Sella
+Branch: Operations
+Hidden: No
+Tags: FAQ
+
+
+If you notice a keycard reader isn’t working, 
+please let someone know
+ so we can diagnose the issue and quickly resolve it. A few things to try to help escalate … 
+
+
+
+
+Understand if it’s an issue with 
+your
+ 
+access
+, or with 
+everyone’s
+ 
+access
+:
+
+
+If it’s an issue with your access, please log into the 
+Generate Ops Dashboard
+ to check if you have been added to the access list for the spaces. This issue is common at the start of a semester.
+
+
+If the Dashboard says you have access, but you are experiencing an issue that no one else is, please send a message in 
+#ops-help
+ on Slack. Be sure to mention the space you are trying to access and what behavior you are seeing.
+
+
+
+
+
+
+If others also have the issue, and the keycard reader is 
+not flashing red or green or making a beep when reading a card
+, it’s likely the reader is 
+out of battery
+. 
+In this case:
+
+
+Please send a message in 
+#ops-help
+ on Slack
+
+
+Additionally, please 
+submit a work request
+ 
+here
+:
+
+
+Problem Type:
+ Locks, Keys and Card Access
+
+
+Campus:
+ Boston
+
+
+Building name:
+ Hayden
+
+
+Floor:
+ 0 | Basement
+
+
+Room number:
+ 008 | Private Circulation Area
+
+
+Location within room:
+ Front door
+
+
+Description:
+ Door keycard reader requires AD400 battery change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thank you for helping us maintain access to the space! 💙

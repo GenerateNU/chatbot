@@ -1,0 +1,213 @@
+Figma → Dev Handoff: Best Practices
+
+
+Author: Generate Management
+Branch: Software
+Hidden: No
+Parent page: Breaking Silos (Breaking%20Silos%202d26a01f9689444bbb069f20491b80ac.md)
+
+
+Whether you are a PL looking to scope out Figma dev for your team or a software developer looking for resources, this is the place to be!
+ 
+
+
+TLDR;
+
+
+
+
+Really great info about Figma developer handoff:
+ 
+https://www.figma.com/best-practices/guide-to-developer-handoff/
+
+
+Feel free to browse this example file to see Figma's "can view" capabilities:
+ 
+https://www.figma.com/file/ewVdWlAd3ZZ3lZSWBaTWZn/Generate:-Dev-Handoff-Example?node-id=0%3A1
+
+
+
+
+Step-by-step Guide:
+
+
+
+
+Steps for Design Handoff:
+
+
+Make sure the front-end devs on your team have Figma access. If they do not, collect their emails and either:
+
+
+Give them "can view" access on Figma
+
+
+Send the emails to the Chief Designer who will deal with permissions
+
+
+
+
+
+
+Once the lofis for a feature are complete, move those screens (and any accompanying prototyping) to a new page titled: "✅ Feature Name: lofis"
+
+
+ShowNxt example: "✅ Coach Signup: lofis"
+
+
+This consistent naming convention is important
+ so your devs know where to look for designs!
+
+
+
+
+
+
+Use the 
+Auto Flow Plug-in
+ to draw connections between screens so your devs will understand the flows better
+
+
+🎉 Let your team know what lofis are ready to dev! 🎉
+
+
+
+
+
+
+
+
+Steps for Front-End Development:
+
+
+
+
+Once designers let you know a feature is ready for development, open the Figma file (either within the desktop app or in a browser)
+
+
+If the design is ready for development, the designs will be found on the page named: "✅ Feature Name: lofis" or "✅ Feature Name: hifis"
+
+
+The ✅ means the designers are done making adjustments to these screens
+
+
+
+
+
+
+
+
+Navigate to the page you will be developing (using the left side panel) 
+
+
+
+
+
+
+
+
+BEST PART:
+ Select the frame (
+A.K.A. art board
+) you are working on, and using the 
+code panel
+ (on the right-side of the screen) you have the opportunity to view code for CSS, iOS (Swift), and Android (XML) and any descriptions added to components.
+
+
+
+
+You also have the ability to export any assets from the file using the 
+Export
+ feature
+
+
+THIS CODE IS NOT MEANT TO BE DIRECTLY COPY & PASTED, IT SHOULD BE USED AS A HELPFUL RESOURCE
+
+
+
+
+
+
+
+
+Video for overview:
+ 
+
+
+https://youtu.be/B242nuM3y2s
+
+
+
+
+
+
+Components:
+
+
+Component usage is very important for both efficient design and development practices. Designers should be using components to build out their designs.
+ (A.K.A. symbols in sketch)
+
+
+
+
+
+
+Definition: "
+Components are elements you can reuse across your designs. They help to create and manage consistent designs across projects. You can create components from any layers or objects you've designed. These could be a whole range of things like buttons, icons, layouts, and more.
+"
+
+
+— 
+https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-Components-in-Figma#:~:text=Components are elements you can,icons%2C layouts%2C and more
+.
+
+
+
+
+
+
+💡 **In other words:** Components are like puzzle pieces. A designer creates components, and reuses them as pieces of the design. If used correctly, developers should be able to create and style the components, and reuse them throughout the development process.
+
+
+
+
+Useful Video:
+
+
+https://youtu.be/k74IrUNaJVk?list=PLXDU_eVOJTx5LSjOmeBYMuvaa4UayfMe4
+
+
+‼️🎨  Designers  🎨‼️
+
+
+
+
+If you haven't implemented components yet, it's okay! But it is important for you to transition your designs to be component-based.
+
+
+If you are unsure of how to do this, here are some great resources to use to learn about all things component-based design!
+
+
+Figma.com's resources
+
+
+Figma defines component best practices
+
+
+Introduction to component variants
+
+
+Auto Layout intro video
+
+
+
+
+
+
+There are so many capabilities built into components!!!! I encourage you to learn more about using 
+auto layout
+, creating variants, and swapping out components easily. If you struggle with something in Figma, chances are someone has also struggled with the same thing. The internet and 
+figma.com
+ have some really awesome resources to help make your design process more efficient! 
+(P.S. reach out to your Chief Designer with any questions, they would love to help!)
+
