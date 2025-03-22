@@ -32,11 +32,15 @@ client = WebClient(token=SLACK_BOT_TOKEN)
 @app.route("/slack/events", methods=["POST"])
 def slack_events():
     data = request.json
+    print("Received data:", data)
     if "challenge" in data:
+        print("Received challenge:", data["challenge"]) 
         return jsonify({"challenge": data["challenge"]})
+        
 
     if "event" in data:
         event = data["event"]
+        print(f"Event: {event}") 
         if event.get("type") == "message" and "bot_id" not in event:
             channel = event["channel"]
             user = event["user"]
@@ -134,4 +138,4 @@ If you notice a keycard reader isn’t working, please let someone know so we ca
 
 if __name__ == "__main__":
     from os import getenv
-    app.run(host="0.0.0.0", port=5000)
+    app.run(debug=True, port=3000)
