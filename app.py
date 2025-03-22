@@ -134,4 +134,4 @@ def scrape_notion(input):
 
 if __name__ == "__main__":
     from os import getenv
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", port=5000)
