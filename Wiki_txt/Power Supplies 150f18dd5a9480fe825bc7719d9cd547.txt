@@ -1,0 +1,39 @@
+Power Supplies
+
+
+Author: Aaliyah Yan
+Branch: Hardware
+Hidden: No
+Parent page: Electric Component Library (Electric%20Component%20Library%2014bf18dd5a94803eaa2eeed1de225989.md)
+
+
+Analog to Digital Voltage Adapters
+
+
+| Name | Use In / Use Case | Link |
+| --- | --- | --- |
+| 12V 100A 1200W DC 
+Switching Power 
+Supply Adapter | AutoPasser
+ | 
+12V 100A 1200W DC Switching Power Supply Adapter PSU AC-DC 12Volt Industrial Transformer Converter 0-80/50amps LED Drive Lamp Meter Semiconductor Motor Pump Winch Stereos Amplifier Fan SMPS 110V/220V
+  |
+| Enclosed AC DC Converters 2 Output 48V 5V 85 ~ 264 VAC, 120 ~ 370 VDC Input | Fufu Pot | L
+MF1500-20B48 | DigiKey Electronics
+ |
+| New Version DC 12V 100A 1200W Power Supply Adapter 110V AC to 12V DC Converter Power Supply 12V 100A Switch Transformer for Motor Pump CCTV Security Camera Car Stereo 3D Printer and More 12V Device | SEBIK | 
+New Version DC 12V 100A 1200W Power Supply Adapter 110V AC to 12V DC Converter Power Supply 12V 100A Switch Transformer for Motor Pump CCTV Security Camera Car Stereo 3D Printer and More 12V Device
+  |
+
+
+Batteries
+
+
+| Name | Used In / Use Case | Link |
+| --- | --- | --- |
+| Ebike Battery 48V 52V 60A 72V 10AH 18AH 20AH 30AH 50AH Lithium Ion / LiFePO4 Battery Pack with 3A/5A Charger,50A/80A BMS for 300W-4500W Motor | WaveWise | 
+BtrPower Ebike Battery 48V 52V 60A 72V 10AH 18AH 20AH 30AH 50AH Lithium Ion / LiFePO4 Battery Pack with 3A/5A Charger,50A/80A BMS for 300W-4500W Motor
+  |
+| H HAILONG 48v 36v Lithium Battery/36V Ebike Battery, ebike Battery 10AH 14AH 20AH 25AH with 2A Charger, T-Plug, XT60 Connector and 20A BMS for 250W-800W Ebike Battery/Ebike Kit | Cstar | 
+https://www.amazon.com/dp/B0CBTWDKJM/ref=sspa_dk_detail_1?pd_rd_i=B093STJTGB&pd_rd_w=yu2rx&content-id=amzn1.sym.d81b167d-1f9e-48b6-87d8-8aa5e473ea8c&pf_rd_p=d81b167d-1f9e-48b6-87d8-8aa5e473ea8c&pf_rd_r=Z4XV0EPQ8E6GFMDJH3N4&pd_rd_wg=8Riqf&pd_rd_r=84b09a74-f14b-47f0-a2a3-c31271da009b&s=sporting-goods&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&th=1
+  |

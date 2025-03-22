@@ -3,6 +3,13 @@ from markdown import markdown
 from bs4 import BeautifulSoup
 import urllib.parse
 
+# create string of file names
+# rename files through a number, make a counter to loop
+# make a df, or list
+# start with 5 files first
+# try irelevant questions as well
+
+
 def extract_page(wiki_file):
     """
     Extracts Notion page names and its Markdown filenames from the Wiki markdown file.
