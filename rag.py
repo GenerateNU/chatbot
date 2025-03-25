@@ -1,5 +1,4 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from openai import OpenAI
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 import faiss
@@ -27,16 +26,6 @@ query_embedding = model.encode(query)
 query_vector = np.array([query_embedding])
 distances, indices = index.search(query_vector, k=3)  # Retrieve top 3 results
 retrieved_texts = [chunks[i] for i in indices[0]]
-
-prompt = f"""
-You are an AI assistant answering FAQs based on a wiki document.
-Here are relevant wiki sections:
-
-{retrieved_texts}
-
-Based on this, answer the question:
-{query}
-"""
 
 qa_pipeline = pipeline("question-answering", model="twmkn9/distilbert-base-uncased-squad2")
 
