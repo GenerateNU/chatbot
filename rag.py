@@ -3,11 +3,12 @@ from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 import faiss
 import numpy as np
+import re
 
 with open("combined.txt", "r", encoding="utf-8") as file:
     wiki_text = file.read()
 
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=100)
 chunks = text_splitter.split_text(wiki_text)
 
 # client = OpenAI() 
@@ -21,24 +22,51 @@ index.add(np.array(embeddings))
 
 
 ################################ Testing random queries
-query = "What are Generate's members?"
-query_embedding = model.encode(query)
-query_vector = np.array([query_embedding])
-distances, indices = index.search(query_vector, k=3)  # Retrieve top 3 results
-retrieved_texts = [chunks[i] for i in indices[0]]
+def expand_to_sentence(text, start, end):
+    """
+    Expands the extracted answer to the full sentence by finding the nearest periods.
+    """
+    before = text.rfind('.', 0, start) + 1  # Start of previous sentence
+    after = text.find('.', end) + 1  # End of next sentence
 
+    # Ensure valid indices
+    before = max(0, before)
+    after = len(text) if after == 0 else after
+
+    return text[before:after].strip()
+
+# Load QA model
 qa_pipeline = pipeline("question-answering", model="twmkn9/distilbert-base-uncased-squad2")
 
+query = "What are Generate's mission?" ## need to make this a function to pass in new question
+query_embedding = model.encode(query)
+query_vector = np.array([query_embedding])
+
+# Retrieve top 3 results
+distances, indices = index.search(query_vector, k=3)
+retrieved_texts = [chunks[i] for i in indices[0]]
+
+best_index = 0
 best_answer = None
 best_score = float("-inf")
+best_start = None
+best_end = None
 
-for context in retrieved_texts:
+for i, context in enumerate(retrieved_texts):
     result = qa_pipeline(question=query, context=context)
 
-    # Check if this result has the highest confidence score
+    # Track the best scoring result
     if result["score"] > best_score:
+        best_index = i
         best_score = result["score"]
         best_answer = result["answer"]
+        best_start = result["start"]
+        best_end = result["end"]
+
     print(result)
 
+# Expand answer to full sentence
+expanded_sentence = expand_to_sentence(retrieved_texts[best_index], best_start, best_end) # This is what you want to pass in as context for qa model
+
 print(f"Best Answer: {best_answer} (Confidence: {best_score:.4f})")
+print(f"Expanded Sentence: {expanded_sentence}") 
