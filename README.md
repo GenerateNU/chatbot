@@ -1,6 +1,6 @@
 # Slack Chatbot
 
-A Flask-based Slack chatbot that can respond to messages and handle various Slack events.
+A Slack chatbot that can respond to messages and answer general FAQs.
 
 ## Setup
 
