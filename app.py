@@ -36,11 +36,13 @@ def slack_events():
                     url = "https://8530-2601-182-c67f-96b0-a0ca-9e45-77ba-46bc.ngrok-free.app/ask"  # Flask server URL
                     params = {"query": text[0:]}  # Attach query as a parameter
                     response = requests.get(url, params=params)
-
                     if response.status_code == 200:
+                        out = response.json()
+                        out = out['answer']
                         print(response.json())  # Parse JSON response
                     else:
-                        return print({"error": f"Request failed with status code {response.status_code}"})
+                        # return print({"error": f"Request failed with status code {response.status_code}"})
+                        out = {"error": f"Request failed with status code {response.status_code}"}
                     client.chat_postMessage(
                         channel=channel, text=f"Hello <@{user}>") # change text to the output of the model
                 except SlackApiError as e:
