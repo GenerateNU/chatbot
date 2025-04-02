@@ -1,37 +1,27 @@
 from transformers import pipeline
-# use pytorch.save to save model, load in trained weights, save and apply weights to model, run model
+from rag import get_relevant_context
 
-# Load DistilBERT model for question answering
-qa_pipeline = pipeline("question-answering", model="twmkn9/distilbert-base-uncased-squad2")
+# (Optional) You can load QA model here if you need to run it separately,
+# but our get_relevant_context function already uses qa_pipeline internally.
 
-def answer_question(question, wiki_data):
+def answer_question_using_rag(query):
     """
-    Given a query and the wiki data (context), fetch the answer using DistilBERT QA model.
+    Uses the RAG retrieval process (from rag.py) to obtain the most relevant context
+    and returns that as the answer.
     
     Args:
-        question (str): The question to be answered.
-        wiki_data (dict): A dictionary with Notion page names as keys and their corresponding content as values.
+        query (str): The user's question.
     
     Returns:
-        str: The answer to the query based on the wiki data.
+        str: The best answer (expanded sentence) from the retrieved context.
     """
-    # Iterate over each page in the wiki data to check for a match
-    for page_name, context in wiki_data.items():
-        print(f"=== Searching in: {page_name} ===")
-        
-        # Ask the question using the current page's content as context
-        result = qa_pipeline(question=question, context=context)  # Change query to question here
+    # Retrieve the most relevant context chunk using our rag function
+    context = get_relevant_context(query)
+    return context
 
-        if result['answer']:
-            print(f"Answer found in '{page_name}': {result['answer']}")
-            return result['answer']  # Return the first match found
-    
-    # If no answer is found in any of the pages, return a default message
-    return "Sorry, I couldn't find an answer in the wiki."
-
-def test_qa_model(wiki_data):
+def test_qa_model():
     """
-    Function to run a few simple test questions on the QA model and print the answers.
+    Runs a series of test questions through the integrated RAG + QA pipeline and prints the answers.
     """
     test_questions = [
         "What factors should you consider when selecting electrical components?",
@@ -43,18 +33,9 @@ def test_qa_model(wiki_data):
     
     for question in test_questions:
         print(f"Question: {question}")
-        answer = answer_question(question, wiki_data)
+        answer = answer_question_using_rag(question)
         print(f"Answer: {answer}")
-        print("="*50)
+        print("=" * 50)
 
-# Example usage (for testing purposes):
 if __name__ == "__main__":
-    wiki_file = "Wiki ab5f3792da934cca84cadb5381b1baec.md"  # Path to your exported wiki markdown file
-    notion_folder = "Wiki Export"  # Folder containing the Notion markdown files
-
-    # Extract the wiki data
-    from parser import extract_wiki
-    wiki_data = extract_wiki(wiki_file, notion_folder)
-
-    # Run the tests
-    test_qa_model(wiki_data)
+    test_qa_model()
