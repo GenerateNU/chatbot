@@ -36,7 +36,11 @@ def remove_emojis(text):
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 input_folder = os.path.join(script_dir, "Wiki_txt") # Folder containing .txt files
-output_file = os.path.join(script_dir, "combined2_tokens.txt") # Store combined.txt in same folder
+output_file = os.path.join(script_dir, "combined4.txt") # Store combined.txt in same folder
+#combined.txt - original combined file
+#combined2_tokens.txt - new combined file with tokens
+#combined3.txt - no tokens
+#combined4.txt - no tokens, keep periods
 
 # Ensure input folder exists
 if not os.path.exists(input_folder):
@@ -72,9 +76,9 @@ with open(output_file, "w", encoding="utf-8") as outfile:
                     # line = re.sub(r"\*(.*?)\*", r"\1", line)          # remove *italic*
                     line = remove_emojis(line) # remove emojis
                     line = line.lower() # make everything lowercase
-                    line = re.sub(r"[^a-zA-Z0-9\s]", "", line) # remove special characters
-                    tokens = word_tokenize(line)
-                    clean_lines.append(" ".join(tokens) + "\n")
+                    line = re.sub(r"[^a-zA-Z0-9\s.]", "", line) # remove special characters, keep periods
+                    #tokens = word_tokenize(line)
+                    clean_lines.append(line)
                 
                 if clean_lines:  # Only write if we have clean lines
                     outfile.writelines(clean_lines)
