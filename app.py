@@ -33,8 +33,9 @@ def slack_events():
             if text[0] == '!':
                 try:
                     remainder = text[0:]
+                    print(remainder)
                     url = "https://8530-2601-182-c67f-96b0-a0ca-9e45-77ba-46bc.ngrok-free.app/ask"  # Flask server URL
-                    params = {"query": text[0:]}  # Attach query as a parameter
+                    params = {"query": remainder}  # Attach query as a parameter
                     response = requests.get(url, params=params)
                     if response.status_code == 200:
                         out = response.json()
