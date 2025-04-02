@@ -44,7 +44,7 @@ def slack_events():
                         # return print({"error": f"Request failed with status code {response.status_code}"})
                         out = {"error": f"Request failed with status code {response.status_code}"}
                     client.chat_postMessage(
-                        channel=channel, text=f"Hello <@{user}>") # change text to the output of the model
+                        channel=channel, text=f"{out}") # change text to the output of the model
                 except SlackApiError as e:
                     print(f"Error: {e.response['error']}")
             else:
