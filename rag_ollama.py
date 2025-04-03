@@ -232,20 +232,160 @@ def get_relevant_context(query, k=3):
         print(f"Error in get_relevant_context: {e}")
         return "Sorry, I encountered an error while processing your question."
 
-# Example usage for testing rag.py:
-if __name__ == "__main__":
-    test_queries = [
-        "What is Generate's mission?",
-        "How do I get access to the space?",
-        "When is the next showcase?",
-        "What are some morale budget ideas?",
-        "Tell me about team engagement activities"
-    ]
+def process_query(query, k=3, include_sources=False, max_tokens=250):
+    """
+    Process a query and return a response with optional source information.
     
-    for query in test_queries:
-        print(f"\nQuestion: {query}")
+    Args:
+        query (str): The input question.
+        k (int): Number of top chunks to retrieve.
+        include_sources (bool): Whether to include source information in the response.
+        max_tokens (int): Maximum number of tokens in the response.
+    
+    Returns:
+        dict: A dictionary containing the answer and metadata about the retrieval process.
+    """
+    try:
         start_time = time.time()
-        answer = get_relevant_context(query)
-        end_time = time.time()
-        print(f"Answer: {answer}")
-        print(f"Time taken: {end_time - start_time:.2f} seconds")
+        
+        # Clean the query if it starts with "!"
+        if query.startswith("!"):
+            query = query[1:].strip()
+        
+        # Encode the query
+        query_embedding = embedding_model.encode(query)
+        query_vector = np.array([query_embedding])
+        
+        # Retrieve top k chunks from FAISS index
+        distances, indices = index.search(query_vector, k=k)
+        
+        # Prepare context with source information
+        context_parts = []
+        sources_info = []  # Track sources with confidence scores
+        
+        for i, idx in enumerate(indices[0]):
+            chunk_text = chunks[idx]
+            source = chunks_metadata[idx]["title"]
+            confidence = 1.0 - (distances[0][i] / max(distances[0]))  # Normalize similarity score
+            
+            # Add source information to the context
+            context_parts.append(f"--- From: {source} ---\n{chunk_text}")
+            
+            # Track source with confidence score
+            sources_info.append({
+                "source": source,
+                "confidence": round(confidence * 100, 2),
+                "preview": chunk_text[:100] + "..." if len(chunk_text) > 100 else chunk_text
+            })
+        
+        # Combine the chunks into a single context (with length limit)
+        combined_context = "\n\n".join(context_parts)
+        if len(combined_context) > 2000:
+            combined_context = combined_context[:2000] + "..."
+        
+        # Use Ollama to generate the answer
+        answer = query_ollama(query, combined_context, max_tokens)
+        
+        # Calculate processing time
+        elapsed_time = time.time() - start_time
+        
+        # Prepare the response
+        response = {
+            "query": query,
+            "answer": answer,
+            "processing_time": round(elapsed_time, 2),
+            "model_used": MODEL_NAME,
+            "chunks_retrieved": k
+        }
+        
+        # Include sources if requested
+        if include_sources:
+            response["sources"] = sources_info
+        
+        return response
+        
+    except Exception as e:
+        print(f"Error in process_query: {e}")
+        return {
+            "query": query,
+            "answer": "Sorry, I encountered an error while processing your question.",
+            "error": str(e)
+        }
+
+def user_input():
+    """Run an interactive session where users can input queries"""
+    print("\n=== Welcome to the Generate Knowledge Base Query System ===")
+    print("Type your questions below. Type 'exit', 'quit', or 'q' to exit.")
+    print("Use '!sources' at the end of your query to see source information.")
+    
+    while True:
+        user_input = input("\nYour question: ").strip()
+        
+        # Check for exit commands
+        if user_input.lower() in ['exit', 'quit', 'q']:
+            print("Goodbye!")
+            break
+        
+        # Check if user wants sources
+        include_sources = False
+        if user_input.endswith('!sources'):
+            user_input = user_input.replace('!sources', '').strip()
+            include_sources = True
+        
+        # Process the query
+        result = process_query(user_input, include_sources=include_sources)
+        
+        # Display the answer
+        print("\n" + "="*80)
+        print(f"Answer: {result['answer']}")
+        print(f"Processing time: {result['processing_time']} seconds")
+        print("="*80)
+        
+        # Display sources if requested
+        if include_sources and "sources" in result:
+            print("\nSources:")
+            for src in result["sources"]:
+                print(f"- {src['source']} (confidence: {src['confidence']}%)")
+                print(f"  Preview: {src['preview']}")
+                print()
+
+# testing rag.py:
+if __name__ == "__main__":
+    # Option 1: Run predefined test queries
+    run_tests = input("Run predefined test queries? (y/n): ").lower().startswith('y')
+    
+    if run_tests:
+        test_queries = [
+            "What is Generate's mission?",
+            "How do I get access to the space?",
+            "When is the next showcase?",
+            "What are some morale budget ideas?",
+            "Tell me about team engagement activities"
+        ]
+        
+        print("\n=== Testing get_relevant_context function ===")
+        for query in test_queries:
+            print(f"\nQuestion: {query}")
+            start_time = time.time()
+            answer = get_relevant_context(query)
+            end_time = time.time()
+            print(f"Answer: {answer}")
+            print(f"Time taken: {end_time - start_time:.2f} seconds")
+        
+        print("\n=== Testing new process_query function ===")
+        # Test the new function with a query
+        test_query = "What is Generate's mission?"
+        result = process_query(test_query, include_sources=True)
+        print(f"\nQuery: {result['query']}")
+        print(f"Answer: {result['answer']}")
+        print(f"Processing time: {result['processing_time']} seconds")
+        print(f"Model used: {result['model_used']}")
+        
+        if "sources" in result:
+            print("\nSources:")
+            for src in result["sources"]:
+                print(f"- {src['source']} (confidence: {src['confidence']}%)")
+    
+    # Option 2: Start interactive mode
+    else:
+        user_input()
