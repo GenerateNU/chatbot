@@ -71,5 +71,9 @@ def ask_question():
     answer = answer_question_using_rag(query)
     return jsonify({"query": query, "answer": answer})
 
+@app.route("/test", methods=["GET"])
+def test():
+    return jsonify({"out": "Working"})
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=6000, debug=True)  # Runs on port 5000
