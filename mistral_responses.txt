@@ -1,0 +1,46 @@
+(chatbot) (base) kaydence@Kaydences-MacBook-Pro chatbot % /Users/kaydence/anaconda3/envs/chatbot/bin/python /Users/kaydence/D
+esktop/generate/chatbot/rag_ollama.py
+Initializing JSON-based RAG system...
+Loading and preparing chunks from JSON knowledge base...
+Loading embeddings from cache...
+Prepared 242 chunks with dimension 384
+RAG system ready!
+
+Question: What is Generate's mission?
+Answer:  Generate's mission is to be a community of passionate individuals who engage in collaborative, real-world experiences to develop innovative products, the organization, its partners, and themselves. This aligns with our values of being developmental, inclusive, and intentional, as well as fostering innovation, drive, empathy, spirit, and growth orientation among our members.
+Time taken: 10.54 seconds
+
+Question: How do I get access to the space?
+Answer:  To gain access to the space at Generate, follow these steps:
+
+1. Log into Generate's FinOps Dashboard and confirm that you have completed all necessary onboarding steps and have been granted access. If you encounter any issues, reach out in #ops-help on Slack for assistance.
+
+2. If you are a Director, Chief, or Project Lead (PL), you can book spaces directly through Robin, Northeastern's room booking system. First-time users should watch this video to learn how to use the system.
+
+3. Log into Robin and find Hayden Hall > 00-Basement. If no spaces on this level are highlighted in green, it means you do not have access to book rooms at this time.
+
+4. Once you have access, select the Date and Time for your booking, choose a space based on the amenities you require (e.g., TV, whiteboard), and click "Find a Space".
+
+5. If you are a general member and need to reserve a space, reach out to your lead for assistance.
+
+Remember, spaces in Sherm Center are available 24/7, but after 
+Time taken: 11.18 seconds
+
+Question: When is the next showcase?
+Answer:  The information provided does not specify a date or time for the next showcase event. If you're planning an event, such as a showcase, please remember to Slack @Chirag so it can be added to the Generate Event Calendar. In the meantime, team bonding events are encouraged within the first month of a new team meeting, ensuring they do not overlap with other Generate community events.
+Time taken: 4.64 seconds
+
+Question: What are some morale budget ideas?
+Answer:  Some morale budget ideas include team lunches, virtual coffee breaks, game nights, or workshops that foster team bonding and inclusivity. It's essential to discuss and determine these activities in your first team meeting using the allocated morale budget within the initial month. Additionally, remember to check out Procurement + Reimbursements for policies and processes related to morale reimbursement. If you have any questions or need assistance, feel free to reach out in #ops-help on Slack. Happy team building!
+Time taken: 6.06 seconds
+
+Question: Tell me about team engagement activities
+Answer:  Team engagement activities at Generate Product Development Studio aim to foster camaraderie and enhance team bonding. These activities can range from casual outings like Boba, hotpot dinners, or pizza parties, to more interactive challenges such as Boda Borg or bowling nights. We also encourage unique experiences like ice skating excursions or visits to TimeOut Market.
+
+To ensure these events are well-received and inclusive, it's essential to discuss potential ideas during team meetings. Team leaders (Chiefs and PLs) play a crucial role in encouraging attendance and leading by example. They can make their team members feel more comfortable by discussing the idea of walking together to events.
+
+In addition to social activities, engagement is also fostered through all-team meetings. These meetings include a bonding activity at the start, followed by priority updates, feature updates, and squad discussions on new features. The focus is on work that contributes to the end product (features), while enablers are tasks that contribute to the team's future ability to complete work effectively.
+
+At Generate, we believe in creating a vibrant and inclusive environment where everyone feels valued and engaged. These activities help us achieve that
+Time taken: 10.01 seconds
+(chatbot) (base) kaydence@Kaydences-MacBook-Pro chatbot % 

@@ -1,0 +1,52 @@
+(chatbot) (base) kaydence@Kaydences-MacBook-Pro chatbot % /Users/kaydence/anaconda3/envs/chatbot/bin/python /Users/kaydence/D
+esktop/generate/chatbot/rag_ollama.py
+Initializing JSON-based RAG system...
+Loading and preparing chunks from JSON knowledge base...
+Loading embeddings from cache...
+Prepared 242 chunks with dimension 384
+RAG system ready!
+
+Question: What is Generate's mission?
+Answer: Generate's mission is to be a community of passionate individuals who engage in collaborative, real-world experiences to develop innovative products, the organization, its partners, and themselves.
+Time taken: 16.99 seconds
+
+Question: How do I get access to the space?
+Answer: It looks like you're having trouble getting access to book a space! Don't worry, I'm here to help.
+
+To confirm, have you tried logging into Generate's FinOps Dashboard and checking if you've completed all necessary onboarding steps? If you're still having issues, feel free to reach out in #ops-help on Slack for further assistance.
+Time taken: 3.05 seconds
+
+Question: When is the next showcase?
+Answer: I'm not aware of any information about an upcoming showcase in our Generate Event Calendar. However, I can suggest checking the calendar directly or reaching out to @Chirag to see if there are any events planned that might include a showcase. We'll make sure to update the calendar with all the latest info!
+Time taken: 2.26 seconds
+
+Question: What are some morale budget ideas?
+Answer: I'm Genny, your friendly assistant here at Generate Product Development Studio at Northeastern University!
+
+When it comes to morale budget ideas, I've got a few suggestions that align with our mission and values:
+
+1. **Team Outings**: Organize regular team outings, such as happy hours, game nights, or volunteer events, to foster camaraderie and a sense of community.
+2. **Wellness Initiatives**: Invest in wellness programs, like meditation sessions, yoga classes, or on-site fitness classes, to promote employee well-being and reduce stress.
+3. **Professional Development**: Provide opportunities for team members to attend conferences, workshops, or training sessions that align with Generate's goals and values.
+4. **Recognition Programs**: Implement a recognition program to acknowledge and reward team members' achievements and contributions to the organization.
+5. **Social Events**: Host social events, such as potlucks, movie nights, or cultural celebrations, to promote diversity and inclusivity within the team.
+6. **Wellness Subsidies**: Offer subsidies for wellness-related expenses, like gym memberships or healthy food options, to support employees' overall well-being.
+
+Remember, the morale budget is a great opportunity to invest in your team's happiness and productivity!
+
+Feel
+Time taken: 6.42 seconds
+
+Question: Tell me about team engagement activities
+Answer: I'm Genny, your friendly assistant at Generate Product Development Studio at Northeastern University!
+
+We're all about fostering a collaborative and fun environment here. Team engagement activities are a great way to boost morale, encourage bonding, and promote a sense of community among our teams.
+
+As I mentioned earlier, we've got a list of awesome ideas for team outings, such as Boba outings, hotpot dinners, Boda Borg challenges, pizza parties, ice skating excursions, bowling nights, making homemade dinners, and visits to TimeOut Market. These events are designed to be low-key and enjoyable, so everyone can feel comfortable participating.
+
+But what really matters is leading by example! As team leaders (Chiefs and PLs), it's essential to encourage event attendance and participate yourself. By doing so, you'll set the tone for a collaborative and inclusive environment, where everyone feels welcome and valued.
+
+To make events even more approachable, we suggest walking together with your team members to events. This way, they'll feel more at ease and can get to know each other better in a relaxed setting.
+
+At Generate, our mission is to empower teams to create innovative products that make a real impact. By prioritizing team engagement activities and fostering a positive work
+Time taken: 6.94 seconds
