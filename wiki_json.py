@@ -1,4 +1,5 @@
 '''
+wiki_json.py
 combine all text files in a folder, turns it into a json file
 '''
 
@@ -113,9 +114,6 @@ def process_wiki_file(file_path):
     return {title: result}
 
 def main():
-    #script_dir = os.path.dirname(os.path.abspath(__file__))
-    # input_folder = os.path.join(script_dir, "Wiki_txt") # Folder containing .txt files
-    # output_file = os.path.join(script_dir, "combined_json.txt") # Store combined.txt in same folder
     folder = "Wiki_txt"
     output_file = "gen_wiki.json"
 
@@ -139,32 +137,6 @@ def main():
         json.dump(knowledge_base, f, indent=2, ensure_ascii=False)
     
     print(f"\nSuccess! Combined {len(knowledge_base)} wiki entries into '{output_file}'")
-
-    # # Open output file in write mode
-    # with open(output_file, "w", encoding="utf-8") as outfile:
-    #     for filename in sorted(os.listdir(input_folder)):  # Sort files alphabetically
-    #         if filename.endswith(".txt"):
-    #             file_path = os.path.join(input_folder, filename)
-    #             with open(file_path, "r", encoding="utf-8") as infile:
-    #                 clean_lines = []
-    #                 for line in infile:
-    #                     stripped = line.strip()
-    #                     if not stripped:
-    #                         continue  # Skip empty lines
-    #                     # if stripped.startswith("---"):
-    #                     #     continue  # Skip title lines
-    #                     # if stripped.startswith(("Author:", "Hidden:", "Sub-page:", "Parent Page:")):
-    #                     #     continue  # Skip author and hidden lines
-    #                     line = re.sub(r"\*\*\*(.*?)\*\*\*", r"\1", line)  # ***bold italic***
-    #                     line = re.sub(r"\*\*(.*?)\*\*", r"\1", line)      # **bold**
-    #                     line = re.sub(r"\*(.*?)\*", r"\1", line)          # *italic*
-    #                     line = remove_emojis(line)
-    #                     clean_lines.append(line)
-                    
-    #                 outfile.writelines(clean_lines)
-    #                 outfile.write("\n")
-
-    # print(f"All .txt files combined into: {output_file}")
 
 if __name__ == "__main__":
     main()

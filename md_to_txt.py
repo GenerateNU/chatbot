@@ -1,7 +1,5 @@
 '''
-convert md files to txt files in a folder
-
-run in your terminal as "python md_to_txt.py" to convert md files to txt files
+convert md files in a folder to txt files in a folder
 '''
 import os
 import markdown

@@ -1,0 +1,111 @@
+Use Slack Effectively
+
+
+Author: Chirag Chadha
+Branch: Engagement
+Hidden: No
+Tags: All Must-read
+
+
+🧵 Use threads for larger discussions
+
+
+
+
+
+
+
+💡
+
+Threads allow us to keep discussions **organized** and **easier to follow** for all stakeholders
+
+
+
+
+🤩 React so people know you read their messages
+ — 
+have fun with them!
+
+
+
+
+
+
+Think of Slack like a groupchat → we’re all here for a good time!
+
+
+
+
+🧠 Organize your sidebar
+ — ****this makes it easier to stay on top of messages
+
+
+
+
+
+
+📲 Set up notifications for important channels
+
+
+
+
+Your 
+team
+ channel
+
+
+Your 
+branch
+ channel
+
+
+
+
+generate-announcements
+
+
+
+
+
+
+all-sherm-announcements
+
+
+
+
+
+
+
+
+
+
+Use “Save for Later” and “Remind me about this”
+ to come back to important discussions that you can’t get to right now
+
+
+
+
+
+
+Learn more about how to use this feature: https://slack.com/help/articles/360042650274-Save-messages-and-files-for-later
+
+
+
+
+Save for later
+
+
+
+
+
+
+
+💡
+
+There is also a sidebar for all the items you saved for later!
+
+
+
+
+Remind me about this
+

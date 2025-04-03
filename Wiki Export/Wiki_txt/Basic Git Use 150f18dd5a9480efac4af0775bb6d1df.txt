@@ -1,0 +1,235 @@
+Basic Git Use
+
+
+Author: Aaliyah Yan
+Branch: Hardware
+Hidden: No
+Parent page: Development Resources (Development%20Resources%2014bf18dd5a9480dcb4cbfec87e0cb38b.md)
+
+
+Intro to Git Workshop.pdf
+
+
+
+
+The above workshop details all of the terminology and commands that you’ll need to use for Git in Generate
+
+
+First, make sure you have 
+Git installed and setup on your machine
+
+
+
+
+If you need to clone the remote repository to your machine
+
+
+
+
+
+
+If you need to clone the remote repository to your machine
+
+
+Next, you’ll need to clone the remote repo onto your local machine. To do that:
+
+
+
+
+Navigate to the Github page for the repo that you want to use
+
+
+Click the green “<> Code” dropdown button
+
+
+If you have SSH keys installed and setup, click on the “SSH” tab, otherwise keep it on the “HTTPS” tab
+
+
+Copy the link shown
+
+
+
+
+
+
+
+
+Open a terminal window on your computer and navigate to the directory where you want to clone the repo
+
+
+
+
+Run the following command:
+
+
+
+
+jsx
+git clone <PASTE_YOUR_LINK_HERE>
+
+
+
+
+Assuming no errors show up, you’ve successfully cloned the repo!
+
+
+
+
+
+
+
+
+
+
+
+
+Now to actually use Git to track your project
+
+
+
+
+
+
+Before doing any work, make sure that you’re on the correct Git branch.
+ If you’re not:
+
+
+
+
+
+
+If you don’t have the correct branch on your machine:
+
+
+
+
+In the terminal, run this command to see a list of all braches (local and remote)
+
+
+
+
+jsx
+git branch -a
+
+
+
+
+To get a remote branch on your machine to do work, run 
+
+
+
+
+jsx
+git fetch BRANCH_NAME
+
+
+
+
+
+
+If you already fetched the branch and just need to switch to it, run 
+
+
+
+
+
+
+jsx
+git switch BRANCH_NAME
+
+
+
+
+
+
+Whenever you make a significant change to a file (code, schematic, or layout), you’ll want to “commit” those changes to the remote repo. To do this:
+
+
+
+
+
+
+Command Line:
+
+
+
+
+Use the following command to check what files have been changed 
+
+
+
+
+
+
+The names of changed files will be shown in red
+
+
+
+
+
+
+
+
+jsx
+git status
+
+
+
+
+To add a file to the staging area (this is the area that tells git what files to actually track), run 
+
+
+
+
+jsx
+git add FILE_NAME
+
+
+
+
+Once you’ve added all of the files that you want to the staging area, run 
+
+
+
+
+jsx
+git commit -m "type a nice message here describing what was changed and why"
+
+
+
+
+Then type the following command to push your changes to the remote repo 
+
+
+
+
+jsx
+git push
+
+
+
+
+
+
+GitHub Desktop:
+
+
+
+
+Make sure that you only select the files that are important for everyone to have a copy of
+
+
+Write a message in the box at the bottom left-hand corner of the app, and then hit the “commit” button
+
+
+
+
+
+
+
+
+
+
+
+
+

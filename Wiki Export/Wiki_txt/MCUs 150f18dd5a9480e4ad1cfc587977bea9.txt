@@ -1,0 +1,126 @@
+MCUs
+
+
+Author: Aaliyah Yan
+Branch: Hardware
+Hidden: No
+Parent page: Electric Component Library (Electric%20Component%20Library%2014bf18dd5a94803eaa2eeed1de225989.md)
+
+
+While popular, we would generally advise against using an Arduino Uno or ATMega for your project. They’re great for prototyping, but they’re not very powerful and multiple teams have had issues with the ATMega in the past. 
+
+
+| MCU | Used On/Use Case | Capabilities | Links |
+| --- | --- | --- | --- |
+| ESP32-DEVKITC-32U | AutoPasser |  | 
+ESP32-DEVKITC-32U | DigiKey Electronics
+ 
+
+
+ESP32-DEVKITC-32U
+  |
+| Raspberry Pi Pico | WaveWise v2 | Wi-Fi (with extension)
+
+
+Bluetooth (with extension)
+
+
+26 GPIO pins
+
+
+133 MHz Clock
+
+
+2MB Flash Memory | 
+SC0915 | DigiKey Electronics
+ 
+
+
+SC0915
+  |
+| Jetson Nano | RoboUmp | Wi-Fi (with adapter)
+
+
+Bluetooth (with adapter)
+
+
+21 GPIO pins
+
+
+1.43GHz Clock
+
+
+4GB Memory
+
+
+MicroSD Card Slot for Main Storage | 
+NVIDIA Jetson Nano
+  |
+| PIC16LF877A-I/PT | HiddenLock | 33 GPIO pins
+
+
+20MHz Clock
+
+
+14KB Flash Memory | 
+Microchip PIC16LF877A-I/PT
+ 
+
+
+PIC16LF877A-I/PT
+  |
+| ESP32-WROOM-32UE-N16 | CStar
+
+
+Muscle Recovery | 33 GPIO pins
+
+
+20MHz Clock
+
+
+14KB Flash Memory | 
+ESP32-WROOM-32UE-N16 | DigiKey Electronics
+ 
+
+
+ESP32-WROOM-32E (16MB)
+  |
+| RP2040 
+
+ | FufuPot | 30 GPIO pins
+
+
+133 MHz Clock
+
+
+16MB Flash Memory | 
+SC0914(13) | DigiKey Electronics
+ 
+
+
+SC0914(13)
+ |
+
+
+AutoPasser 
+
+
+
+
+WaveWise v2 
+
+
+
+
+C Star 
+
+
+
+
+Muscle Recovery 
+
+
+
+
+FufuPot
+

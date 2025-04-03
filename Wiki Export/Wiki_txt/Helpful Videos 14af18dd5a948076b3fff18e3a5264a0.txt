@@ -1,0 +1,22 @@
+Helpful Videos
+
+
+Author: Anna Birge
+Branch: Hardware
+Hidden: No
+Parent page: Additional Resources (Additional%20Resources%20150f18dd5a9480b08e9debbd72440983.md)
+
+
+KiCAD Tutorials (Phils Lab)
+
+
+https://www.youtube.com/watch?v=nkHFoxe0mrU&pp=ygUPcGhpbHMgbGFiIGtpY2Fk
+
+
+https://www.youtube.com/watch?v=PlXd3lLZ4vc&pp=ygUPcGhpbHMgbGFiIGtpY2Fk
+
+
+Decoupling Caps 
+
+
+https://www.youtube.com/watch?v=BcJ6UdDx1vg

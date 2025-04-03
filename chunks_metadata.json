@@ -1,0 +1,1212 @@
+[
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "PCB Design: Best Practices\nAuthor: Aaliyah Yan\nPre...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "This step should FOLLOW the creation/completion of...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Minimize the number of vias and keep them away fro...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Consider the availability and cost of components w...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Minimize the length of traces carrying high-freque...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "The assembly process involves soldering the compon...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Use a consistent and repeatable soldering process ...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Validate that the board meets the required perform...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "PCB Stackups\nA PCB stackup is the arrangement of c...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "4-layer stackup: This stackup consists of two sign...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "8-layer stackup and above: These stackups are used...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Signal integrity: High-speed signals require contr...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Different Examples of 4 Layer Stackups\nTop layer: ...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Top layer: Signal; Layer 2: Ground plane; Layer 3:...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "5. Ground Pours and Power Planes\nGround and power ...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Connect the ground pour to the ground pins of all ...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "(If 2-layer) Place ground pours on both sides of t...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Use power and ground planes to reduce electromagne...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Consider the thickness and conductivity of the pow...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Consider the aspect ratio of the via (the ratio of...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Trace Width and Clearance\nThe width of a trace and...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Consider the thickness of the copper layers when s...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Use differential pairs for high-speed signals to r...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "8. Design Rule Check (DRC)\nA Design Rule Check (DR...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Creating a DRC in KiCAD is a straightforward proce...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "It is important to run a DRC before sending your d...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Generate Gerber files: Gerber files are the indust...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Place an order: Most PCB manufacturers have an onl...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Review the design: Once you have submitted your fi...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "By following these steps, you can get your PCB man...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "KICAD PCB Editor Explained:\nKiCad PCB Editor Inter...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Add Track:\nThis button allows you to add a new tra...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "What Each Layer in the PCB Board Editor Means:\nTop...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Top Silk Screen:\nThis is the silk screen layer tha...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Top Paste:\nThe top paste layer is used to define t...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Drill File:\nThe drill file is used to define the l...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "PCB Design: Best Practices",
+    "chunk_text": "Mechanical Layers:\nMechanical layers are used to a...",
+    "source": "PCB Design: Best Practices"
+  },
+  {
+    "title": "Design ↔ Frontend ↔ Backend Impacts",
+    "chunk_text": "Design ↔ Frontend ↔ Backend Impacts\nAuthor: frank,...",
+    "source": "Design ↔ Frontend ↔ Backend Impacts"
+  },
+  {
+    "title": "Design ↔ Frontend ↔ Backend Impacts",
+    "chunk_text": "Mockups are shared early and often so that enginee...",
+    "source": "Design ↔ Frontend ↔ Backend Impacts"
+  },
+  {
+    "title": "Design ↔ Frontend ↔ Backend Impacts",
+    "chunk_text": "Types (where possible) are shared across the codeb...",
+    "source": "Design ↔ Frontend ↔ Backend Impacts"
+  },
+  {
+    "title": "Running Meetings",
+    "chunk_text": "Running Meetings\nAuthor: Generate Management...",
+    "source": "Running Meetings"
+  },
+  {
+    "title": "Spaces + Reservations",
+    "chunk_text": "Spaces + Reservations\nAuthor: frank, Jay Sella\nTag...",
+    "source": "Spaces + Reservations"
+  },
+  {
+    "title": "Spaces + Reservations",
+    "chunk_text": "Anytime you want! Spaces are available for booking...",
+    "source": "Spaces + Reservations"
+  },
+  {
+    "title": "Spaces + Reservations",
+    "chunk_text": "Wrap the key around your backpack once you enter t...",
+    "source": "Spaces + Reservations"
+  },
+  {
+    "title": "Spaces + Reservations",
+    "chunk_text": "Amenities\n: table, 10 chairs, TV\n010B: Little Stud...",
+    "source": "Spaces + Reservations"
+  },
+  {
+    "title": "Spaces + Reservations",
+    "chunk_text": "Booking Spaces via Outlook\nLaunch Outlook and navi...",
+    "source": "Spaces + Reservations"
+  },
+  {
+    "title": "Spaces + Reservations",
+    "chunk_text": "These are the rooms available to book:\nHA-010A-RR ...",
+    "source": "Spaces + Reservations"
+  },
+  {
+    "title": "Spaces + Reservations",
+    "chunk_text": "Booking Spaces via Robin\nFirst time booking a spac...",
+    "source": "Spaces + Reservations"
+  },
+  {
+    "title": "Spaces + Reservations",
+    "chunk_text": "Amenities\n: TVs, whiteboard, number of chairs, etc...",
+    "source": "Spaces + Reservations"
+  },
+  {
+    "title": "Spaces + Reservations",
+    "chunk_text": "If you do not see a time that works for you, that ...",
+    "source": "Spaces + Reservations"
+  },
+  {
+    "title": "Spaces + Reservations",
+    "chunk_text": "If the meeting is a recurring meeting (once every ...",
+    "source": "Spaces + Reservations"
+  },
+  {
+    "title": "Orientation Slides F24",
+    "chunk_text": "Orientation Slides F24\nAuthor: frank\nOrientation S...",
+    "source": "Orientation Slides F24"
+  },
+  {
+    "title": "MCUs",
+    "chunk_text": "MCUs\nAuthor: Aaliyah Yan\nWhile popular, we would g...",
+    "source": "MCUs"
+  },
+  {
+    "title": "MCUs",
+    "chunk_text": "26 GPIO pins\n133 MHz Clock\n2MB Flash Memory |\nSC09...",
+    "source": "MCUs"
+  },
+  {
+    "title": "MCUs",
+    "chunk_text": "ESP32-WROOM-32E (16MB)\n|\n| RP2040\n| FufuPot | 30 G...",
+    "source": "MCUs"
+  },
+  {
+    "title": "KiCAD Installation and Setup",
+    "chunk_text": "KiCAD Installation and Setup\nAuthor: Anna Birge\nGo...",
+    "source": "KiCAD Installation and Setup"
+  },
+  {
+    "title": "Additional Resources",
+    "chunk_text": "Additional Resources\nAuthor: Anna Birge...",
+    "source": "Additional Resources"
+  },
+  {
+    "title": "Generate for Course Credit",
+    "chunk_text": "Generate for Course Credit\nAuthor: frank\nDepending...",
+    "source": "Generate for Course Credit"
+  },
+  {
+    "title": "Generate for Course Credit",
+    "chunk_text": "- To register: Register on Banner, like you would ...",
+    "source": "Generate for Course Credit"
+  },
+  {
+    "title": "Generate for Course Credit",
+    "chunk_text": "- For more information: Email Professor Mark Sivak...",
+    "source": "Generate for Course Credit"
+  },
+  {
+    "title": "Generate for Course Credit",
+    "chunk_text": "If you have completed Software Engineering (CS 453...",
+    "source": "Generate for Course Credit"
+  },
+  {
+    "title": "Running a Frontend ↔ Design Audit",
+    "chunk_text": "Running a Frontend ↔ Design Audit\nAuthor: frank, e...",
+    "source": "Running a Frontend ↔ Design Audit"
+  },
+  {
+    "title": "Running a Frontend ↔ Design Audit",
+    "chunk_text": "→ If an improvement is deemed too time-intensive, ...",
+    "source": "Running a Frontend ↔ Design Audit"
+  },
+  {
+    "title": "Leadership Workshop Slides & Recording",
+    "chunk_text": "Leadership Workshop Slides & Recording\nAuthor: fra...",
+    "source": "Leadership Workshop Slides & Recording"
+  },
+  {
+    "title": "Motors",
+    "chunk_text": "Motors\nAuthor: Anna Birge\nDC/Gear Motors\nStepper M...",
+    "source": "Motors"
+  },
+  {
+    "title": "Git Installation and Setup",
+    "chunk_text": "Git Installation and Setup\nAuthor: Aaliyah Yan\nCre...",
+    "source": "Git Installation and Setup"
+  },
+  {
+    "title": "Running an All-team Meeting",
+    "chunk_text": "Running an All-team Meeting\nAuthor: frank\nExample ...",
+    "source": "Running an All-team Meeting"
+  },
+  {
+    "title": "Running an All-team Meeting",
+    "chunk_text": "Alignment time for squads (10 mins)\nIn each squad,...",
+    "source": "Running an All-team Meeting"
+  },
+  {
+    "title": "How to Represent Generate at Events",
+    "chunk_text": "How to Represent Generate at Events\nAuthor: Chirag...",
+    "source": "How to Represent Generate at Events"
+  },
+  {
+    "title": "How to Represent Generate at Events",
+    "chunk_text": "If asked to table for Generate at an event, please...",
+    "source": "How to Represent Generate at Events"
+  },
+  {
+    "title": "How to Represent Generate at Events",
+    "chunk_text": "Showcase diversity and inclusivity\n: Mention that ...",
+    "source": "How to Represent Generate at Events"
+  },
+  {
+    "title": "How to Represent Generate at Events",
+    "chunk_text": "Be knowledgeable and humble\n: Be ready to discuss ...",
+    "source": "How to Represent Generate at Events"
+  },
+  {
+    "title": "How to Represent Generate at Events",
+    "chunk_text": "We've completed over 100 projects for 95+ clients,...",
+    "source": "How to Represent Generate at Events"
+  },
+  {
+    "title": "Running a Design Meeting",
+    "chunk_text": "Running a Design Meeting\nAuthor: Erin Furey\nAgenda...",
+    "source": "Running a Design Meeting"
+  },
+  {
+    "title": "Parts Selection",
+    "chunk_text": "Parts Selection\nAuthor: Aaliyah Yan\nPrice\nThe most...",
+    "source": "Parts Selection"
+  },
+  {
+    "title": "Parts Selection",
+    "chunk_text": "Size\nYou need to make sure that whatever component...",
+    "source": "Parts Selection"
+  },
+  {
+    "title": "Parts Selection",
+    "chunk_text": "Mounting Type\nComponents come with all different k...",
+    "source": "Parts Selection"
+  },
+  {
+    "title": "Parts Selection",
+    "chunk_text": "Lead Time\nIf components are not in stock, there wi...",
+    "source": "Parts Selection"
+  },
+  {
+    "title": "Parts Selection",
+    "chunk_text": "Power Rating\nThe power rating will dictate how muc...",
+    "source": "Parts Selection"
+  },
+  {
+    "title": "Instructions for Tabling",
+    "chunk_text": "Instructions for Tabling\nAuthor: Chirag Chadha\nSet...",
+    "source": "Instructions for Tabling"
+  },
+  {
+    "title": "Instructions for Tabling",
+    "chunk_text": "Stickers\nBusiness Cards\nPens\nPost-its\nGenerate, Sh...",
+    "source": "Instructions for Tabling"
+  },
+  {
+    "title": "Instructions for Tabling",
+    "chunk_text": "Prepare the base\n: Place the base on a flat surfac...",
+    "source": "Instructions for Tabling"
+  },
+  {
+    "title": "Instructions for Tabling",
+    "chunk_text": ": Make sure the banner is taut and stands straight...",
+    "source": "Instructions for Tabling"
+  },
+  {
+    "title": "Instructions for Tabling",
+    "chunk_text": "Place the base followed by the poles\n(on top)\nin t...",
+    "source": "Instructions for Tabling"
+  },
+  {
+    "title": "Makerspace 🔗",
+    "chunk_text": "Makerspace 🔗\nAuthor: frank...",
+    "source": "Makerspace 🔗"
+  },
+  {
+    "title": "Writing and Assigning Features (Stories) and Enablers (Tickets)",
+    "chunk_text": "Writing and Assigning Features (Stories) and Enabl...",
+    "source": "Writing and Assigning Features (Stories) and Enablers (Tickets)"
+  },
+  {
+    "title": "Writing and Assigning Features (Stories) and Enablers (Tickets)",
+    "chunk_text": "When it comes to allocating work, do not assign sp...",
+    "source": "Writing and Assigning Features (Stories) and Enablers (Tickets)"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Git Guidelines\nAuthor: Alex Nikanov\nWhat is Git?\nG...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "How do I install Git?\nhttps://www.loom.com/share/4...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "You can read how to initiate and clone a repositor...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "https://www.atlassian.com/git/tutorials/comparing-...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "bash\ngit checkout\nThere are three main branch type...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "must\ncompile and correspond to the design/coding s...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "main\nbranch.\nWhen working on a specific ticket, yo...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "pull request\nfrom your feature branch to the\ndev\nb...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Some examples:\nfeature/10-sign-in-screen\n(with the...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "How often should I commit?\nProduct development is ...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Before committing, make sure that your code compil...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "IntelliJ:\nhttps://plugins.jetbrains.com/plugin/133...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Read more about pushing here:\nhttps://www.atlassia...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Code reviews are one of the most important parts o...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "What is the purpose of a PR?\nA PR is a request to ...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Allow for asynchronous iterations on proposed code...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Draft:\nPR. Once you\npush\nnew code, you should open...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Reviewers\ntab on the PR lets them know that the au...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Approve\n, your change, the reviewer should be fami...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "How was this change tested?\nEvery change should be...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Who should I request review from?\nDefer to instruc...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "If you want other eyes on the code, or it’s a part...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Nit\n: Comments\nNit level comments are nit picks - ...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "item\n), and this PR introduces a table with a plur...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Nit\n.\nExample Conversational Comments\n: Maybe a ne...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "name\nand\nid\ncolumns from the pre-existing\nitem\ntab...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "Request Changes\nbutton when submitting your review...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "item_price\ntable have a\ncurrency\ncolumn, or should...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Git Guidelines",
+    "chunk_text": "If you open up a pull request, and want eyes on it...",
+    "source": "Git Guidelines"
+  },
+  {
+    "title": "Electric Component Library",
+    "chunk_text": "Electric Component Library\nAuthor: Anna Birge\nThis...",
+    "source": "Electric Component Library"
+  },
+  {
+    "title": "Electric Component Library",
+    "chunk_text": "AutoPasser (v1 & v2)\nHiddenLock\nHot Date Kitchen (...",
+    "source": "Electric Component Library"
+  },
+  {
+    "title": "Software Installation and Setup",
+    "chunk_text": "Software Installation and Setup\nAuthor: Anna Birge...",
+    "source": "Software Installation and Setup"
+  },
+  {
+    "title": "Passive Networking",
+    "chunk_text": "Passive Networking\nAuthor: Jacob\nStatement\nGenerat...",
+    "source": "Passive Networking"
+  },
+  {
+    "title": "Passive Networking",
+    "chunk_text": "Who we are\n: the student-led product development s...",
+    "source": "Passive Networking"
+  },
+  {
+    "title": "Passive Networking",
+    "chunk_text": "Also, if you find yourself with someone who seems ...",
+    "source": "Passive Networking"
+  },
+  {
+    "title": "Voltage Regulation",
+    "chunk_text": "Voltage Regulation\nAuthor: Aaliyah Yan\nBuck Conver...",
+    "source": "Voltage Regulation"
+  },
+  {
+    "title": "Voltage Regulation",
+    "chunk_text": "|\nFufu Pot\nWaveWise\nLow-Dropout Regulators (LDOs)\n...",
+    "source": "Voltage Regulation"
+  },
+  {
+    "title": "Voltage Regulation",
+    "chunk_text": "3.3V, 5V, Adjustable Output\n500mA Output Current |...",
+    "source": "Voltage Regulation"
+  },
+  {
+    "title": "Basic KiCAD Use",
+    "chunk_text": "Basic KiCAD Use\nAuthor: Aaliyah Yan\nIntro to KiCad...",
+    "source": "Basic KiCAD Use"
+  },
+  {
+    "title": "Basic KiCAD Use",
+    "chunk_text": "Components on Mouser require an account to downloa...",
+    "source": "Basic KiCAD Use"
+  },
+  {
+    "title": "Dev Best Practice",
+    "chunk_text": "Dev Best Practice\nAuthor: Generate Management...",
+    "source": "Dev Best Practice"
+  },
+  {
+    "title": "Helpful Videos",
+    "chunk_text": "Helpful Videos\nAuthor: Anna Birge\nKiCAD Tutorials ...",
+    "source": "Helpful Videos"
+  },
+  {
+    "title": "Digital Stewardship",
+    "chunk_text": "Digital Stewardship\nAuthor: Jay Sella\nTags: Leads/...",
+    "source": "Digital Stewardship"
+  },
+  {
+    "title": "Digital Stewardship",
+    "chunk_text": "Avoid Duplication\nBefore creating any new account,...",
+    "source": "Digital Stewardship"
+  },
+  {
+    "title": "Digital Stewardship",
+    "chunk_text": "Email Accounts\nOur official email address, generat...",
+    "source": "Digital Stewardship"
+  },
+  {
+    "title": "Digital Stewardship",
+    "chunk_text": "#ops-help\n. They will create the account, save cre...",
+    "source": "Digital Stewardship"
+  },
+  {
+    "title": "Digital Stewardship",
+    "chunk_text": "Do not use personal phone numbers for 2FA or other...",
+    "source": "Digital Stewardship"
+  },
+  {
+    "title": "Digital Stewardship",
+    "chunk_text": "Inform the Operations CFO directly on Slack of the...",
+    "source": "Digital Stewardship"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "Schematic Best Practices\nAuthor: Aaliyah Yan\n“Elec...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "KiCAD schematics generate with a\nSize A\npage by de...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "Size C or D\n.\nMake sure to also fill out the Issue...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "grouping components by functionality\n.\nGrouping co...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "Shown below is another good example of useful note...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "Control architecture:\n- Another common way of orga...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "Reference Designators\nAnother important thing to c...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "U/IC:\nIntegrated Circuit (IC), U is more common, b...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "Ground flags should always point down\nPower flags ...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "A net is the connection between the pins of two or...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "This image shows a schematic where every net is na...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Schematic Best Practices",
+    "chunk_text": "If you are using any chips that utilize I2C for co...",
+    "source": "Schematic Best Practices"
+  },
+  {
+    "title": "Breaking Silos",
+    "chunk_text": "Breaking Silos\nAuthor: Generate Management...",
+    "source": "Breaking Silos"
+  },
+  {
+    "title": "Running a Leads (PL/TL/DL) Meeting",
+    "chunk_text": "Running a Leads (PL/TL/DL) Meeting\nAuthor: frank\nA...",
+    "source": "Running a Leads (PL/TL/DL) Meeting"
+  },
+  {
+    "title": "Sherm Access Not Working",
+    "chunk_text": "Sherm Access Not Working\nAuthor: frank, Jay Sella\n...",
+    "source": "Sherm Access Not Working"
+  },
+  {
+    "title": "Sherm Access Not Working",
+    "chunk_text": "If the Dashboard says you have access, but you are...",
+    "source": "Sherm Access Not Working"
+  },
+  {
+    "title": "Sherm Access Not Working",
+    "chunk_text": "here\n:\nProblem Type:\nLocks, Keys and Card Access\nC...",
+    "source": "Sherm Access Not Working"
+  },
+  {
+    "title": "Figma → Dev Handoff: Best Practices",
+    "chunk_text": "Figma → Dev Handoff: Best Practices\nAuthor: Genera...",
+    "source": "Figma → Dev Handoff: Best Practices"
+  },
+  {
+    "title": "Figma → Dev Handoff: Best Practices",
+    "chunk_text": "Steps for Design Handoff:\nMake sure the front-end ...",
+    "source": "Figma → Dev Handoff: Best Practices"
+  },
+  {
+    "title": "Figma → Dev Handoff: Best Practices",
+    "chunk_text": "Use the\nAuto Flow Plug-in\nto draw connections betw...",
+    "source": "Figma → Dev Handoff: Best Practices"
+  },
+  {
+    "title": "Figma → Dev Handoff: Best Practices",
+    "chunk_text": "Navigate to the page you will be developing (using...",
+    "source": "Figma → Dev Handoff: Best Practices"
+  },
+  {
+    "title": "Figma → Dev Handoff: Best Practices",
+    "chunk_text": "Video for overview:\nhttps://youtu.be/B242nuM3y2s\nC...",
+    "source": "Figma → Dev Handoff: Best Practices"
+  },
+  {
+    "title": "Figma → Dev Handoff: Best Practices",
+    "chunk_text": "\"\n—\nhttps://help.figma.com/hc/en-us/articles/36003...",
+    "source": "Figma → Dev Handoff: Best Practices"
+  },
+  {
+    "title": "Figma → Dev Handoff: Best Practices",
+    "chunk_text": "‼ Designers ‼\nIf you haven't implemented component...",
+    "source": "Figma → Dev Handoff: Best Practices"
+  },
+  {
+    "title": "Figma → Dev Handoff: Best Practices",
+    "chunk_text": "Auto Layout intro video\nThere are so many capabili...",
+    "source": "Figma → Dev Handoff: Best Practices"
+  },
+  {
+    "title": "Upcoming Events!",
+    "chunk_text": "Upcoming Events!\nAuthor: frank\nTags: All Must-read...",
+    "source": "Upcoming Events!"
+  },
+  {
+    "title": "Development Resources",
+    "chunk_text": "Development Resources\nAuthor: Anna Birge\nto be upd...",
+    "source": "Development Resources"
+  },
+  {
+    "title": "New Semester Onboarding",
+    "chunk_text": "New Semester Onboarding\nAuthor: frank, Jay Sella\nT...",
+    "source": "New Semester Onboarding"
+  },
+  {
+    "title": "New Semester Onboarding",
+    "chunk_text": "Complete the “All Members” onboarding\nin the next ...",
+    "source": "New Semester Onboarding"
+  },
+  {
+    "title": "New Semester Onboarding",
+    "chunk_text": "Set your “Team” as\n[BRANCH] - [TEAM]\n, eg:\nOperati...",
+    "source": "New Semester Onboarding"
+  },
+  {
+    "title": "Rethinking the Sherman Center 🔗",
+    "chunk_text": "Rethinking the Sherman Center 🔗\nAuthor: frank\nTags...",
+    "source": "Rethinking the Sherman Center 🔗"
+  },
+  {
+    "title": "Attendance Policy",
+    "chunk_text": "Attendance Policy\nAuthor: frank\nTags: All Must-rea...",
+    "source": "Attendance Policy"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": "Procurement + Reimbursements\nAuthor: frank, Jay Se...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": "Procurement / Online Orders\nKey Takeaways:\n- All o...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": "- TO SUBMIT AN ORDER, submit a request through our...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": "Prolabs\nProtolabs\nSendCutSend\nServoCity\nSparkfun\nS...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": "7:30pm every Tuesday and Thursday\nto ensure same-d...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": ".\nIf a company is unwilling to remove sales tax, w...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": "both\nGenerate’s Operations Director and Chief Fina...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": "How do I process a return?\nPolicies and timelines ...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": "Project materials should\nnever\nbe bought out-of-po...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": "- TO SUBMIT A REIMBURSEMENT, submit a request thro...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": ".\nWhat is required?\nReimbursement Requests must…\nb...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Procurement + Reimbursements",
+    "chunk_text": "Please be patient; this process usually takes\n3-4 ...",
+    "source": "Procurement + Reimbursements"
+  },
+  {
+    "title": "Networking Dashboard",
+    "chunk_text": "Networking Dashboard\nAuthor: Anna Birge\nOur Networ...",
+    "source": "Networking Dashboard"
+  },
+  {
+    "title": "Networking Dashboard",
+    "chunk_text": "FAQs\nWho has access to this resource?\nOnly current...",
+    "source": "Networking Dashboard"
+  },
+  {
+    "title": "Networking Dashboard",
+    "chunk_text": "Where does this data come from?\nData from Fall 202...",
+    "source": "Networking Dashboard"
+  },
+  {
+    "title": "GitHub Permissions Structure",
+    "chunk_text": "GitHub Permissions Structure\nAuthor: Jay Sella\nGen...",
+    "source": "GitHub Permissions Structure"
+  },
+  {
+    "title": "GitHub Permissions Structure",
+    "chunk_text": "Each collaborator can be assigned one of: read, tr...",
+    "source": "GitHub Permissions Structure"
+  },
+  {
+    "title": "EXP Makerspace",
+    "chunk_text": "EXP Makerspace\nAuthor: Jay Sella\nThe Sherman Cente...",
+    "source": "EXP Makerspace"
+  },
+  {
+    "title": "EXP Makerspace",
+    "chunk_text": "free\nwhen purchased through the EXP Makerspace. Co...",
+    "source": "EXP Makerspace"
+  },
+  {
+    "title": "Power Supplies",
+    "chunk_text": "Power Supplies\nAuthor: Aaliyah Yan\nAnalog to Digit...",
+    "source": "Power Supplies"
+  },
+  {
+    "title": "Power Supplies",
+    "chunk_text": "|\n| Enclosed AC DC Converters 2 Output 48V 5V 85 ~...",
+    "source": "Power Supplies"
+  },
+  {
+    "title": "Power Supplies",
+    "chunk_text": "|\nBatteries\n| Name | Used In / Use Case | Link |\n|...",
+    "source": "Power Supplies"
+  },
+  {
+    "title": "Power Supplies",
+    "chunk_text": "https://www.amazon.com/dp/B0CBTWDKJM/ref=sspadkdet...",
+    "source": "Power Supplies"
+  },
+  {
+    "title": "Hosting Meaningful 1:1s",
+    "chunk_text": "Hosting Meaningful 1:1s\nAuthor: Alix Heudebourg, C...",
+    "source": "Hosting Meaningful 1:1s"
+  },
+  {
+    "title": "Hosting Meaningful 1:1s",
+    "chunk_text": ".\nFirst 1:1\nYour first 1:1 should take place withi...",
+    "source": "Hosting Meaningful 1:1s"
+  },
+  {
+    "title": "Hosting Meaningful 1:1s",
+    "chunk_text": "What parts of the project resonate with them?\nAlso...",
+    "source": "Hosting Meaningful 1:1s"
+  },
+  {
+    "title": "Hosting Meaningful 1:1s",
+    "chunk_text": "If they’re new to Generate, give them a tour of th...",
+    "source": "Hosting Meaningful 1:1s"
+  },
+  {
+    "title": "Hosting Meaningful 1:1s",
+    "chunk_text": "Do they feel connected with their team, their bran...",
+    "source": "Hosting Meaningful 1:1s"
+  },
+  {
+    "title": "Hosting Meaningful 1:1s",
+    "chunk_text": "Take good notes and try to see what you can do to ...",
+    "source": "Hosting Meaningful 1:1s"
+  },
+  {
+    "title": "Hosting Meaningful 1:1s",
+    "chunk_text": "Final 1:1\nYour final 1:1 should take place within ...",
+    "source": "Hosting Meaningful 1:1s"
+  },
+  {
+    "title": "Hosting Meaningful 1:1s",
+    "chunk_text": "Revisit each members’ goals, and help them see how...",
+    "source": "Hosting Meaningful 1:1s"
+  },
+  {
+    "title": "Hosting Meaningful 1:1s",
+    "chunk_text": "If genuine, encourage staying in touch. Exchange n...",
+    "source": "Hosting Meaningful 1:1s"
+  },
+  {
+    "title": "Project Management Tools",
+    "chunk_text": "Project Management Tools\nAuthor: Abigail Kazan\nIf ...",
+    "source": "Project Management Tools"
+  },
+  {
+    "title": "Project Management Tools",
+    "chunk_text": "Click one of the links to jump to that tool\nGoogle...",
+    "source": "Project Management Tools"
+  },
+  {
+    "title": "Project Management Tools",
+    "chunk_text": "Google Sheets: Online Spreadsheets & Templates | G...",
+    "source": "Project Management Tools"
+  },
+  {
+    "title": "Project Management Tools",
+    "chunk_text": "Project Management\nSmartsheet\nIf just columns and ...",
+    "source": "Project Management Tools"
+  },
+  {
+    "title": "Flexible Spending Pool (FSP)",
+    "chunk_text": "Flexible Spending Pool (FSP)\nAuthor: Mika , Jay Se...",
+    "source": "Flexible Spending Pool (FSP)"
+  },
+  {
+    "title": "Flexible Spending Pool (FSP)",
+    "chunk_text": ": Teams should identify their goals at the start o...",
+    "source": "Flexible Spending Pool (FSP)"
+  },
+  {
+    "title": "Flexible Spending Pool (FSP)",
+    "chunk_text": "Final Decision and Tracking\n: A final approval, ap...",
+    "source": "Flexible Spending Pool (FSP)"
+  },
+  {
+    "title": "Flexible Spending Pool (FSP)",
+    "chunk_text": "Sherman Center’s values: intentional, developmenta...",
+    "source": "Flexible Spending Pool (FSP)"
+  },
+  {
+    "title": "Flexible Spending Pool (FSP)",
+    "chunk_text": "Opportunity Cost: Does this expense redirect funds...",
+    "source": "Flexible Spending Pool (FSP)"
+  },
+  {
+    "title": "Downloading SamacSys Library Loader",
+    "chunk_text": "Downloading SamacSys Library Loader\nAuthor: Aaliya...",
+    "source": "Downloading SamacSys Library Loader"
+  },
+  {
+    "title": "Downloading SamacSys Library Loader",
+    "chunk_text": "This program is also relatively easy to download. ...",
+    "source": "Downloading SamacSys Library Loader"
+  },
+  {
+    "title": "Mission, Values, & Priorities",
+    "chunk_text": "Mission, Values, & Priorities\nAuthor: frank\nTags: ...",
+    "source": "Mission, Values, & Priorities"
+  },
+  {
+    "title": "Mission, Values, & Priorities",
+    "chunk_text": "In addition, Generate members are innovative, driv...",
+    "source": "Mission, Values, & Priorities"
+  },
+  {
+    "title": "Mission, Values, & Priorities",
+    "chunk_text": "Outcome Delivery\nContinue to improve our member’s ...",
+    "source": "Mission, Values, & Priorities"
+  },
+  {
+    "title": "LEDs",
+    "chunk_text": "LEDs\nAuthor: Anna Birge\nLEDs...",
+    "source": "LEDs"
+  },
+  {
+    "title": "Team Structure for Collaboration",
+    "chunk_text": "Team Structure for Collaboration\nAuthor: frank\nBel...",
+    "source": "Team Structure for Collaboration"
+  },
+  {
+    "title": "Team Structure for Collaboration",
+    "chunk_text": "Engineering/Design Chapters are made of either all...",
+    "source": "Team Structure for Collaboration"
+  },
+  {
+    "title": "Team Structure for Collaboration",
+    "chunk_text": "Over management and/or bad management means people...",
+    "source": "Team Structure for Collaboration"
+  },
+  {
+    "title": "Basic Git Use",
+    "chunk_text": "Basic Git Use\nAuthor: Aaliyah Yan\nIntro to Git Wor...",
+    "source": "Basic Git Use"
+  },
+  {
+    "title": "Basic Git Use",
+    "chunk_text": "Click the green “ Code” dropdown button\nIf you hav...",
+    "source": "Basic Git Use"
+  },
+  {
+    "title": "Basic Git Use",
+    "chunk_text": "If you don’t have the correct branch on your machi...",
+    "source": "Basic Git Use"
+  },
+  {
+    "title": "Basic Git Use",
+    "chunk_text": "Command Line:\nUse the following command to check w...",
+    "source": "Basic Git Use"
+  },
+  {
+    "title": "Basic Git Use",
+    "chunk_text": "jsx\ngit push\nGitHub Desktop:\nMake sure that you on...",
+    "source": "Basic Git Use"
+  },
+  {
+    "title": "Sherm Hub 🔗",
+    "chunk_text": "Sherm Hub 🔗\nAuthor: frank\nTags: FAQ...",
+    "source": "Sherm Hub 🔗"
+  },
+  {
+    "title": "Advice for Morale",
+    "chunk_text": "Advice for Morale\nAuthor: Chirag Chadha, Josephine...",
+    "source": "Advice for Morale"
+  },
+  {
+    "title": "Advice for Morale",
+    "chunk_text": "within the initial month.\nThis means discussing an...",
+    "source": "Advice for Morale"
+  },
+  {
+    "title": "Advice for Morale",
+    "chunk_text": "be engaging to solicit team bonding\n.\nEvent Divers...",
+    "source": "Advice for Morale"
+  },
+  {
+    "title": "Advice for Morale",
+    "chunk_text": ".\nAttendance\nIt's vital for team leaders (Chiefs a...",
+    "source": "Advice for Morale"
+  },
+  {
+    "title": "Advice for Morale",
+    "chunk_text": "Don't forget the power of introductions and friend...",
+    "source": "Advice for Morale"
+  },
+  {
+    "title": "Google Drive 🔗",
+    "chunk_text": "Google Drive 🔗\nAuthor: frank...",
+    "source": "Google Drive 🔗"
+  },
+  {
+    "title": "Use Slack Effectively",
+    "chunk_text": "Use Slack Effectively\nAuthor: Chirag Chadha\nTags: ...",
+    "source": "Use Slack Effectively"
+  },
+  {
+    "title": "Use Slack Effectively",
+    "chunk_text": "all-sherm-announcements\nUse “Save for Later” and “...",
+    "source": "Use Slack Effectively"
+  },
+  {
+    "title": "In-house Calendar Package",
+    "chunk_text": "In-house Calendar Package\nAuthor: Alder Whiteford\n...",
+    "source": "In-house Calendar Package"
+  },
+  {
+    "title": "Microcontroller Implementations",
+    "chunk_text": "Microcontroller Implementations\nAuthor: Aaliyah Ya...",
+    "source": "Microcontroller Implementations"
+  },
+  {
+    "title": "Microcontroller Implementations",
+    "chunk_text": "Bare MCU or Carrier Board?\nBare MCU\nThe term “bare...",
+    "source": "Microcontroller Implementations"
+  },
+  {
+    "title": "Microcontroller Implementations",
+    "chunk_text": "This reduces form factor incredibly and can result...",
+    "source": "Microcontroller Implementations"
+  },
+  {
+    "title": "Microcontroller Implementations",
+    "chunk_text": "Carrier Board\nWith microcontroller development boa...",
+    "source": "Microcontroller Implementations"
+  },
+  {
+    "title": "Microcontroller Implementations",
+    "chunk_text": "These development boards typically have a bunch of...",
+    "source": "Microcontroller Implementations"
+  },
+  {
+    "title": "Running an Engineering Meeting",
+    "chunk_text": "Running an Engineering Meeting\nAuthor: frank\nExamp...",
+    "source": "Running an Engineering Meeting"
+  },
+  {
+    "title": "Running an Engineering Meeting",
+    "chunk_text": "Blocker removal (5+ mins, team members may leave i...",
+    "source": "Running an Engineering Meeting"
+  },
+  {
+    "title": "Suggested Meeting Cadence",
+    "chunk_text": "Suggested Meeting Cadence\nAuthor: Alix Heudebourg,...",
+    "source": "Suggested Meeting Cadence"
+  },
+  {
+    "title": "Suggested Meeting Cadence",
+    "chunk_text": "PL optional\n| Share completed assignments, receive...",
+    "source": "Suggested Meeting Cadence"
+  },
+  {
+    "title": "Email Signature Template",
+    "chunk_text": "Email Signature Template\nAuthor: Jay Sella, Chirag...",
+    "source": "Email Signature Template"
+  }
+]

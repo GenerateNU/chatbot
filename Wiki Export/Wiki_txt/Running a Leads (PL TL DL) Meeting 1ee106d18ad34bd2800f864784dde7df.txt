@@ -1,0 +1,26 @@
+Running a Leads (PL/TL/DL) Meeting
+
+
+Author: frank
+Branch: Software
+Hidden: No
+Parent page: Running Meetings (Running%20Meetings%20a9e22541dedd4d0c8ebef43c89521ea6.md)
+
+
+
+
+Agenda (15 mins)
+
+
+PL updates DL and TLs on client developments and feedback from client based on work showcased (5 mins)
+
+
+DL updates TLs and PL on design progress and clarifies any needs from PL and TLs (5 mins)
+
+
+TLs update DL and PL on implementation progress and clarify any needs from PL and DL (5 mins)
+
+
+
+
+
