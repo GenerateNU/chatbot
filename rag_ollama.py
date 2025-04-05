@@ -349,7 +349,7 @@ def user_input():
                 print(f"  Preview: {src['preview']}")
                 print()
 
-# testing rag.py:
+# testing rag_ollama.py:
 if __name__ == "__main__":
     # Option 1: Run predefined test queries
     run_tests = input("Run predefined test queries? (y/n): ").lower().startswith('y')
