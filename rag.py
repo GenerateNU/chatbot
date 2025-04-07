@@ -11,7 +11,7 @@ import numpy as np
 import re
 
 # Read the combined wiki text
-with open("combined4.txt", "r", encoding="utf-8") as file:
+with open("combined.txt", "r", encoding="utf-8") as file:
     wiki_text = file.read()
 
 # Set up the text splitter: adjust chunk size and overlap as needed

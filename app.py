@@ -34,7 +34,7 @@ def slack_events():
                 try:
                     remainder = text[0:]
                     print(remainder)
-                    url = "https://8530-2601-182-c67f-96b0-a0ca-9e45-77ba-46bc.ngrok-free.app/ask"  # Flask server URL
+                    url = "http://138.197.102.64:6000/ask"  # Flask server URL
                     params = {"query": remainder}  # Attach query as a parameter
                     response = requests.get(url, params=params)
                     if response.status_code == 200:
