@@ -145,14 +145,6 @@
       "topic": "attendance"
     },
     {
-      "id": 18,
-      "Question": "What is the attendance policy?",
-      "Answer": "Members may miss up to 3 meetings per semester.",
-      "Context": "Members may miss up to 3 meetings per semester. The intent is that these are used as “sick days” (eg. for extenuating circumstances when you need a day off), not that every member uses all of them.",
-      "branch": "all generate",
-      "topic": "attendance"
-    },
-    {
       "id": 19,
       "Question": "What are the upcoming events?",
       "Answer": "You can check the events calendar on the Notion. Event announcements are also posted in the #generate-announcements Slack channel weekly.",
@@ -323,19 +315,258 @@
     {
       "id": 40,
       "Question": "How can I place an urgent order?",
-      "Answer": "xyz",
-      "Context": "xyz",
+      "Answer": "If you need to make an urgent order, there has to be a legitimate justifiable reason that it cannot wait to be placed until the next order date. If the need for an urgent order arises, reach out in #ops-help on Slack explaining the situation. Be sure to tag both Generate’s Operations Director and Chief Financial Officer. They reserve the right to determine whether the urgent order is necessary.",
+      "Context": "Over the course of your time in Generate, you will likely need to purchase\nsomething\n. Perhaps a tool for a hardware project, stickers for an engagement event, a subscription for a software client, or catering for a morale event.\nThis guide is designed to help you understand our policies and procedures for making Generate-related purchases. If you have questions, ASK! → `#ops-help` on Slack.\nProcurement / Online Orders\nKey Takeaways:\n- All orders/procurement requests must be submitted via our FinOps Dashboard.\n- Plan ahead and know what items will need to be purchased as soon as possible. See When are orders placed? to ensure your orders are submitted on-time.\n- Routinely connect with your lead to ensure that your team’s resources are effectively allocated and in-line with your needs.\n- If you are a Director, Chief, or Lead, please make sure you also familiarize yourself with Digital Stewardship\n- TO SUBMIT AN ORDER, submit a request through our FinOps Dashboard.\nFAQs:\nWhat are our supported vendors?\nSupported vendors must be used whenever possible. We have tax-free accounts set up with these services and your items will be processed and arrive faster.\neBay is no longer a supported vendor.\n4imprint\nAdafruit\nAmazon\nAndyMark\nArduino\nCustom Ink\nDigiKey\nEasyEDA\nEdmund Optics\nFormlabs\nHarbor Freight\nHome Depot\nMcMaster-Carr\nMisumi\nMouser Electronics\nProlabs\nProtolabs\nSendCutSend\nServoCity\nSparkfun\nStepper Online\nSticker Mule\nULINE\nUS Plastics\nVevor\nVex Robotics\nVistaprint\nWaveShare\nXometry",
+      "branch": "Operations", 
+      "topic": "Orders"
+    },
+    {
+      "id": 41,
+      "Question": "How do I return something?",
+      "Answer": "You should notify #ops-help on Slack about the return to obtain the necessary labels. Please provide the original order ID and a description of all items to be returned. The receiving team is responsible for boxing and shipping out the return.",
+      "Context": "Over the course of your time in Generate, you will likely need to purchase\nsomething\n. Perhaps a tool for a hardware project, stickers for an engagement event, a subscription for a software client, or catering for a morale event.\nThis guide is designed to help you understand our policies and procedures for making Generate-related purchases. If you have questions, ASK! → `#ops-help` on Slack.\nProcurement / Online Orders\nKey Takeaways:\n- All orders/procurement requests must be submitted via our FinOps Dashboard.\n- Plan ahead and know what items will need to be purchased as soon as possible. See When are orders placed? to ensure your orders are submitted on-time.\n- Routinely connect with your lead to ensure that your team’s resources are effectively allocated and in-line with your needs.\n- If you are a Director, Chief, or Lead, please make sure you also familiarize yourself with Digital Stewardship\n- TO SUBMIT AN ORDER, submit a request through our FinOps Dashboard.\nFAQs:\nWhat are our supported vendors?\nSupported vendors must be used whenever possible. We have tax-free accounts set up with these services and your items will be processed and arrive faster.\neBay is no longer a supported vendor.\n4imprint\nAdafruit\nAmazon\nAndyMark\nArduino\nCustom Ink\nDigiKey\nEasyEDA\nEdmund Optics\nFormlabs\nHarbor Freight\nHome Depot\nMcMaster-Carr\nMisumi\nMouser Electronics\nProlabs\nProtolabs\nSendCutSend\nServoCity\nSparkfun\nStepper Online\nSticker Mule\nULINE\nUS Plastics\nVevor\nVex Robotics\nVistaprint\nWaveShare\nXometry",
+      "branch": "Operations", 
+      "topic": "Orders"
+    },
+    {
+      "id": 42,
+      "Question": "How do I pay for morale?",
+      "Answer": "All moral has to be paid out-of-pocket and then reimbursed. Reimbursement requests must be submitted within 14 days of purchase. Keep your itemized receipt! Without it, you cannot be reimbursed.",
+      "Context": "Over the course of your time in Generate, you will likely need to purchase\nsomething\n. Perhaps a tool for a hardware project, stickers for an engagement event, a subscription for a software client, or catering for a morale event.\nThis guide is designed to help you understand our policies and procedures for making Generate-related purchases. If you have questions, ASK! → `#ops-help` on Slack.\nProcurement / Online Orders\nKey Takeaways:\n- All orders/procurement requests must be submitted via our FinOps Dashboard.\n- Plan ahead and know what items will need to be purchased as soon as possible. See When are orders placed? to ensure your orders are submitted on-time.\n- Routinely connect with your lead to ensure that your team’s resources are effectively allocated and in-line with your needs.\n- If you are a Director, Chief, or Lead, please make sure you also familiarize yourself with Digital Stewardship\n- TO SUBMIT AN ORDER, submit a request through our FinOps Dashboard.\nFAQs:\nWhat are our supported vendors?\nSupported vendors must be used whenever possible. We have tax-free accounts set up with these services and your items will be processed and arrive faster.\neBay is no longer a supported vendor.\n4imprint\nAdafruit\nAmazon\nAndyMark\nArduino\nCustom Ink\nDigiKey\nEasyEDA\nEdmund Optics\nFormlabs\nHarbor Freight\nHome Depot\nMcMaster-Carr\nMisumi\nMouser Electronics\nProlabs\nProtolabs\nSendCutSend\nServoCity\nSparkfun\nStepper Online\nSticker Mule\nULINE\nUS Plastics\nVevor\nVex Robotics\nVistaprint\nWaveShare\nXometry",
+      "branch": "Operations", 
+      "topic": "Orders"
+    },
+    {
+      "id": 43,
+      "Question": "What can I reimburse?",
+      "Answer": "Morale and Urgent Project Materials $75 or less can be purchased out-of-pocket and reimbursed by Generate",
+      "Context": "Over the course of your time in Generate, you will likely need to purchase\nsomething\n. Perhaps a tool for a hardware project, stickers for an engagement event, a subscription for a software client, or catering for a morale event.\nThis guide is designed to help you understand our policies and procedures for making Generate-related purchases. If you have questions, ASK! → `#ops-help` on Slack.\nProcurement / Online Orders\nKey Takeaways:\n- All orders/procurement requests must be submitted via our FinOps Dashboard.\n- Plan ahead and know what items will need to be purchased as soon as possible. See When are orders placed? to ensure your orders are submitted on-time.\n- Routinely connect with your lead to ensure that your team’s resources are effectively allocated and in-line with your needs.\n- If you are a Director, Chief, or Lead, please make sure you also familiarize yourself with Digital Stewardship\n- TO SUBMIT AN ORDER, submit a request through our FinOps Dashboard.\nFAQs:\nWhat are our supported vendors?\nSupported vendors must be used whenever possible. We have tax-free accounts set up with these services and your items will be processed and arrive faster.\neBay is no longer a supported vendor.\n4imprint\nAdafruit\nAmazon\nAndyMark\nArduino\nCustom Ink\nDigiKey\nEasyEDA\nEdmund Optics\nFormlabs\nHarbor Freight\nHome Depot\nMcMaster-Carr\nMisumi\nMouser Electronics\nProlabs\nProtolabs\nSendCutSend\nServoCity\nSparkfun\nStepper Online\nSticker Mule\nULINE\nUS Plastics\nVevor\nVex Robotics\nVistaprint\nWaveShare\nXometry",
+      "branch": "Operations", 
+      "topic": "Orders"
+    },
+    {
+      "id": 44,
+      "Question": "What do I need to submit for reimbursements?",
+      "Answer": "You must submit your reimbursement request within 14 days of the purchase and include a PDF of an itemized receipt showing the vendor name, purchase date, items purchased, total price, and payment method.",
+      "Context": "Over the course of your time in Generate, you will likely need to purchase\nsomething\n. Perhaps a tool for a hardware project, stickers for an engagement event, a subscription for a software client, or catering for a morale event.\nThis guide is designed to help you understand our policies and procedures for making Generate-related purchases. If you have questions, ASK! → `#ops-help` on Slack.\nProcurement / Online Orders\nKey Takeaways:\n- All orders/procurement requests must be submitted via our FinOps Dashboard.\n- Plan ahead and know what items will need to be purchased as soon as possible. See When are orders placed? to ensure your orders are submitted on-time.\n- Routinely connect with your lead to ensure that your team’s resources are effectively allocated and in-line with your needs.\n- If you are a Director, Chief, or Lead, please make sure you also familiarize yourself with Digital Stewardship\n- TO SUBMIT AN ORDER, submit a request through our FinOps Dashboard.\nFAQs:\nWhat are our supported vendors?\nSupported vendors must be used whenever possible. We have tax-free accounts set up with these services and your items will be processed and arrive faster.\neBay is no longer a supported vendor.\n4imprint\nAdafruit\nAmazon\nAndyMark\nArduino\nCustom Ink\nDigiKey\nEasyEDA\nEdmund Optics\nFormlabs\nHarbor Freight\nHome Depot\nMcMaster-Carr\nMisumi\nMouser Electronics\nProlabs\nProtolabs\nSendCutSend\nServoCity\nSparkfun\nStepper Online\nSticker Mule\nULINE\nUS Plastics\nVevor\nVex Robotics\nVistaprint\nWaveShare\nXometry",
+      "branch": "Operations", 
+      "topic": "Orders"
+    },
+    {
+      "id": 45,
+      "Question": "How long do reimbursements take?",
+      "Answer": "Reimbursements usually takes 3-4 weeks, please be patient. They have to be processed by Generate, the Sherman Center, and Northeastern University, as well as either the USPS (physical checks are mailed if you don’t have direct deposit set up) or your bank.",
+      "Context": "Over the course of your time in Generate, you will likely need to purchase\nsomething\n. Perhaps a tool for a hardware project, stickers for an engagement event, a subscription for a software client, or catering for a morale event.\nThis guide is designed to help you understand our policies and procedures for making Generate-related purchases. If you have questions, ASK! → `#ops-help` on Slack.\nProcurement / Online Orders\nKey Takeaways:\n- All orders/procurement requests must be submitted via our FinOps Dashboard.\n- Plan ahead and know what items will need to be purchased as soon as possible. See When are orders placed? to ensure your orders are submitted on-time.\n- Routinely connect with your lead to ensure that your team’s resources are effectively allocated and in-line with your needs.\n- If you are a Director, Chief, or Lead, please make sure you also familiarize yourself with Digital Stewardship\n- TO SUBMIT AN ORDER, submit a request through our FinOps Dashboard.\nFAQs:\nWhat are our supported vendors?\nSupported vendors must be used whenever possible. We have tax-free accounts set up with these services and your items will be processed and arrive faster.\neBay is no longer a supported vendor.\n4imprint\nAdafruit\nAmazon\nAndyMark\nArduino\nCustom Ink\nDigiKey\nEasyEDA\nEdmund Optics\nFormlabs\nHarbor Freight\nHome Depot\nMcMaster-Carr\nMisumi\nMouser Electronics\nProlabs\nProtolabs\nSendCutSend\nServoCity\nSparkfun\nStepper Online\nSticker Mule\nULINE\nUS Plastics\nVevor\nVex Robotics\nVistaprint\nWaveShare\nXometry",
+      "branch": "Operations", 
+      "topic": "Orders"
+    },
+    {
+      "id": 46,
+      "Question": "How can I create a new account?",
+      "Answer": "If you know you will need an account, request it as soon as possible. Make sure that there aren't any existing accounts or services that can fulfill this need. For Generate-related accounts, please use the official email address generate@northeastern.edu. Do not create any new accounts such as project or team specific Gmail accounts. If access to a service is needed, request credentials from your Director. Provide Operations with all necessary info to create an account by sending a message in #ops-help on Slack. They will create the account and provide you with the credentials via a Proton Pass link. Generate random, strong passwords with Proton pass, using at least 20 characters when able. Do not share account credentials unless necessary for another member to perform their role. Configure token-based 2FA via Proton Pass when possible and save security answers with answers and recovery/backup codes in there. Do not use your personal phone number for 2FA.",
+      "Context": "Over the course of your time in Generate, you will likely need to purchase\nsomething\n. Perhaps a tool for a hardware project, stickers for an engagement event, a subscription for a software client, or catering for a morale event.\nThis guide is designed to help you understand our policies and procedures for making Generate-related purchases. If you have questions, ASK! → `#ops-help` on Slack.\nProcurement / Online Orders\nKey Takeaways:\n- All orders/procurement requests must be submitted via our FinOps Dashboard.\n- Plan ahead and know what items will need to be purchased as soon as possible. See When are orders placed? to ensure your orders are submitted on-time.\n- Routinely connect with your lead to ensure that your team’s resources are effectively allocated and in-line with your needs.\n- If you are a Director, Chief, or Lead, please make sure you also familiarize yourself with Digital Stewardship\n- TO SUBMIT AN ORDER, submit a request through our FinOps Dashboard.\nFAQs:\nWhat are our supported vendors?\nSupported vendors must be used whenever possible. We have tax-free accounts set up with these services and your items will be processed and arrive faster.\neBay is no longer a supported vendor.\n4imprint\nAdafruit\nAmazon\nAndyMark\nArduino\nCustom Ink\nDigiKey\nEasyEDA\nEdmund Optics\nFormlabs\nHarbor Freight\nHome Depot\nMcMaster-Carr\nMisumi\nMouser Electronics\nProlabs\nProtolabs\nSendCutSend\nServoCity\nSparkfun\nStepper Online\nSticker Mule\nULINE\nUS Plastics\nVevor\nVex Robotics\nVistaprint\nWaveShare\nXometry\nWhat if I want to place orders from other vendors?\nPlease use custom orders sparingly as they take much more time to set up.\nIn some cases, we are not able to order from certain vendors. See “\nHow does tax-exemption work?\n” above for one potential issue.\nBe aware that issues are common with custom orders.\nWhen are orders placed?\nThe Fall 2024 schedule requires all procurement/order requests to be submitted by\n7:30pm every Tuesday and Thursday\nto ensure same-day ordering. Reach out in\n#ops-help\non Slack with any questions in the meantime.\nAny orders not received on time will be submitted at the next scheduled date.\nWhere are orders shipped? Can my order be shipped to me?\nOrders may only be mailed to the Sherman Center. If necessary, orders may be shipped to the relevant lead following approval from Generate’s CFO or Operations Director.\nHow does tax-exemption work?\nAs a part of Northeastern University—and therefore the Sherman Center—we are tax-exempt\n.\nIf a company is unwilling to remove sales tax, we cannot order from them. No exceptions.\nWhat if I have an urgent order? / I need something ASAP!\nAn order is “urgent” if there is a legitimate, justifiable reason that it absolutely cannot wait to be placed until the next order date. See\nWhen are orders placed?\nIf the need for an urgent order arises, reach out in\n#ops-help\non Slack explaining the situation. Be sure to tag\nboth\nGenerate’s Operations Director and Chief Financial Officer. They will determine whether the urgent order is necessary.\nThe Operations Director and CFO reserve the right to deem orders as urgent or non-urgent in their sole discretion.\nIn most cases, weekend and holiday orders cannot be expedited due to the business nature of most vendors we utilize. Please consider this in your urgent request before reaching out.\nHow do I process a return?\nPolicies and timelines vary by vendor. The receiving team is responsible for notifying Operations on Slack (\n#ops-help\n) about the return to obtain the necessary labels. Please provide the original order ID and a description of all items to be returned. The receiving team is responsible for boxing and shipping out the return.\nReimbursements\nGenerally, all morale purchases must be paid for out-of-pocket and then reimbursed.\nProject materials should\nnever\nbe bought out-of-pocket.\nKey Takeaways:\n- Reimbursements requests must be submitted within 14 days of purchase.\n- Keep your itemized receipt! Without it, you cannot be reimbursed.\n- Reimbursements over $75 require prior approval from Generate’s CFO or Operations Director, unless morale-related.\n- Failure to do so may result in rejection of your reimbursement request.\n- Pay attention, and triple check your requests. Incomplete, inaccurate, or late submissions may be rejected and non-reimbursable.\n- TO SUBMIT A REIMBURSEMENT, submit a request through our FinOps Dashboard.\nFAQs:\nWhat can be reimbursed?\nMorale\n: Unless otherwise communicated, all\nmorale\nexpenses should be paid out-of-pocket and reimbursed by Generate.\nUrgent Project Materials\n:\nIf approved by your Director\n, urgent project materials\n$75 or less\nmay be purchased out-of-pocket and reimbursed by Generate. Urgent project materials over $75 must be approved by Generate’s CFO or Operations Director.\nAll other project material purchases must flow through our standard procurement policies\n.\nWhat is required?\nReimbursement Requests must…\nbe submitted\nwithin 14 days\nof the purchase.\ninclude a\nPDF\nof an\nitemized receipt\nshowing the vendor name, purchase date, items purchased, total price, and payment method.\nPlease take 2 extra seconds to find a clean and flat surface, take a clear picture, and crop photos to show just the receipt.\nHow long do reimbursements take?\nReimbursement requests take time. They must be processed by Generate, the Sherman Center, and Northeastern University, as well as either the USPS (physical checks are mailed if you don’t have direct deposit set up) or your bank.\nPlease be patient; this process usually takes\n3-4 weeks\n.\nQuestions or Issues?\nReach out in\n#ops-help\non Slack. We’re here to help!",
       "branch": "all generate", 
       "topic": "xyz"
     },
     {
-      "id": 24,
-      "Question": "xyz?",
-      "Answer": "xyz",
-      "Context": "xyz",
-      "branch": "all generate", 
-      "topic": "xyz"
+      "id": 47,
+      "Question": "What is the link to the Generate Google Drive?",
+      "Answer": "Here is the link to the Generate Google Drive: https://drive.google.com/drive/u/1/folders/1nH5sjWbktzZBWSQCw1wZEbq5DffReSea",
+      "Context": "Generate Google Drive Link: https://drive.google.com/drive/u/1/folders/1nH5sjWbktzZBWSQCw1wZEbq5DffReSea",
+      "branch": "Operations", 
+      "topic": "Google Drive"
     },
-    
+    {
+      "id": 48,
+      "Question": "What is the co-op dashboard?",
+      "Answer": "The co-op dashboard is a internal networking resource containing past and current Generate members co-op and internship data. It is a great resource for finding co-op and internship opportunities.",
+      "Context": "Our Networking Dashboard is an internal resource containing past and current Generate member co-op and internship data. It aims to build connections and foster professional growth within Generate and alumni.\nAccess it here\n:\nhttps://lookerstudio.google.com/reporting/fe0f900a-5c51-455d-9d89-d50815b114de\nMake sure that you are logged into your @husky.neu.edu Google Drive account.\nFAQs\nWho has access to this resource?\nOnly current members of Generate can access this resource\nHow do I remove my data from this dashboard?\nTo remove any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nHow do I add additional experiences or update existing ones?\nTo add any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nWhere does this data come from?\nData from Fall 2024 was collected from a voluntary networking survey. From Spring 2024 onwards, data has been collected from onboarding forms.\nI have suggestions for features or a bug to report! What do I do?\nPlease contact @Anna Birge with any feedback! All feedback is welcome, especially bugs to report and suggestions for additional features.",
+      "branch": "Operations", 
+      "topic": "co-op dashboard"
+    },
+    {
+      "id": 49,
+      "Question": "Where is the co-op dashboard?",
+      "Answer": "Here is the link to the co-op dashboard: https://lookerstudio.google.com/reporting/fe0f900a-5c51-455d-9d89-d50815b114de",
+      "Context": "Our Networking Dashboard is an internal resource containing past and current Generate member co-op and internship data. It aims to build connections and foster professional growth within Generate and alumni.\nAccess it here\n:\nhttps://lookerstudio.google.com/reporting/fe0f900a-5c51-455d-9d89-d50815b114de\nMake sure that you are logged into your @husky.neu.edu Google Drive account.\nFAQs\nWho has access to this resource?\nOnly current members of Generate can access this resource\nHow do I remove my data from this dashboard?\nTo remove any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nHow do I add additional experiences or update existing ones?\nTo add any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nWhere does this data come from?\nData from Fall 2024 was collected from a voluntary networking survey. From Spring 2024 onwards, data has been collected from onboarding forms.\nI have suggestions for features or a bug to report! What do I do?\nPlease contact @Anna Birge with any feedback! All feedback is welcome, especially bugs to report and suggestions for additional features.",
+      "branch": "Operations", 
+      "topic": "co-op dashboard"
+    },
+    {
+      "id": 50,
+      "Question": "How do I remove my data from the co-op dashboard?",
+      "Answer": "Please contact the Chief Data Solutions Officer to remove your information. Please allow a turn aroudn time of 48 hours for the update.",
+      "Context": "Our Networking Dashboard is an internal resource containing past and current Generate member co-op and internship data. It aims to build connections and foster professional growth within Generate and alumni.\nAccess it here\n:\nhttps://lookerstudio.google.com/reporting/fe0f900a-5c51-455d-9d89-d50815b114de\nMake sure that you are logged into your @husky.neu.edu Google Drive account.\nFAQs\nWho has access to this resource?\nOnly current members of Generate can access this resource\nHow do I remove my data from this dashboard?\nTo remove any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nHow do I add additional experiences or update existing ones?\nTo add any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nWhere does this data come from?\nData from Fall 2024 was collected from a voluntary networking survey. From Spring 2024 onwards, data has been collected from onboarding forms.\nI have suggestions for features or a bug to report! What do I do?\nPlease contact @Anna Birge with any feedback! All feedback is welcome, especially bugs to report and suggestions for additional features.",
+      "branch": "Operations", 
+      "topic": "co-op dashboard"
+    },
+    {
+      "id": 51,
+      "Question": "How can I add additional or update existing experiences?",
+      "Answer": "To add or make changes to information, please contact the Chief Data Solutions Officer. Please allow a turn around time of 48 hours for the update.",
+      "Context": "Our Networking Dashboard is an internal resource containing past and current Generate member co-op and internship data. It aims to build connections and foster professional growth within Generate and alumni.\nAccess it here\n:\nhttps://lookerstudio.google.com/reporting/fe0f900a-5c51-455d-9d89-d50815b114de\nMake sure that you are logged into your @husky.neu.edu Google Drive account.\nFAQs\nWho has access to this resource?\nOnly current members of Generate can access this resource\nHow do I remove my data from this dashboard?\nTo remove any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nHow do I add additional experiences or update existing ones?\nTo add any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nWhere does this data come from?\nData from Fall 2024 was collected from a voluntary networking survey. From Spring 2024 onwards, data has been collected from onboarding forms.\nI have suggestions for features or a bug to report! What do I do?\nPlease contact @Anna Birge with any feedback! All feedback is welcome, especially bugs to report and suggestions for additional features.",
+      "branch": "Operations", 
+      "topic": "co-op dashboard"
+    },
+    {
+      "id": 52,
+      "Question": "Where does the co-op dashboard data come from?",
+      "Answer": "Data from Fall 2024 was collected from a voluntary networking survey. From Spring 2024 onwards, data has been collected from onboarding forms.",
+      "Context": "Our Networking Dashboard is an internal resource containing past and current Generate member co-op and internship data. It aims to build connections and foster professional growth within Generate and alumni.\nAccess it here\n:\nhttps://lookerstudio.google.com/reporting/fe0f900a-5c51-455d-9d89-d50815b114de\nMake sure that you are logged into your @husky.neu.edu Google Drive account.\nFAQs\nWho has access to this resource?\nOnly current members of Generate can access this resource\nHow do I remove my data from this dashboard?\nTo remove any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nHow do I add additional experiences or update existing ones?\nTo add any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nWhere does this data come from?\nData from Fall 2024 was collected from a voluntary networking survey. From Spring 2024 onwards, data has been collected from onboarding forms.\nI have suggestions for features or a bug to report! What do I do?\nPlease contact @Anna Birge with any feedback! All feedback is welcome, especially bugs to report and suggestions for additional features.",
+      "branch": "Operations", 
+      "topic": "co-op dashboard"
+    },
+    {
+      "id": 53,
+      "Question": "How do I recommend a feature for the co-op dashboard?",
+      "Answer": "If you want to recommend a feature for the co-op dashboard, please contact the Chief Data Solutions Officer with any feedback!",
+      "Context": "Our Networking Dashboard is an internal resource containing past and current Generate member co-op and internship data. It aims to build connections and foster professional growth within Generate and alumni.\nAccess it here\n:\nhttps://lookerstudio.google.com/reporting/fe0f900a-5c51-455d-9d89-d50815b114de\nMake sure that you are logged into your @husky.neu.edu Google Drive account.\nFAQs\nWho has access to this resource?\nOnly current members of Generate can access this resource\nHow do I remove my data from this dashboard?\nTo remove any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nHow do I add additional experiences or update existing ones?\nTo add any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nWhere does this data come from?\nData from Fall 2024 was collected from a voluntary networking survey. From Spring 2024 onwards, data has been collected from onboarding forms.\nI have suggestions for features or a bug to report! What do I do?\nPlease contact @Anna Birge with any feedback! All feedback is welcome, especially bugs to report and suggestions for additional features.",
+      "branch": "Operations", 
+      "topic": "co-op dashboard"
+    },
+    {
+      "id": 54,
+      "Question": "Where can I report a bug for the co-op dashboard?",
+      "Answer": "If there is a bug for the co-op dashboard, please contact the Chief Data Solutions Officer.",
+      "Context": "Our Networking Dashboard is an internal resource containing past and current Generate member co-op and internship data. It aims to build connections and foster professional growth within Generate and alumni.\nAccess it here\n:\nhttps://lookerstudio.google.com/reporting/fe0f900a-5c51-455d-9d89-d50815b114de\nMake sure that you are logged into your @husky.neu.edu Google Drive account.\nFAQs\nWho has access to this resource?\nOnly current members of Generate can access this resource\nHow do I remove my data from this dashboard?\nTo remove any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nHow do I add additional experiences or update existing ones?\nTo add any information, contact the Chief Data Solutions Officer, @Anna Birge. Please allow a turn around time of 48 hours for the update.\nWhere does this data come from?\nData from Fall 2024 was collected from a voluntary networking survey. From Spring 2024 onwards, data has been collected from onboarding forms.\nI have suggestions for features or a bug to report! What do I do?\nPlease contact @Anna Birge with any feedback! All feedback is welcome, especially bugs to report and suggestions for additional features.",
+      "branch": "Operations", 
+      "topic": "co-op dashboard"
+    },
+    {
+      "id": 55,
+      "Question": "What is Git?",
+      "Answer": "Git is a version control system. At a high level, one can think of it as a timeline management utility for your codebase. All of your code can be backed up in different versions, at different time points, so that any code modifications are safe and the codebase can be reverted to a specific point if a bug is introduced. Note that GitHub, GitLab, and Bitbucket are specific platforms that host code and are based on Git.",
+      "Context": "Git is a version control system. At a high level, one can think of it as a timeline management utility for your codebase. All of your code can be backed up in different versions, at different time points, so that any code modifications are safe and the codebase can be reverted to a specific point if a bug is introduced. Note that GitHub, GitLab, and Bitbucket are specific platforms that host code and are based on Git.",
+      "branch": "Software",
+      "topic": "Git Guidelines"
+    },
+    {
+      "id": 56,
+      "Question": "How do I install Git?",
+      "Answer": "Apart from installing Git in the system, you would need to clone the specific repository you will be working on to your system. This repository will be a part of the GenerateNU organization on GitHub.  bash git init <project directory> git clone <repo url> #git@HOSTNAME:USERNAME/REPONAME.git You can read how to initiate and clone a repository in details through this link: https://www.atlassian.com/git/tutorials/setting-up-a-repository. Additionally, you could install Git as an extension for your respective IDE (a lot of them also include it out-of-the-box), making the process considerably easier.",
+      "Context": "How do I install Git? https://www.loom.com/share/4e8ed6bef63a44c4b3710f28605cf515 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git Apart from installing Git in the system, you would need to clone the specific repository you will be working on to your system. This repository will be a part of the GenerateNU organization on GitHub.  bash git init <project directory> git clone <repo url> #git@HOSTNAME:USERNAME/REPONAME.git You can read how to initiate and clone a repository in details through this link: https://www.atlassian.com/git/tutorials/setting-up-a-repository. Additionally, you could install Git as an extension for your respective IDE (a lot of them also include it out-of-the-box), making the process considerably easier.",
+      "branch": "Software",
+      "topic": "Git Guidelines"
+    },
+    {
+      "id": 57,
+      "Question": "What is the Git workflow?",
+      "Answer": "In Generate, we normally use the git feature branch workflow, which you can read more about below or with the following link: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow.",
+      "Context": "Overall Git Workflow https://www.loom.com/share/3585716bb8d04fd193826b92bd78076b In Generate, we normally use the git feature branch workflow, which you can read more about below or with the following link: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow. ",
+      "branch": "Software",
+      "topic": "Git Guidelines"
+    },
+    {
+      "id": 58,
+      "Question": "What is a Git branch?",
+      "Answer": "One of the most important Git concept you need to be comfortable with is branches. A branch is a version of a codebase, that started at a specific timepoint from the original branch, and then the code that follows in that version may branch off from the code in the original version. The cool thing about Git is that you can have all those version stored at the same time — you just need to switch between them to see those versions with the following command: bash git checkout <branch name> There are three main branch types that you will need to understand: main, dev, and feature-x branches. For a detailed tutorial on Git branching, check out this page: https://www.atlassian.com/git/tutorials/using-branches.",
+      "Context": "Branches git checkout <branch> One of the most important Git concept you need to be comfortable with is branches. A branch is a version of a codebase, that started at a specific timepoint from the original branch, and then the code that follows in that version may branch off from the code in the original version. The cool thing about Git is that you can have all those version stored at the same time — you just need to switch between them to see those versions with the following command: bash git checkout <branch name> There are three main branch types that you will need to understand: main, dev, and feature-x branches. For a detailed tutorial on Git branching, check out this page: https://www.atlassian.com/git/tutorials/using-branches.",
+      "branch": "Software",
+      "topic": "Branches"
+    },
+    {
+      "id": 59,
+      "Question": "What is the main branch?",
+      "Answer": "The main branch stores the latest release of the codebase. That means that the code stored will likely be used in production or relayed to the client. The code that is stored here must compile and correspond to the design/coding standards set by the team. main branch will be protected: that means that you will not be able to push to the branch directly, and the only way that the code in this branch will be updates is through the PRs from the dev branch (read on for details). This ensures the safety of the code in the branch.",
+      "Context": "Main branch The main branch stores the latest release of the codebase. That means that the code stored will likely be used in production or relayed to the client. The code that is stored here must compile and correspond to the design/coding standards set by the team. `main` branch will be protected: that means that you will not be able to push to the branch directly, and the only way that the code in this branch will be updates is through the PRs from the `dev` branch (read on for details). This ensures the safety of the code in the branch.",
+      "branch": "Software",
+      "topic": "Branches"
+    },
+    {
+      "id": 60,
+      "Question": "What is the dev branch?",
+      "Answer": "The dev branch is used for development (often called a “staging” branch) — it will contain the latest finished work done by the team, including some of the changes/features that are not yet ready to be released and published in the main branch. When working on a specific ticket, you should not be working in the dev branch directly — make sure to pull the code from dev, and branch off to a feature-specific version of code.",
+      "Context": "Dev branch The dev branch is used for development (often called a “staging” branch) — it will contain the latest finished work done by the team, including some of the changes/features that are not yet ready to be released and published in the main branch. When working on a specific ticket, you should not be working in the `dev` branch directly — make sure to pull the code from `dev`, and branch off to a feature-specific version of code.",
+      "branch": "Software",
+      "topic": "Branches"
+    },
+    {
+      "id": 61,
+      "Question": "What is the feature branch?",
+      "Answer": "Throughout the semester, you will be assigned (in small teams) tickets that ask you to implement a certain feature or fix a certain bug. To do so, you will branch off dev branch and create a new branch that you will be working on. When you are done with your feature/bug, you will open a pull request from your feature branch to the dev branch, so your feature can be merged back into dev.",
+      "Context": "Feature branches Note that I said “branches”: there may be multiple features branches active at the same time. Throughout the semester, you will be assigned (in small teams) tickets that ask you to implement a certain feature or fix a certain bug. To do so, you will branch off dev branch and create a new branch that you will be working on. When you are done with your feature/bug, you will open a pull request from your feature branch to the dev branch, so your feature can be merged back into dev. We use the following naming convention for the branch names: <group>/<ticket number>-<description>. The group is either: feature, if you are implementing a featurebug, if you are fixing a bug The ticket number is optional, and you may have one in the ticket tracking system your PL will use. Finally, the description is a few lowercase words separated by hyphens (-), that briefly describe the feature or a bug you are implementing. Some examples: feature/10-sign-in-screen (with the ticket number) feature/sign-out-screen(without the ticket number)bug/15-aws-integration(fixing the AWS integration, refer to ticket 15)Avoid undescriptive or long branch names such as `bug/screen` or `feature/23-adding-the-sign-in-screen-with-better-design-to-the-home-page`.",
+      "branch": "Software",
+      "topic": "Branches"
+    },
+    {
+      "id": 62,
+      "Question": "What are Git Commits?",
+      "Answer": "git commit is one of the primary functions in Git, allowing you to record changes made since the last backup point, and submit all those changes under a common message explaining the changes made.",
+      "Context": "Commits git commit -m <commit message> git commit is one of the primary functions in Git, allowing you to record changes made since the last backup point, and submit all those changes under a common message explaining the changes made.",
+      "branch": "Software",
+      "topic": "Commits"
+    },
+    {
+      "id": 63,
+      "Question": "How often should I commit?",
+      "Answer": "Product development is all about small, incremental changes. When you commit, a good rule of thumb is a single implemented feature/fixed bug/changes in dependencies, etc. Basically, your commit should be dedicated to one thing, and one thing only. That said, however, committing a change in a single line of comments is probably unnecessary, as that clutters the timeline. Adding a feature that involved a LOT of changes in a single commit is not a good idea either — if such a situation happens, try to break the feature down in smaller parts and work on them incrementally. Before committing, make sure that your code compiles and works!",
+      "Context": "How often should I commit? Product development is all about small, incremental changes. When you commit, a good rule of thumb is a single implemented feature/fixed bug/changes in dependencies, etc. Basically, your commit should be dedicated to one thing, and one thing only. That said, however, committing a change in a single line of comments is probably unnecessary, as that clutters the timeline. Adding a feature that involved a LOT of changes in a single commit is not a good idea either — if such a situation happens, try to break the feature down in smaller parts and work on them incrementally. Before committing, make sure that your code compiles and works!",
+      "branch": "Software",
+      "topic": "Commits"
+    },
+    {
+      "id": 64,
+      "Question": "How do I write a good commit message?",
+      "Answer": "There are many standards used in writing commit messages, and at Generate, we use conventional commits. You can read the specifications over here: https://www.conventionalcommits.org/en/v1.0.0-beta.2/. Also, there are many extensions for your favorite IDEs that automate these commit messages: VSCode: https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits IntelliJ: https://plugins.jetbrains.com/plugin/13389-conventional-commit",
+      "Context": "Writing a good commit message There are many standards used in writing commit messages, and at Generate, we use conventional commits. You can read the specifications over here: https://www.conventionalcommits.org/en/v1.0.0-beta.2/. Also, there are many extensions for your favorite IDEs that automate these commit messages: VSCode: https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits IntelliJ: https://plugins.jetbrains.com/plugin/13389-conventional-commit",
+      "branch": "Software",
+      "topic": "Commits"
+    },
+    {
+      "id": 65,
+      "Question": "What are git pushes?",
+      "Answer": "A git push command submits and stores the version of code stored on your local machine to the remote (i.e., the server that hosts the code repository). Remember to never directly `git push` into `main` and to always push your work at the end of the day, so that you don’t lose the work you’ve done to an accident. Read more about pushing here: https://www.atlassian.com/git/tutorials/syncing/git-push.",
+      "Context": "Pushes git push A git push command submits and stores the version of code stored on your local machine to the remote (i.e., the server that hosts the code repository). Remember to never directly `git push` into `main` and to always push your work at the end of the day, so that you don’t lose the work you’ve done to an accident. Read more about pushing here: https://www.atlassian.com/git/tutorials/syncing/git-push.",
+      "branch": "Software",
+      "topic": "Pushes"
+    },
+    {
+      "id": 66,
+      "Question": "What are pull requests?",
+      "Answer": "A PR is a request to merge some feature code into the main branch, which effectively releases a new version of the code base. PRs are helpful for a variety of reasons: Keep the team on the same page with changes to their codebase, regardless of who the code author is. Make it easy to review a new feature Foster conversation around code changes for everyone to weigh in on and learn from Allow for asynchronous iterations on proposed code changes",
+      "Context": "Pull Requests & Code Reviews Once you have pushed a change, or collection of changes, the last step is to get review from your team. This is the most important stage of the software lifecycle, and it is also the hardest to define rules for. In this section, we will lay out some general guidelines for creating, reviewing, and merging Pull Requests. Code reviews are one of the most important parts of the software development lifecycle. They give team members the chance to read your code, leave comments of varying degrees, request changes, and ultimately approve the change with a . In many professional settings, especially those that could have financial implications for the company, a teammate’s approval is legally required before deploying code to production! Due to the nature of code reviews, the makeup of a team may dictate tweaks on code review “best” practices. This section outlines one way to review code, but defer to your tech or project lead for final say. What is the purpose of a PR? A PR is a request to merge some feature code into the main branch, which effectively releases a new version of the code base. PRs are helpful for a variety of reasons: Keep the team on the same page with changes to their codebase, regardless of who the code author is. Make it easy to review a new feature Foster conversation around code changes for everyone to weigh in on and learn from Allow for asynchronous iterations on proposed code changes",
+      "branch": "Software",
+      "topic": "Pull Requests"
+    },
+    {
+      "id": 67,
+      "Question": "What are code reviews?",
+      "Answer": "Code reviews are one of the most important parts of the software development lifecycle. They give team members the chance to read your code, leave comments of varying degrees, request changes, and ultimately approve the change. In many professional settings, especially those that could have financial implications for the company, a teammate’s approval is legally required before deploying code to production! Due to the nature of code reviews, the makeup of a team may dictate tweaks on code review “best” practices.",
+      "Context": "Pull Requests & Code Reviews Once you have pushed a change, or collection of changes, the last step is to get review from your team. This is the most important stage of the software lifecycle, and it is also the hardest to define rules for. In this section, we will lay out some general guidelines for creating, reviewing, and merging Pull Requests. Code reviews are one of the most important parts of the software development lifecycle. They give team members the chance to read your code, leave comments of varying degrees, request changes, and ultimately approve the change with a . In many professional settings, especially those that could have financial implications for the company, a teammate’s approval is legally required before deploying code to production! Due to the nature of code reviews, the makeup of a team may dictate tweaks on code review “best” practices. This section outlines one way to review code, but defer to your tech or project lead for final say. What is the purpose of a PR? A PR is a request to merge some feature code into the main branch, which effectively releases a new version of the code base. PRs are helpful for a variety of reasons: Keep the team on the same page with changes to their codebase, regardless of who the code author is. Make it easy to review a new feature Foster conversation around code changes for everyone to weigh in on and learn from Allow for asynchronous iterations on proposed code changes",
+      "branch": "Software",
+      "topic": "Code Reviews"
+    },
+    {
+      "id": 68,
+      "Question": "When should I open a PR?",
+      "Answer": "As soon as you push changes to a new branch, you should open a PR. There are two stages of PRs, and it’s important to respect them so that your team knows when it’s time to look at proposed code. Code doesn’t have to be perfect to be reviewed - get review early and often! If you spend hours perfecting your feature before getting any review, then PR review exposes a core aspect of the feature needing to change, all that polish-time is wasted.",
+      "Context": "When should I open a PR? As soon as you push changes to a new branch, you should open a PR. There are two stages of PRs, and it’s important to respect them so that your team knows when it’s time to look at proposed code. Code doesn’t have to be perfect to be reviewed - get review early and often! If you spend hours perfecting your feature before getting any review, then PR review exposes a core aspect of the feature needing to change, all that polish-time is wasted. Draft: PR. Once you push new code, you should open a draft PR. This lets your team know that “Hey, I’m working on this new feature locally, but it’s not ready for review yet. ” At this point, anyone can see the PR, but it will not have any requested reviewers. Ready for Review PR. Once the feature is complete, and all the TODO items in the associated ticket are implemented, it is time to request review from teammates. Removing the Draft: prefix from the PR name, and selecting relevant team members from the Reviewers tab on the PR lets them know that the author thinks the code is ready to go to production, and would like feedback.",
+      "branch": "Software",
+      "topic": "Pull Requests"
+    },
+    {
+      "id": 69,
+      "Question": "How to write a good PR description?",
+      "Answer": "When creating a pull request, there are a few things to keep in mind: What stage is it in? If the PR is still in progress, prefix the PR title with Draft: or WIP:(Work In Progress). Also, create the PR as a “Draft Pull Request”. What background info should the reviewer know? Maybe you have a diagram of the workflow that this PR implements, or a design of the database table that this PR introduces. Maybe to fully understand, and eventually Approve, your change, the reviewer should be familiar with an earlier change. Any resources or information that the author should know about before reading your code changes should be included in the description.",
+      "Context": "How to write a good PR description? When creating a pull request, there are a few things to keep in mind: What stage is it in? If the PR is still in progress, prefix the PR title with Draft: or WIP:(Work In Progress). Also, create the PR as a “Draft Pull Request”. What background info should the reviewer know? Maybe you have a diagram of the workflow that this PR implements, or a design of the database table that this PR introduces. Maybe to fully understand, and eventually Approve, your change, the reviewer should be familiar with an earlier change. Any resources or information that the author should know about before reading your code changes should be included in the description. What problem does the code change solve? Depending on your team, you may have a Trello card, a GitHub issue, a Jira ticket, etc. to link to which contains more information on what this change is intended to do. This is helpful to keep the PR description short, but should not be the entire description. How was this change tested? Every change should be tested to some extent before asking someone else to look at it. If you tested the change locally, explain how. Maybe your PR includes a bunch of unit tests for new functionality. Maybe your project contains acceptance tests, and you included that. The possibilities are endless, but by including your testing strategy for the reviewer, they won’t need to worry as much about reviewing the code for bugs, and can focus on style, structure, and overall efficiency.",
+      "branch": "Software",
+      "topic": "Pull Requests"
+    },
+    {
+      "id": 70,
+      "Question": "Who should I request review from?",
+      "Answer": "Defer to instructions from your project lead and technical lead here, but typically when you open a pull request you should request review form 2 people: your technical lead, and whoever has worked most closely with this code. If you worked alone, or with one person on it, and it’s a new chunk of code, maybe request review from whoever was involved in the data design. Or request review from someone who is working on the same feature in a different part of the stack, or the person who will be picking up the next related feature. If you want other eyes on the code, or it’s a particularly interesting feature PR, feel free to request review from the software director & chief architect using the Code Walk Request form!",
+      "Context": "Who should I request review from? Defer to instructions from your project lead and technical lead here, but typically when you open a pull request you should request review form 2 people: your technical lead, and whoever has worked most closely with this code. If you worked alone, or with one person on it, and it’s a new chunk of code, maybe request review from whoever was involved in the data design. Or request review from someone who is working on the same feature in a different part of the stack, or the person who will be picking up the next related feature. If you want other eyes on the code, or it’s a particularly interesting feature PR, feel free to request review from the software director & chief architect using the Code Walk Request form!",
+      "branch": "Software",
+      "topic": "Pull Requests"
+    },
+    {
+      "id": 71,
+      "Question": "What is the GitHub Permission structure?",
+      "Answer": "Generate operates a Github organization and Github account. All work related to Generate projects must exist in and be owned by Generate’s organization. Access shall be granted as follows: Organization Owners: Generate email, Executive Director, Software Director, Operations Director Organization Members: Software Chiefs, Project Leads, and Technical Leads Outside Collaborators: everyone else who needs access to one or more repositories Each collaborator can be assigned one of: read, triage, write, maintain, admin. Software Engineers should be assigned Write. Product Leads & Technical Leads should be assigned Admin. Admin is the only role that can manage and invite members to a repository.",
+      "Context": "Generate operates a Github organization and Github account. All work related to Generate projects must exist in and be owned by Generate’s organization.Access shall be granted as follows: Organization Owners: Generate email, Executive Director, Software Director, Operations Director Organization Members: Software Chiefs, Project Leads, and Technical Leads Outside Collaborators: everyone else who needs access to one or more repositories Each collaborator can be assigned one of: read, triage, write, maintain, admin Software Engineers should be assigned Write Product Leads & Technical Leads should be assigned Admin Admin is the only role that can manage and invite members to a repository.",
+      "branch": "Software",
+      "topic": "Git"
+    }
   ]
 }
