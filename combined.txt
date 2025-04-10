@@ -7,25 +7,17 @@ Tags: Leads/Chiefs Must-read
 Morale Budget
 Encouraging a vibrant team culture is essential in creating an environment conducive to work and where members are comfortable with each other and in being themselves. One effective way to achieve this is by utilizing the morale budget 
 within the initial month.
-This means discussing and determining a date for morale in your first team meeting
-. 
+This means discussing and determining a date for morale in your first team meeting. 
 Please be mindful of branch and org-wide [Upcoming Events!](Upcoming%20Events!%20447ae3efc67a44f4b217c3c066a37660.md) and ensure your morales do not overlap with them — these events serve as opportunities for members to engage within the Generate community. 
 Whether it's hosting multiple smaller events, or planning one significant gathering, the goal is to transform these occasions into memorable experiences. It's crucial to emphasize that these events should transcend mere conveniences—aka simply ordering pizza for a team meeting—and instead 
-be engaging to solicit team bonding
-.
+be engaging to solicit team bonding.
 Event Diversity
 Diversifying activity types can further enhance team engagement. 
-Consider options such as 
-Boba outings, hotpot dinners, Boda Borg challenges, pizza parties, ice skating excursions, bowling nights, making a homemade dinner, and visits to TimeOut Market
- (see more below).
-To ensure these events are well-received, make it a point to discuss potential ideas during your team meetings. In the end, this 
-opportunity is designed to be low-stakes and easy going
-.
+Consider options such as Boba outings, hotpot dinners, Boda Borg challenges, pizza parties, ice skating excursions, bowling nights, making a homemade dinner, and visits to TimeOut Market(see more below).
+To ensure these events are well-received, make it a point to discuss potential ideas during your team meetings. In the end, this opportunity is designed to be low-stakes and easy going.
 Attendance
 It's vital for team leaders (Chiefs and PLs) to encourage event attendance and lead by example. 
-Leading by example by being involved and attending events often proves to be the most effective method for ensuring active participation organization-wide and within teams
- while f
-ostering a sense of camaraderie. 
+Leading by example by being involved and attending events often proves to be the most effective method for ensuring active participation organization-wide and within teams while fostering a sense of camaraderie. 
 
 Discuss the idea of walking together to events with your team members so that they feel more comfortable, especially as this is your first social outing.  
 Don't forget the power of introductions and friendly reminders — facilitating connections among team members and with members across the organization helps create a more inclusive and tightly-knit culture.
@@ -34,13 +26,9 @@ Make sure to check out
 Procurement + Reimbursements
  for info on our policies and processes for morale reimbursement.
 Budget Balances
-Team leaders can view their remaining budget balances through our 
-FinOps Dashboard
-.
+Team leaders can view their remaining budget balances through our FinOps Dashboard.
 Questions?
-Reach out in 
-#ops-help
- on Slack. We’re here to help!
+Reach out in #ops-help on Slack. We’re here to help!
 Morale Ideas
 `pp` = cost per person
 Morale Ideas
@@ -54,10 +42,7 @@ Branch: Hardware
 Parent page: Development Resources (Development%20Resources%2014bf18dd5a9480dcb4cbfec87e0cb38b.md)
 Intro to Git Workshop.pdf
 The above workshop details all of the terminology and commands that you’ll need to use for Git in Generate
-First, make sure you have 
-Git installed and setup on your machine
-If you need to clone the remote repository to your machine
-If you need to clone the remote repository to your machine
+First, make sure you have Git installed and setup on your machine
 Next, you’ll need to clone the remote repo onto your local machine. To do that:
 Navigate to the Github page for the repo that you want to use
 Click the green “<> Code” dropdown button
@@ -70,7 +55,7 @@ git clone <PASTE_YOUR_LINK_HERE>
 Assuming no errors show up, you’ve successfully cloned the repo!
 Now to actually use Git to track your project
 Before doing any work, make sure that you’re on the correct Git branch.
- If you’re not:
+If you’re not:
 If you don’t have the correct branch on your machine:
 In the terminal, run this command to see a list of all braches (local and remote)
 jsx
@@ -87,14 +72,11 @@ Use the following command to check what files have been changed
 The names of changed files will be shown in red
 jsx
 git status
-To add a file to the staging area (this is the area that tells git what files to actually track), run 
-jsx
+To add a file to the staging area (this is the area that tells git what files to actually track), run jsx
 git add FILE_NAME
-Once you’ve added all of the files that you want to the staging area, run 
-jsx
+Once you’ve added all of the files that you want to the staging area, run jsx
 git commit -m "type a nice message here describing what was changed and why"
-Then type the following command to push your changes to the remote repo 
-jsx
+Then type the following command to push your changes to the remote repo jsx
 git push
 GitHub Desktop:
 Make sure that you only select the files that are important for everyone to have a copy of
@@ -121,22 +103,17 @@ Design ↔ Frontend ↔ Backend Impacts
 Branch: Software
 Parent page: Breaking Silos (Breaking%20Silos%202d26a01f9689444bbb069f20491b80ac.md)
  Changes other members of the team can make which impact 
-designers
-:
-  Request design QA as needed and in advance
- Changes other members of the team can make which impact 
-frontend-focused developers
-:
-  A component library is built into a Figma page since it makes it simpler to translate designs to implementation
-  Mockups are shared early and often so that engineering work can begin setting up while design work moves to polishing-focused stages
-  Even when not included in the designs, it’s useful to have discussions of additional user interactions such as animation, hover states, etc. which can be added to components and implemented across the project to “bring it to life”
-  Endpoints remain stable in both setup and contents, and mask implementation details, so that changes to the backend do not impact the frontend
-  Types (where possible) are shared across the codebase to remove complexity and need for duplication of work.
- Changes other members of the team can make which impact 
-backend-focused developers
-:
+designers:
+Request design QA as needed and in advance
+Changes other members of the team can make which impact frontend-focused developers:
+A component library is built into a Figma page since it makes it simpler to translate designs to implementation
+Mockups are shared early and often so that engineering work can begin setting up while design work moves to polishing-focused stages
+Even when not included in the designs, it’s useful to have discussions of additional user interactions such as animation, hover states, etc. which can be added to components and implemented across the project to “bring it to life”
+Endpoints remain stable in both setup and contents, and mask implementation details, so that changes to the backend do not impact the frontend
+Types (where possible) are shared across the codebase to remove complexity and need for duplication of work.
+Changes other members of the team can make which impact 
+backend-focused developers:
   Important to have a shared understanding of how data is likely to expand in scope over time
-
 Dev Best Practice
 Branch: Software
 
@@ -156,18 +133,16 @@ Avoid Duplication
 Before creating any new account, ask yourself:
 Is there an existing account or service that can fulfill this need?
 Can we expand the use of a current service instead of creating a new one?
- If creating a new account is absolutely necessary, be sure to follow the principles described below.
+If creating a new account is absolutely necessary, be sure to follow the principles described below.
 Digital Stewardship Principles
 Email Accounts
 Our official email address, generate@northeastern.edu, must be attached as the primary email to all Generate-related accounts.
 Do not create new emails such as project- or team-specific Gmail accounts. If access to a service is needed, request credentials from your Director or reach out to the Operations Chief Information Architect (CIA). Be prepared with your justification.
 Documentation and Security
 Provide Operations CIA with all necessary info to create account by sending a message in 
-#ops-help
-. They will create the account, save credentials in Proton Pass, and share a Proton Pass link with you, if necessary.
+#ops-help. They will create the account, save credentials in Proton Pass, and share a Proton Pass link with you, if necessary.
 Generate random, strong passwords from within Proton Pass, using at least 20 characters when able.
-Do not share account credentials
- unless necessary for another member to perform their role.
+Do not share account credentials unless necessary for another member to perform their role.
 Phone Numbers and MFA
 Configure token-based 2FA via Proton Pass whenever possible.
 Save any security questions with answers and recovery/backup codes in Proton Pass.
@@ -178,20 +153,15 @@ If a new service will require a paid subscription, or if you need to sign up for
 Secure approval from your branch Director.
 Submit a Procurement Request for the service.
 Inform the Operations CFO directly on Slack of the frequency and cost.
-Northeastern University is a 
-tax-exempt
- institution. Generate can not pay for, and members may not be reimbursed for, sales tax on purchases. Most official accounts already have our tax-exempt status on file with the vendor.
+Northeastern University is a tax-exempt institution. Generate can not pay for, and members may not be reimbursed for, sales tax on purchases. Most official accounts already have our tax-exempt status on file with the vendor.
 Questions
-If you have any questions, please reach out to your Lead, branch Director, or in 
-#ops-help
- on Slack.
+If you have any questions, please reach out to your Lead, branch Director, or in #ops-help on Slack.
 December 11, 2024 to update
 Downloading SamacSys Library Loader
 Branch: Hardware
 Parent page: Software Installation and Setup (Software%20Installation%20and%20Setup%2014bf18dd5a948054ae9df39c601a5c44.md)
 SamacSyS library loader is a powerful FREE tool that can be used to import footprint downloads from mouser directly into your ECAD software. This comes in handy, as it saves you the time of looking for the footprint and organizing it yourself. The only thing you need to do for this is set it to the right directory within the application settings.
-Head to the link below and 
-scroll all the way down:
+Head to the link below and scroll all the way down:
 SamacSys Library Loader
 This program is also relatively easy to download. Run the executable file downloaded and you should be importing footprints like a pro!
 Note that this application will require you to create a SamacSys account.
@@ -200,24 +170,15 @@ EXP Makerspace
 Branch: Hardware
 Parent page: Additional Resources (Additional%20Resources%20150f18dd5a9480b08e9debbd72440983.md)
 The Sherman Center has an agreement with the 
-EXP Makerspace
- that allows our build teams to purchase materials from their Materials Shop. These purchases are directly billed to Generate and the Sherman Center at the end of each semester.
+EXP Makerspace that allows our build teams to purchase materials from their Materials Shop. These purchases are directly billed to Generate and the Sherman Center at the end of each semester.
 Prices
-A 
-price list
- is published 
-here
-.
+A price listis published here.
 PLA Material
 Until further notice through fall 2024, it is Generate’s understanding that PLA material is 
-free
- when purchased through the EXP Makerspace. Consider making use of this for your projects.
- This has the potential to benefit the Sherman Center, Generate, and our clients. That said, please steward these resources well as if you were purchasing them ordinarily.
+free when purchased through the EXP Makerspace. Consider making use of this for your projects. This has the potential to benefit the Sherman Center, Generate, and our clients. That said, please steward these resources well as if you were purchasing them ordinarily.
 Process
 Communicate with your Project Lead to approve purchases and track budget expenses.
- We will not receive a final bill until the 
-end
- of the semester. Tracking expenses with your team at purchase time is crucial for managing your team’s budget.
+We will not receive a final bill until the end of the semester. Tracking expenses with your team at purchase time is crucial for managing your team’s budget.
 When purchasing items, mention that you are purchasing these items on behalf of Generate, part of the Sherman Center.
 
 Electric Component Library
@@ -266,39 +227,25 @@ Give them "can view" access on Figma
 Send the emails to the Chief Designer who will deal with permissions
 Once the lofis for a feature are complete, move those screens (and any accompanying prototyping) to a new page titled: " Feature Name: lofis"
 ShowNxt example: " Coach Signup: lofis"
-This consistent naming convention is important
- so your devs know where to look for designs!
-Use the 
-Auto Flow Plug-in
- to draw connections between screens so your devs will understand the flows better
- Let your team know what lofis are ready to dev! 
+This consistent naming convention is important so your devs know where to look for designs!
+Use the Auto Flow Plug-into draw connections between screens so your devs will understand the flows better
+Let your team know what lofis are ready to dev! 
 Steps for Front-End Development:
 Once designers let you know a feature is ready for development, open the Figma file (either within the desktop app or in a browser)
 If the design is ready for development, the designs will be found on the page named: " Feature Name: lofis" or " Feature Name: hifis"
 The  means the designers are done making adjustments to these screens
 Navigate to the page you will be developing (using the left side panel) 
-BEST PART:
- Select the frame (
-A.K.A. art board
-) you are working on, and using the 
-code panel
- (on the right-side of the screen) you have the opportunity to view code for CSS, iOS (Swift), and Android (XML) and any descriptions added to components.
-You also have the ability to export any assets from the file using the 
-Export
- feature
+BEST PART: Select the frame (A.K.A. art board) you are working on, and using the code panel (on the right-side of the screen) you have the opportunity to view code for CSS, iOS (Swift), and Android (XML) and any descriptions added to components.
+You also have the ability to export any assets from the file using the Export feature
 THIS CODE IS NOT MEANT TO BE DIRECTLY COPY & PASTED, IT SHOULD BE USED AS A HELPFUL RESOURCE
 Video for overview:
 https://youtu.be/B242nuM3y2s
 Components:
-Component usage is very important for both efficient design and development practices. Designers should be using components to build out their designs.
- (A.K.A. symbols in sketch)
-Definition: "
-Components are elements you can reuse across your designs. They help to create and manage consistent designs across projects. You can create components from any layers or objects you've designed. These could be a whole range of things like buttons, icons, layouts, and more.
-"
+Component usage is very important for both efficient design and development practices. Designers should be using components to build out their designs. (A.K.A. symbols in sketch)
+Definition: "Components are elements you can reuse across your designs. They help to create and manage consistent designs across projects. You can create components from any layers or objects you've designed. These could be a whole range of things like buttons, icons, layouts, and more."
 — 
-https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-Components-in-Figma#:~:text=Components are elements you can,icons%2C layouts%2C and more
-.
- In other words: Components are like puzzle pieces. A designer creates components, and reuses them as pieces of the design. If used correctly, developers should be able to create and style the components, and reuse them throughout the development process.
+https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-Components-in-Figma#:~:text=Components are elements you can,icons%2C layouts%2C and more.
+In other words: Components are like puzzle pieces. A designer creates components, and reuses them as pieces of the design. If used correctly, developers should be able to create and style the components, and reuse them throughout the development process.
 Useful Video:
 https://youtu.be/k74IrUNaJVk?list=PLXDU_eVOJTx5LSjOmeBYMuvaa4UayfMe4
 ‼  Designers  ‼
@@ -309,11 +256,7 @@ Figma defines component best practices
 Introduction to component variants
 Auto Layout intro video
 There are so many capabilities built into components!!!! I encourage you to learn more about using 
-auto layout
-, creating variants, and swapping out components easily. If you struggle with something in Figma, chances are someone has also struggled with the same thing. The internet and 
-figma.com
- have some really awesome resources to help make your design process more efficient! 
-(P.S. reach out to your Chief Designer with any questions, they would love to help!)
+auto layout, creating variants, and swapping out components easily. If you struggle with something in Figma, chances are someone has also struggled with the same thing. The internet and figma.com have some really awesome resources to help make your design process more efficient! (P.S. reach out to your Chief Designer with any questions, they would love to help!)
 
 Flexible Spending Pool (FSP)
 Branch: Operations
@@ -325,49 +268,36 @@ Optimize Resource Allocation
 Enhance transparency and predictability in budgeting decisions
 Ensure spending aligns with Generate’s missions and values
 Timeline/Process
-Identify Team Goals
-: Teams should identify their goals at the start of the semester and routinely track and evaluate their effectiveness.
-Anticipate Expenses
-: Expenses must be proposed 
+Identify Team Goals: Teams should identify their goals at the start of the semester and routinely track and evaluate their effectiveness.
+Anticipate Expenses: Expenses must be proposed 
 AT LEAST
- 10 days in advance. Expense proposals can be submitted through this form: 
-Expense Proposal Form
-. This form can also be found in the sidebar of the FinOps Dashboard under “Quicklinks”.
-Proposal Review
-: Proposals will then be evaluated against a predefined set of evaluation criteria within one week, during weekly Procurement meetings: Tuesday and Thursday evenings.
-Final Decision and Tracking
-: A final approval, approval with modification, or rejection will be communicated via Slack.
+10 days in advance. Expense proposals can be submitted through this form: 
+Expense Proposal Form. This form can also be found in the sidebar of the FinOps Dashboard under “Quicklinks”.
+Proposal Review: Proposals will then be evaluated against a predefined set of evaluation criteria within one week, during weekly Procurement meetings: Tuesday and Thursday evenings.
+Final Decision and Tracking: A final approval, approval with modification, or rejection will be communicated via Slack.
 *
 Please note that we are unable to process purchases of gift cards
 Evaluation Criteria
-All expense proposals will be evaluated on the following criteria, taking into consideration its alignment with 
-Generate’s goals, impact, feasibility, and fund availability
-. 
-Alignment
-:
+All expense proposals will be evaluated on the following criteria, taking into consideration its alignment with Generate’s goals, impact, feasibility, and fund availability. 
+Alignment:
 How closely does this expense align with:
 Generate’s values: innovative, driven, empathetic, spirited, growth-oriented
 Sherman Center’s values: intentional, developmental, inclusive
-Impact
-:
+Impact:
 What is the projected impact of this expense?
 Estimated Return on Investment (ROI)
 Targeted Audience and beneficiaries
 Number of people positively impacted
 Contribution to Generate’s goals, reach, and reputation
 Efficiency of the proposed spending
-Feasibility
-:
+Feasibility:
 Was the proposal submitted on time (two weeks in advance)?
 Is the timeline practical and achievable?
-Fund Availability
-:
+Fund Availability:
 Current funding pool status
 Opportunity Cost: Does this expense redirect funds from high-priority needs?
 Questions?
-For clarification or support, reach out in the 
-#ops-help
- Slack channel. We’re here to help!
+For clarification or support, reach out in the #ops-help Slack channel. We’re here to help!
 Generate for Course Credit
 Branch: All Generate
 Depending on your role, you can take Generate as a class for course credit! Registration takes place during standard semester registration.
@@ -397,109 +327,55 @@ bash
 git init <project directory>
 git clone <repo url> #git@HOSTNAME:USERNAME/REPONAME.git
 You can read how to initiate and clone a repository in details through this link: 
-https://www.atlassian.com/git/tutorials/setting-up-a-repository
-.
- Additionally, you could install Git as an extension for your respective IDE (a lot of them also include it out-of-the-box), making the process considerably easier.
+https://www.atlassian.com/git/tutorials/setting-up-a-repository.
+Additionally, you could install Git as an extension for your respective IDE (a lot of them also include it out-of-the-box), making the process considerably easier.
 Overall Git Workflow
 https://www.loom.com/share/3585716bb8d04fd193826b92bd78076b
-In Generate, we normally use the 
-git feature branch
- workflow, which you can read more about below or with the following link: 
-https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
-. 
+In Generate, we normally use the git feature branch workflow, which you can read more about below or with the following link: 
+https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow. 
 We also have this helpful graphic that summarized the workflow:
 Branches 
 git checkout <branch>
 One of the most important Git concept you need to be comfortable with is 
 branches.
- A branch is a version of a codebase, that started at a specific timepoint from the 
-original branch
-, and then the code that follows in that version may 
-branch off
- from the code in the original version.
+A branch is a version of a codebase, that started at a specific timepoint from the original branch, and then the code that follows in that version may branch off from the code in the original version.
 The cool thing about Git is that you can have all those version stored at the same time — you just need to switch between them to see those versions with the following command:
 bash
 git checkout <branch name>
 There are three main branch types that you will need to understand: 
-main
-, 
-dev
-, and 
-feature-x
- branches. 
+main, dev, and feature-x branches. 
 For a detailed tutorial on Git branching, check out this page: 
-https://www.atlassian.com/git/tutorials/using-branches
-.
+https://www.atlassian.com/git/tutorials/using-branches.
 Main branch
-The 
-main
- branch stores the latest release of the codebase. That means that the code stored will likely be used in production or relayed to the client. The code that is stored here 
-must
- compile and correspond to the design/coding standards set by the team. 
- `main` branch will be protected: that means that you will not be able to push to the branch directly, and the only way that the code in this branch will be updates is through the PRs from the `dev` branch (read on for details). This ensures the safety of the code in the branch.
+The main branch stores the latest release of the codebase. That means that the code stored will likely be used in production or relayed to the client. The code that is stored here must compile and correspond to the design/coding standards set by the team. `main` branch will be protected: that means that you will not be able to push to the branch directly, and the only way that the code in this branch will be updates is through the PRs from the `dev` branch (read on for details). This ensures the safety of the code in the branch.
 Dev branch
-The 
-dev
- branch is used for development (often called a “staging” branch) — it will contain the latest finished work done by the team, including some of the changes/features that are not yet ready to be released and published in the 
-main
- branch. 
- When working on a specific ticket, you should not be working in the `dev` branch directly — make sure to pull the code from `dev`, and branch off to a feature-specific version of code.
+The dev branch is used for development (often called a “staging” branch) — it will contain the latest finished work done by the team, including some of the changes/features that are not yet ready to be released and published in the 
+main branch. 
+When working on a specific ticket, you should not be working in the `dev` branch directly — make sure to pull the code from `dev`, and branch off to a feature-specific version of code.
 Feature branches
-Note that I said “branch
-es
-”: there may be multiple features branches active at the same time. Throughout the semester, you will be assigned (in small teams) tickets that ask you to implement a certain feature or fix a certain bug. To do so, you will branch off 
-dev
- branch and create a new branch that you will be working on. When you are done with your feature/bug, you will open a 
-pull request
- from your feature branch to the 
-dev
- branch, so your feature can be merged back into 
-dev
-. 
+Note that I said “branches”: there may be multiple features branches active at the same time. Throughout the semester, you will be assigned (in small teams) tickets that ask you to implement a certain feature or fix a certain bug. To do so, you will branch off dev branch and create a new branch that you will be working on. When you are done with your feature/bug, you will open a pull request from your feature branch to the dev branch, so your feature can be merged back into dev. 
 We use the following naming convention for the branch names: 
-<group>/<ticket number>-<description>
-. 
-The 
-group
- is either:
-feature
-, if you are implementing a feature
-bug
-, if you are fixing a bug
-The 
-ticket number
- is 
-optional
-, and you may have one in the ticket tracking system your PL will use.
-Finally, the 
-description
- is a few 
-lowercase
- words separated by 
-hyphens
- (-), that briefly describe the feature or a bug you are implementing.
+<group>/<ticket number>-<description>. 
+The group is either:
+feature, if you are implementing a feature bug, if you are fixing a bug
+The ticket numberis optional, and you may have one in the ticket tracking system your PL will use.
+Finally, the description is a few lowercase words separated by hyphens (-), that briefly describe the feature or a bug you are implementing.
 Some examples:
-feature/10-sign-in-screen
- (with the ticket number)
-feature/sign-out-screen
- (without the ticket number)
-bug/15-aws-integration
- (fixing the AWS integration, refer to ticket 15)
- Avoid undescriptive or long branch names such as `bug/screen` or `feature/23-adding-the-sign-in-screen-with-better-design-to-the-home-page`.
+feature/10-sign-in-screen (with the ticket number)
+feature/sign-out-screen (without the ticket number)
+bug/15-aws-integration (fixing the AWS integration, refer to ticket 15)
+Avoid undescriptive or long branch names such as `bug/screen` or `feature/23-adding-the-sign-in-screen-with-better-design-to-the-home-page`.
 Commits 
 git commit -m <commit message>
-git commit
- is one of the primary functions in Git, allowing you to record changes made since the last backup point, and submit all those changes under a common message explaining the changes made. 
+git commit is one of the primary functions in Git, allowing you to record changes made since the last backup point, and submit all those changes under a common message explaining the changes made. 
 How often should I commit?
-Product development is all about 
-small, incremental changes.
- When you commit, a good rule of thumb is a single implemented feature/fixed bug/changes in dependencies, etc. Basically, your commit should be dedicated to one thing, and one thing only. 
+Product development is all about small, incremental changes.
+When you commit, a good rule of thumb is a single implemented feature/fixed bug/changes in dependencies, etc. Basically, your commit should be dedicated to one thing, and one thing only. 
 That said, however, committing a change in a single line of comments is probably unnecessary, as that clutters the timeline. Adding a feature that involved a LOT of changes in a single commit is not a good idea either — if such a situation happens, try to break the feature down in smaller parts and work on them incrementally.
- Before committing, make sure that your code compiles and works!
+Before committing, make sure that your code compiles and works!
 Writing a good commit message
 There are many standards used in writing commit messages, and at Generate, we use conventional commits. You can read the specifications over here: 
-https://www.conventionalcommits.org/en/v1.0.0-beta.2/
-. Also, there are many extensions for your favorite IDEs that automate these commit messages:
+https://www.conventionalcommits.org/en/v1.0.0-beta.2/. Also, there are many extensions for your favorite IDEs that automate these commit messages:
 VSCode: 
 https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits
 IntelliJ: 
@@ -507,147 +383,72 @@ https://plugins.jetbrains.com/plugin/13389-conventional-commit
 Pushes 
 git push
 A 
-git push
- command submits and stores the version of code stored on your local machine to the 
-remote
- (i.e., the server that hosts the code repository). 
- Remember to never directly `git push` into `main` and to always push your work at the end of the day, so that you don’t lose the work you’ve done to an accident.
+git push command submits and stores the version of code stored on your local machine to the 
+remote (i.e., the server that hosts the code repository). 
+Remember to never directly `git push` into `main` and to always push your work at the end of the day, so that you don’t lose the work you’ve done to an accident.
 Read more about pushing here: 
-https://www.atlassian.com/git/tutorials/syncing/git-push
-.
+https://www.atlassian.com/git/tutorials/syncing/git-push.
 Pull Requests & Code Reviews
 Once you have pushed a change, or collection of changes, the last step is to get review from your team. This is the most important stage of the software lifecycle, and it is also the hardest to define rules for. In this section, we will lay out some general guidelines for creating, reviewing, and merging Pull Requests. 
 Code reviews are one of the most important parts of the software development lifecycle. They give team members the chance to read your code, leave comments of varying degrees, request changes, and ultimately approve the change with a . In many professional settings, especially those that could have financial implications for the company, a teammate’s approval is legally required before deploying code to production! 
- Due to the nature of code reviews, the makeup of a team may dictate tweaks on code review “best” practices. This section outlines one way to review code, but defer to your tech or project lead for final say.
+Due to the nature of code reviews, the makeup of a team may dictate tweaks on code review “best” practices. This section outlines one way to review code, but defer to your tech or project lead for final say.
 What is the purpose of a PR?
 A PR is a request to merge some feature code into the 
-main
- branch, which effectively releases a new version of the code base. PRs are helpful for a variety of reasons:
+main branch, which effectively releases a new version of the code base. PRs are helpful for a variety of reasons:
 Keep the team on the same page with changes to their codebase, regardless of who the code author is
-Make it easy to review a new 
-feature
+Make it easy to review a new feature
 Foster conversation around code changes for everyone to weigh in on and learn from
 Allow for asynchronous iterations on proposed code changes
 When should I open a PR?
-As soon as you 
-push
- changes to a new branch, you should open a PR. There are two stages of PRs, and it’s important to respect them so that your team knows when it’s time to look at proposed code.
- Code doesn’t have to be perfect to be reviewed - get review early and often! If you spend hours perfecting your feature before getting any review, then PR review exposes a core aspect of the feature needing to change, all that polish-time is wasted.
-Draft:
- PR. Once you 
-push
- new code, you should open a draft PR. This lets your team know that “
-Hey, I’m working on this new feature locally, but it’s not ready for review yet.
-” At this point, anyone can see the PR, but it will not have any requested reviewers.
+As soon as you push changes to a new branch, you should open a PR. There are two stages of PRs, and it’s important to respect them so that your team knows when it’s time to look at proposed code.
+Code doesn’t have to be perfect to be reviewed - get review early and often! If you spend hours perfecting your feature before getting any review, then PR review exposes a core aspect of the feature needing to change, all that polish-time is wasted.
+Draft:PR. Once you push new code, you should open a draft PR. This lets your team know that “Hey, I’m working on this new feature locally, but it’s not ready for review yet.” At this point, anyone can see the PR, but it will not have any requested reviewers.
 Ready for Review
- PR. Once the feature is complete, and all the 
-TODO
- items in the associated ticket are implemented, it is time to request review from teammates. Removing the 
-Draft:
- prefix from the PR name, and selecting relevant team members from the 
-Reviewers
- tab on the PR lets them know that the author thinks the code is ready to go to production, and would like feedback.
+PR. Once the feature is complete, and all the 
+TODO items in the associated ticket are implemented, it is time to request review from teammates. Removing the 
+Draft: prefix from the PR name, and selecting relevant team members from the 
+Reviewers tab on the PR lets them know that the author thinks the code is ready to go to production, and would like feedback.
 How to write a good PR description?
 When creating a pull request, there are a few things to keep in mind:
 What stage is it in?
- If the PR is still in progress, prefix the PR title with 
+If the PR is still in progress, prefix the PR title with 
 Draft:
  or 
 WIP:
- (Work In Progress). Also, create the PR as a “
-Draft Pull Request
-”.
+ (Work In Progress). Also, create the PR as a “Draft Pull Request”.
 What background info should the reviewer know?
- Maybe you have a diagram of the workflow that this PR implements, or a design of the database table that this PR introduces. Maybe to fully understand, and eventually 
-Approve
-, your change, the reviewer should be familiar with an earlier change. Any resources or information that the author should know about before reading your code changes should be included in the description.
+Maybe you have a diagram of the workflow that this PR implements, or a design of the database table that this PR introduces. Maybe to fully understand, and eventually 
+Approve, your change, the reviewer should be familiar with an earlier change. Any resources or information that the author should know about before reading your code changes should be included in the description.
 What problem does the code change solve?
- Depending on your team, you may have a Trello card, a GitHub issue, a Jira ticket, etc. to link to which contains more information on what this change is intended to do. This is helpful to keep the PR description short, but should not be the entire description.
+Depending on your team, you may have a Trello card, a GitHub issue, a Jira ticket, etc. to link to which contains more information on what this change is intended to do. This is helpful to keep the PR description short, but should not be the entire description.
 How was this change tested?
- Every change should be tested to some extent before asking someone else to look at it. If you tested the change locally, explain how. Maybe your PR includes a bunch of unit tests for new functionality. Maybe your project contains acceptance tests, and you included that. The possibilities are endless, but by including your testing strategy for the reviewer, they won’t need to worry as much about reviewing the code for bugs, and can focus on style, structure, and overall efficiency.
+Every change should be tested to some extent before asking someone else to look at it. If you tested the change locally, explain how. Maybe your PR includes a bunch of unit tests for new functionality. Maybe your project contains acceptance tests, and you included that. The possibilities are endless, but by including your testing strategy for the reviewer, they won’t need to worry as much about reviewing the code for bugs, and can focus on style, structure, and overall efficiency.
 Who should I request review from?
 Defer to instructions from your project lead and technical lead here, but typically when you open a pull request you should request review form 2 people: your technical lead, and whoever has worked most closely with this code. If you worked alone, or with one person on it, and it’s a new chunk of code, maybe request review from whoever was involved in the data design. Or request review from someone who is working on the same feature in a different part of the stack, or the person who will be picking up the next related feature.
-If you want other eyes on the code, or it’s a particularly interesting feature PR, feel free to request review from the software director & chief architect using the 
-Code Walk Request
- form!
+If you want other eyes on the code, or it’s a particularly interesting feature PR, feel free to request review from the software director & chief architect using the Code Walk Request form!
 How to review code?
 When submitting a PR review, you will see there are options to 
-Comment
-, 
-Approve
-, and 
-Request Changes
-. The goal of opening a PR is to get 
-Approval
- from your team. The goal of reviewing a PR is to read the code, and sniff out any aspects of the code that may not be ready for the production environment. I like to group my comments in a review into three categories, ordered by severity.
+Comment, Approve, and Request Changes. The goal of opening a PR is to get Approval from your team. The goal of reviewing a PR is to read the code, and sniff out any aspects of the code that may not be ready for the production environment. I like to group my comments in a review into three categories, ordered by severity.
 Nit
 : Comments
 Nit level comments are nit picks - they are comments that don’t necessarily change the functionality of a piece of code, but they may make a suggestion to make it easier to read, slightly more efficient, or more aligned with the project’s style standards. Typically, it’s up to the PR author on whether or not they want to resolve these comments, or ignore them.
 Example Nit Comments:
- Maybe you find a method name to be misleading, so you’ll leave a 
-Nit:
- explaining what you expected the method to do vs. what the method actually does. Maybe your project typically names it database tables as singular nouns (like 
-item
-), and this PR introduces a table with a plural name (like 
-item_prices
-), so you leave a comment like 
-Nit: To stay in line with the rest of this project's tables, can we rename 
-item_prices
- to 
-item_price
-?
+Maybe you find a method name to be misleading, so you’ll leave a Nit: explaining what you expected the method to do vs. what the method actually does. Maybe your project typically names it database tables as singular nouns (like item), and this PR introduces a table with a plural name (like item_prices), so you leave a comment like 
+Nit: To stay in line with the rest of this project's tables, can we rename item_prices to item_price?
 Conversational Comments
-I don’t prefix these, but these are comments that should definitely be addressed with conversation on the PR. Sometimes they’re genuine questions, sometimes they’re inquiries about design decisions, sometimes they are comments that don’t block the PR, but are more significant than a 
-Nit
-. 
-Example Conversational Comments
-: Maybe a new PR introduces an 
-item_price
- table like in the previous example, but there are a lot of duplicate columns between this new table and the 
-item
- table. Depending on the size of your data and the usages of this table, it’s unclear to you why the columns are duplicated, so you may leave a comment like 
-Why does 
-item_price
- duplicate both the 
-name
- and 
-id
- columns from the pre-existing 
-item
- table? Should these ever be different from their corresponding columns in the 
-item
- table?
- Alternatively, maybe you noticed the author re-wrote a helper function that effectively exists somewhere else in the codebase. You may leave a comment pointing them to that function, and ask if they could try to use that one to keep the codebase cleaner.
+I don’t prefix these, but these are comments that should definitely be addressed with conversation on the PR. Sometimes they’re genuine questions, sometimes they’re inquiries about design decisions, sometimes they are comments that don’t block the PR, but are more significant than a Nit. 
+Example Conversational Comments: Maybe a new PR introduces an item_price table like in the previous example, but there are a lot of duplicate columns between this new table and the item table. Depending on the size of your data and the usages of this table, it’s unclear to you why the columns are duplicated, so you may leave a comment like 
+Why does item_price duplicate both the name and id columns from the pre-existing item table? Should these ever be different from their corresponding columns in the item table?
+Alternatively, maybe you noticed the author re-wrote a helper function that effectively exists somewhere else in the codebase. You may leave a comment pointing them to that function, and ask if they could try to use that one to keep the codebase cleaner.
 Blocking:
- Comments
+Comments
 These comments should block the PR from being merged, which can be done using the 
-Request Changes
- button when submitting your review. The are comments about changes that you 
-know
- are going to break some code, or do not follow the designs that this feature is supposed to implement.
-Example Blocking Comments
-. Extending the previous example, maybe one of the goals with the 
-item_price
- table is to be able to handle prices in any currency, but the 
-item_price
- table does not have a column for 
-currency
-. You may leave a comment like 
-Blocking: According to the designs, we want to track prices of any currency. Should the 
-item_price
- table have a 
-currency
- column, or should there be a 
-TODO:
- comment in the code to add this support later on?
- Additionally, maybe you notice a boolean logic error in a function named 
-isItemOverPrice(int price)
- that returns 
-this.price < price
- instead of 
-this.price > price
-. This would be a blocking change, because it will return the opposite of what you expect, and could lead to some nasty bugs. Additionally, maybe you also suggest the author write a unit test for a certain function that has particularly complicated logic, such that future contributors will not accidentally edit the complicated function and break the code. 
- If you open up a pull request, and want eyes on it from some more experience engineers within Generate, request review from the chief architect and/or software director using the [Code Walk Registration Form](https://www.notion.so/Code-Walk-Registration-4973418aa31f44e0991e2125e8dc2a97?pvs=21)! Try to do this at least once this semester!
+Request Changes button when submitting your review. The are comments about changes that you know are going to break some code, or do not follow the designs that this feature is supposed to implement.
+Example Blocking Comments. Extending the previous example, maybe one of the goals with the item_price table is to be able to handle prices in any currency, but the item_price table does not have a column for currency. You may leave a comment like 
+Blocking: According to the designs, we want to track prices of any currency. Should the item_price table have a 
+currency column, or should there be a TODO: comment in the code to add this support later on?
+Additionally, maybe you notice a boolean logic error in a function named isItemOverPrice(int price) that returns this.price < price instead of this.price > price. This would be a blocking change, because it will return the opposite of what you expect, and could lead to some nasty bugs. Additionally, maybe you also suggest the author write a unit test for a certain function that has particularly complicated logic, such that future contributors will not accidentally edit the complicated function and break the code. 
+If you open up a pull request, and want eyes on it from some more experience engineers within Generate, request review from the chief architect and/or software director using the [Code Walk Registration Form](https://www.notion.so/Code-Walk-Registration-4973418aa31f44e0991e2125e8dc2a97?pvs=21)! Try to do this at least once this semester!
 
 Git Installation and Setup
 Branch: Hardware
@@ -667,21 +468,14 @@ apt-get install git
 GitHub Permissions Structure
 Branch: Operations, Software
 Generate operates a Github organization and Github account. All work related to Generate projects 
-must
- exist in and be owned by Generate’s organization.
+must exist in and be owned by Generate’s organization.
 Access shall be granted as follows:
-Organization Owners
-: Generate email, Executive Director, Software Director, Operations Director
-Organization Members
-: Software Chiefs, Project Leads, and Technical Leads
-Outside Collaborators
-: everyone else who needs access to one or more repositories
+Organization Owners: Generate email, Executive Director, Software Director, Operations Director
+Organization Members: Software Chiefs, Project Leads, and Technical Leads
+Outside Collaborators: everyone else who needs access to one or more repositories
 Each collaborator can be assigned one of: read, triage, write, maintain, admin
-Software Engineers should be assigned 
-Write
-Product Leads & Technical Leads should be assigned 
-Admin
- Admin is the only role that can manage and invite members to a repository.
+Software Engineers should be assigned Write
+Product Leads & Technical Leads should be assigned Admin. Admin is the only role that can manage and invite members to a repository.
 
 Google Drive 
 Branch: Operations
@@ -698,11 +492,7 @@ Hosting Meaningful 1:1s
 Branch: Engagement
 Tags: Leads/Chiefs Must-read
 Frequency and Purpose
-You’ll be meeting with members of your team one-on-one at least 
-three (3)
- times this semester. Each time, have a conversation with them. There isn’t a checklist to follow or a strict path you must take. Instead, 
-it’s an opportunity to get to know your team members, figure out what they want to do, where they want to grow
-. 
+You’ll be meeting with members of your team one-on-one at least three (3) times this semester. Each time, have a conversation with them. There isn’t a checklist to follow or a strict path you must take. Instead, it’s an opportunity to get to know your team members, figure out what they want to do, where they want to grow. 
 First 1:1
 Your first 1:1 should take place within the first two weeks of the semester.
 There’s a high likelihood that you won’t know most of the members joining your team this semester. Your first 1:1 is a chance for you to sit down and learn a few things about them. 
@@ -711,11 +501,7 @@ Here are a few starter questions to consider:
 Why did they join / re-join Generate?
 What do they like to do outside of classes and clubs?
 What parts of the project resonate with them?
-Also, 
-ask them what their goals for the semester are
- and 
-write them down
- . A part of your role as a leader is knowing what people want to work on and giving them assignments that line up with those goals and interests. You want to be the person who is looking out for them and making sure they’re growing and developing the skills they want to hone. These can be personal (confidence), professional (documentation), or technical (engineering). 
+Also, ask them what their goals for the semester are and write them down. A part of your role as a leader is knowing what people want to work on and giving them assignments that line up with those goals and interests. You want to be the person who is looking out for them and making sure they’re growing and developing the skills they want to hone. These can be personal (confidence), professional (documentation), or technical (engineering). 
 If they’re new to Generate, give them a tour of the Sherm so they know what the names of the different spaces are! See [Spaces + Reservations](Spaces%20+%20Reservations%206051768940a94a63a20f8c7f53ee8d73.md) for in-depth guide on our spaces
 Mid-Semester 1:1
 No better time to check in with your member than half way through the semester. Hopefully you’ve written down their goals from your first meeting and can check in with them. Ask:
@@ -744,16 +530,11 @@ If are you interested in representing Generate at a public event or would like t
 If you have been asked to perform set up or take down for tabling events please see 
 Instructions for Tabling
 If asked to table for Generate at an event, please keep in mind the following guidelines:
-Embody Generate's and Sherman Center's values
-: Reference the three values of the Sherman Center: developmental, inclusive, and intentional. Keep in mind the values that each member represents and how our priorities align with the organization and its members.
-Know your audience and highlight Generate's impact
-: Tailor your pitch to students, potential clients, or partners as appropriate. Be prepared to share key statistics about our projects, members, and community. Emphasize the real-world experience members gain through Generate.
-Showcase diversity and inclusivity
-: Mention that Generate welcomes students from all 7 undergraduate colleges at Northeastern, with members from 50+ different majors. Discuss both Hardware and Software project varieties, as well as our Operations, Engagement, and Data Solutions opportunities.
-Share success stories with enthusiasm
-: If you're in HW or SW, have 1-2 client success stories ready, like Hot Date Kitchen, Alia, or Jurni. Let your passion for Generate shine through in your interactions.
-Be knowledgeable and humble
-: Be ready to discuss Generate's work, but know your limits. If you're unsure about something, offer to connect the person with the appropriate Generate leader.
+Embody Generate's and Sherman Center's values: Reference the three values of the Sherman Center: developmental, inclusive, and intentional. Keep in mind the values that each member represents and how our priorities align with the organization and its members.
+Know your audience and highlight Generate's impact: Tailor your pitch to students, potential clients, or partners as appropriate. Be prepared to share key statistics about our projects, members, and community. Emphasize the real-world experience members gain through Generate.
+Showcase diversity and inclusivity: Mention that Generate welcomes students from all 7 undergraduate colleges at Northeastern, with members from 50+ different majors. Discuss both Hardware and Software project varieties, as well as our Operations, Engagement, and Data Solutions opportunities.
+Share success stories with enthusiasm: If you're in HW or SW, have 1-2 client success stories ready, like Hot Date Kitchen, Alia, or Jurni. Let your passion for Generate shine through in your interactions.
+Be knowledgeable and humble: Be ready to discuss Generate's work, but know your limits. If you're unsure about something, offer to connect the person with the appropriate Generate leader.
 Example pitch:
 Generate is a student-led product development studio at Northeastern University. We bring together passionate students from all majors to work on real-world projects for startups and industry clients. Our community of over 160 active members tackles both hardware and software challenges, providing innovative solutions while gaining invaluable professional experience.
 We've completed over 100 projects for 95+ clients, ranging from mobile apps to physical prototypes. Our work has helped startups scale their operations and bring new products to market. For example, we developed a machine for Hot Date Kitchen that tripled their production capacity.
@@ -765,8 +546,7 @@ Instructions for Tabling
 Branch: Engagement
 Parent page: How to Represent Generate at Events (How%20to%20Represent%20Generate%20at%20Events%200ba4a59732a6496586a3050c0c230f11.md)
 Set Up
-If you are the first person tabling at a club fair or similar event, 
-you are responsible for bringing the tabling materials below to the event
+If you are the first person tabling at a club fair or similar event, you are responsible for bringing the tabling materials below to the event
  — if you are this person, this information will be communicated you.
 Begin by picking up materials in Big Studio:
 Item List
@@ -786,54 +566,27 @@ Post-its
 Generate, Sherman Center, Forge, Venture Co-Op Handouts
 Take these materials to the designated tabling location. A table should be provided to you. If there is no table, please reach out to @Chirag Chadha on Slack.
 Once you arrive at the table:
-Place the 
-tablecloth
- over our assigned table
-Set up the 
-retractable banner
-(see 
-video
- for a visual explanation)
-:
- Be careful not to damage the base or the banner itself. It is 
-VERY
- delicate— if you take it out too quickly it may rip. Similarly, when putting the banner back into the base, ensure that it is properly aligned otherwise it won’t fit properly.
-Prepare the base
-: Place the base on a flat surface. 
-Adjust the feet
-: Twist the feet so they are perpendicular to the base. 
-Extend the pole
-: Take the pole out of its case and extend it to its full length. 
-Insert the pole
-: Put the pole into the hole in the base. 
-Pull up the banner
-: Gently pull the banner up from the base using the top bar. Be careful not to smudge, rip, bend, or crease the banner itself.
-Attach the banner
-: Attach the banner to the top of the pole using the hook
-Adjust for stability
-: Make sure the banner is taut and stands straight.
-Prop up the 
-poster boards
- against something and place them on either ends of the table. 
+Place the tablecloth over our assigned table
+Set up the retractable banner(see videofor a visual explanation):
+Be careful not to damage the base or the banner itself. It is VERY delicate— if you take it out too quickly it may rip. Similarly, when putting the banner back into the base, ensure that it is properly aligned otherwise it won’t fit properly.
+Prepare the base: Place the base on a flat surface. 
+Adjust the feet: Twist the feet so they are perpendicular to the base. 
+Extend the pole: Take the pole out of its case and extend it to its full length. 
+Insert the pole: Put the pole into the hole in the base. 
+Pull up the banner: Gently pull the banner up from the base using the top bar. Be careful not to smudge, rip, bend, or crease the banner itself.
+Attach the banner: Attach the banner to the top of the pole using the hook
+Adjust for stability: Make sure the banner is taut and stands straight.
+Prop up the poster boards against something and place them on either ends of the table. 
 That’s it! Good luck tabling :)
 Take Down
-Begin by putting the 
-retractable banner
- back into its base 
-(see 
-video
- for visual explanation):
+Begin by putting the retractable banner back into its base (see video for visual explanation):
 Place your foot on the base and secure it in place.
 Place your hand at the top of the banner and unhook/unlatch it.
 Slowly bring down the banner back to the base. Mind the edges.
 Disassemble the pole.
 Rotate the feet so they’re parallel with the base and can fit into the carrying case.
-Place the base followed by the poles 
-(on top)
- in the black carrying case.
-Remove any materials from the table and 
-neatly fold the table cloth
-. Be sure to place it back into the bin it was originally in.
+Place the base followed by the poles (on top) in the black carrying case.
+Remove any materials from the table and neatly fold the table cloth. Be sure to place it back into the bin it was originally in.
 Confirm you have all items:
 Item List
 2x Poster Boards
@@ -841,17 +594,12 @@ Item List
 1x Black Bin with Tablecloth 
 (see bottom right of image)
 Return all items to 
-Big Studio One (HA-010A)
- where they were 
-originally found
-(see picture below)
+Big Studio One (HA-010A) where they were originally found (see picture below)
 
 KiCAD Installation and Setup
 Branch: Hardware
 Parent page: Software Installation and Setup (Software%20Installation%20and%20Setup%2014bf18dd5a948054ae9df39c601a5c44.md)
-Go to 
-the KiCAD website
- and click the blue “Download” button in the middle of the page
+Go to the KiCAD website and click the blue “Download” button in the middle of the page
 Select your operating system, then:
 For macOS/Windows:
 Use the GitHub download link to download the version of KiCAD that Generate currently uses (as of Fall 2024, this is KiCAD v8)
@@ -947,13 +695,13 @@ Mission
  Generate is a community of passionate individuals who engage in collaborative, real-world experiences to develop innovative products, the organization, its partners, and themselves.
 Values
 Everything in the Sherman Center must align by three values— being developmental, inclusive, and intentional.
- In addition, Generate members are innovative, driven, empathetic, spirited, and growth-oriented.
+In addition, Generate members are innovative, driven, empathetic, spirited, and growth-oriented.
 Priorities
- Structural Resilience
+Structural Resilience
 Increase the accessibility of leadership positions by distributing responsibilities across more of our members. Further support and foster member growth at all levels of Generate.
- Organizational Identity
+Organizational Identity
 Create a stronger sense of belonging within teams and branches for all members. Increase the flow of feedback between members and leadership.
- Outcome Delivery
+Outcome Delivery
 Continue to improve our member’s learning and our project quality to ensure we can keep and capture talent and resources to ensure the organization’s continued success and longevity.
 
 Motors
@@ -964,9 +712,7 @@ Stepper Motors
 Networking Dashboard
 Branch: Operations
 Our Networking Dashboard is an internal resource containing past and current Generate member co-op and internship data. It aims to build connections and foster professional growth within Generate and alumni.
-Access it here
-: 
-https://lookerstudio.google.com/reporting/fe0f900a-5c51-455d-9d89-d50815b114de
+Access it here: https://lookerstudio.google.com/reporting/fe0f900a-5c51-455d-9d89-d50815b114de
 Make sure that you are logged into your @husky.neu.edu Google Drive account.
 FAQs
 Who has access to this resource?
@@ -984,50 +730,27 @@ New Semester Onboarding
 Branch: All Generate
 Tags: All Must-read
 Members who were NOT in Generate last semester 
-Join our Slack
- (our most important form of communication)
-Request Google Drive access
- to our “
-General Access Generate
-” folder
-Please use your 
-@husky.neu.edu
- email address
+Join our Slack (our most important form of communication)
+Request Google Drive access to our “General Access Generate” folder
+Please use your @husky.neu.edu email address
 Include your full name, branch, team, and role in the access request
-Read our Notion
-Home
-Review the 
-Pages
- and your team-specific pages
-Check out the 
-Sherman Center Notion
- for more information about the Sherm!
-Complete the “All Members” onboarding
- in the next section below.
+Read our Notion Home
+Review the Pages and your team-specific pages
+Check out the Sherman Center Notion for more information about the Sherm!
+Complete the “All Members” onboarding in the next section below.
 All Members 
-Complete our 
-Generate Onboarding Form
-Complete our 
-Generate Career Connections Form
+Complete our Generate Onboarding Form
+Complete our Generate Career Connections Form
 In our “Sherman Center” Slack workspace:
-Join 
-#generate-announcements
- and 
-#all-sherm-announcements
+Join #generate-announcements and #all-sherm-announcements
 Personalize your Slack profile:
 On your computer, click your profile picture at the bottom left. Then click “Profile” to edit.
-Set your preferred full name, picture, role, pronouns, and 
-@northeastern.edu
- email address
-Set your “Team” as 
-[BRANCH] - [TEAM]
-, eg: 
+Set your preferred full name, picture, role, pronouns, and @northeastern.edu email address
+Set your “Team” as [BRANCH] - [TEAM], eg: 
 Operations - Strategy
 Send a Slack DM to your lead asking to be added to your team’s channels
 Peruse the channel list (left sidebar → More → Channels) and join other public channels you’re interested in
-Review our 
-Pages
-. 
+Review our Pages. 
 We revised these pages with new guidelines and resources in Fall 2024, so please re-review them.
 
 Orientation Slides F24
@@ -1156,8 +879,7 @@ In addition to Gerber files, some manufacturers may also require other file form
 By following these steps, you can get your PCB manufactured and bring your project to life.
 10. Additional Resources
 Here are some additional resources that you may find helpful for creating a PCB in KiCad:
-KiCad Tutorial
- by Chris Gammell: 
+KiCad Tutorial by Chris Gammell: 
 https://www.youtube.com/watch?v=1AXwjZoyNno
 These YouTube video tutorials provide a comprehensive guide to using KiCad for PCB design. By watching these videos and following along with the examples, you can learn the fundamentals of PCB design in KiCad and create your own custom PCBs.
 KICAD PCB Editor Explained:
@@ -1165,40 +887,40 @@ KiCad PCB Editor Interface and Layer Overview
 KiCad PCB editor is a powerful tool that provides a variety of features to help you design a professional-quality printed circuit board. Here are some of the key buttons and tools in the KiCad PCB editor interface:
 Important Buttons to Know:
 Place Component:
- This button allows you to place components on the board. You can select a component from the library browser and place it on the board by clicking on the desired location.
+This button allows you to place components on the board. You can select a component from the library browser and place it on the board by clicking on the desired location.
 Add Track:
- This button allows you to add a new track to the board. You can specify the start and end points of the track, and KiCad will automatically route the track between them.
+This button allows you to add a new track to the board. You can specify the start and end points of the track, and KiCad will automatically route the track between them.
 Add Via:
- This button allows you to add a new via to the board. A via is used to connect a trace on one layer of the board to a trace on another layer.
+This button allows you to add a new via to the board. A via is used to connect a trace on one layer of the board to a trace on another layer.
 Add Text:
- This button allows you to add text to the board. You can specify the text content, font, size, and location.
+This button allows you to add text to the board. You can specify the text content, font, size, and location.
 Design Rule Check (DRC):
- This button allows you to run a design rule check on your board. The DRC checks your board against a set of predefined rules to ensure that it meets certain design criteria.
+This button allows you to run a design rule check on your board. The DRC checks your board against a set of predefined rules to ensure that it meets certain design criteria.
 What Each Layer in the PCB Board Editor Means:
 Top Layer:
- This is the layer of the board that is visible from the top. It typically contains the component footprints and the traces that connect them.
+This is the layer of the board that is visible from the top. It typically contains the component footprints and the traces that connect them.
 Bottom Layer:
- This is the layer of the board that is visible from the bottom. It typically contains the ground and power planes, as well as additional traces.
+This is the layer of the board that is visible from the bottom. It typically contains the ground and power planes, as well as additional traces.
 Silk Screen:
- This layer is used to provide additional information about the board, such as component outlines, reference designators, and other text.
+This layer is used to provide additional information about the board, such as component outlines, reference designators, and other text.
 Top Silk Screen:
- This is the silk screen layer that is visible from the top of the board.
+This is the silk screen layer that is visible from the top of the board.
 Bottom Silk Screen:
- This is the silk screen layer that is visible from the bottom of the board.
+This is the silk screen layer that is visible from the bottom of the board.
 Board Outline:
- This layer defines the outline of the board. It is used to specify the shape and size of the board.
+This layer defines the outline of the board. It is used to specify the shape and size of the board.
 Solder Mask:
- The solder mask layer is used to define areas where solder mask material will be applied to the board. The solder mask is a protective layer that prevents solder from flowing where it is not supposed to during assembly. The solder mask layer is typically colored green, but other colors are possible.
+The solder mask layer is used to define areas where solder mask material will be applied to the board. The solder mask is a protective layer that prevents solder from flowing where it is not supposed to during assembly. The solder mask layer is typically colored green, but other colors are possible.
 Top Paste:
- The top paste layer is used to define the areas where solder paste will be applied to the board during assembly. The solder paste layer is typically used for surface mount components that are attached to the top layer of the board.
+The top paste layer is used to define the areas where solder paste will be applied to the board during assembly. The solder paste layer is typically used for surface mount components that are attached to the top layer of the board.
 Bottom Paste:
- The bottom paste layer is used to define the areas where solder paste will be applied to the board during assembly. The solder paste layer is typically used for surface mount components that are attached to the bottom layer of the board.
+The bottom paste layer is used to define the areas where solder paste will be applied to the board during assembly. The solder paste layer is typically used for surface mount components that are attached to the bottom layer of the board.
 Drill File:
- The drill file is used to define the locations of the holes that will be drilled into the board during fabrication. This file provides the manufacturer with the precise dimensions and locations of each hole.
+The drill file is used to define the locations of the holes that will be drilled into the board during fabrication. This file provides the manufacturer with the precise dimensions and locations of each hole.
 Board Outline:
- The board outline layer is used to define the shape and size of the board. The board outline is typically a closed polygon that defines the outermost perimeter of the board.
+The board outline layer is used to define the shape and size of the board. The board outline is typically a closed polygon that defines the outermost perimeter of the board.
 Mechanical Layers:
- Mechanical layers are used to add additional information about the board, such as mounting holes, cutouts, and other mechanical features. These layers are typically used to provide additional information to the manufacturer about how the board should be fabricated.
+Mechanical layers are used to add additional information about the board, such as mounting holes, cutouts, and other mechanical features. These layers are typically used to provide additional information to the manufacturer about how the board should be fabricated.
 
 Parts Selection
 Branch: Hardware
@@ -1214,25 +936,16 @@ Lead Time
 If components are not in stock, there will be a timeframe on the page that says "Lead Time". This is the amount of time it will take to manufacture and ship out more of these components. Most components have a lead time of at least a couple of months, so if a component is out of stock and has a long lead time, it may be more beneficial to try and find another option.
 Power Rating
 The power rating will dictate how much voltage and current can travel through your component. If you need your component to be able to handle 200V DC, make sure you look for that. If you need your component to be powered by a 12V DC battery, make sure you don't choose a component that has a lower maximum voltage rating. The power rating(s) of your component(s) will dictate both what components and what power sources you can use.
-To find components, usually just searching the object you need should suffice (ie "50V 10k resistor"). Some good sites to buy components off of include 
-Mouser
-, 
-Digi-Key
-, 
-Adafruit
-, etc.
+To find components, usually just searching the object you need should suffice (ie "50V 10k resistor"). Some good sites to buy components off of include Mouser, Digi-Key, Adafruit, etc.
 Passive Networking
 Branch: All Generate
 Statement
 Generate is actively looking to expand and diversify the applicant pool for future semesters. One audience we have not tapped into enough is our physical network. Together, let us take initiative to promote Generate verbally.
 What does passively networking look like?
 If you find yourself in a conversation with someone looking for club recommendations, driven & growth-oriented circles, or a community of builders, let them know that we exist! Talk about…
-Who we are
-: the student-led product development studio on campus that takes clients, entrepreneurs from Northeastern’s extended network and the Boston area, and builds their product for them
-Opportunities
-: Engagement, Hardware, Operations, Software—a place for all majors
-Values
-: driven, empathetic, growth-oriented, innovative, spirited
+Who we are: the student-led product development studio on campus that takes clients, entrepreneurs from Northeastern’s extended network and the Boston area, and builds their product for them
+Opportunities: Engagement, Hardware, Operations, Software—a place for all majors
+Values: driven, empathetic, growth-oriented, innovative, spirited
 Do not worry if you cannot remember all of that! Any non-empty subset of those details is sufficient.
 Also, if you find yourself with someone who seems like a great fit for Generate, tell them to apply!
 Do NOT force someone to listen to you pitch Generate. The indicators for when it would be a great time are provided above.
@@ -1267,11 +980,10 @@ Procurement + Reimbursements
 Branch: Operations
 Tags: FAQ, Leads/Chiefs Must-read
 Over the course of your time in Generate, you will likely need to purchase 
-something
-. Perhaps a tool for a hardware project, stickers for an engagement event, a subscription for a software client, or catering for a morale event.
- This guide is designed to help you understand our policies and procedures for making Generate-related purchases. If you have questions, ASK! → `#ops-help` on Slack.
+something. Perhaps a tool for a hardware project, stickers for an engagement event, a subscription for a software client, or catering for a morale event.
+This guide is designed to help you understand our policies and procedures for making Generate-related purchases. If you have questions, ASK! → `#ops-help` on Slack.
 Procurement / Online Orders
- Key Takeaways:
+Key Takeaways:
 - All orders/procurement requests must be submitted via our [FinOps Dashboard](https://finops.generatenu.com).
 - Plan ahead and know what items will need to be purchased as soon as possible. See [When are orders placed?](Procurement%20+%20Reimbursements%205e02a4837a6b424990237b436dce066a.md) to ensure your orders are submitted on-time.
 - Routinely connect with your lead to ensure that your team’s resources are effectively allocated and in-line with your needs.
@@ -1312,43 +1024,28 @@ WaveShare
 Xometry
 What if I want to place orders from other vendors?
 Please use custom orders sparingly as they take much more time to set up.
-In some cases, we are not able to order from certain vendors. See “
-How does tax-exemption work?
-” above for one potential issue.
+In some cases, we are not able to order from certain vendors. See “How does tax-exemption work?” above for one potential issue.
 Be aware that issues are common with custom orders.
 When are orders placed?
-The Fall 2024 schedule requires all procurement/order requests to be submitted by 
-7:30pm every Tuesday and Thursday
- to ensure same-day ordering. Reach out in 
-#ops-help
- on Slack with any questions in the meantime.
+The Fall 2024 schedule requires all procurement/order requests to be submitted by 7:30pm every Tuesday and Thursday to ensure same-day ordering. Reach out in #ops-help on Slack with any questions in the meantime.
 Any orders not received on time will be submitted at the next scheduled date.
 Where are orders shipped? Can my order be shipped to me?
 Orders may only be mailed to the Sherman Center. If necessary, orders may be shipped to the relevant lead following approval from Generate’s CFO or Operations Director.
 How does tax-exemption work?
-As a part of Northeastern University—and therefore the Sherman Center—we are tax-exempt
-.
+As a part of Northeastern University—and therefore the Sherman Center—we are tax-exempt.
 If a company is unwilling to remove sales tax, we cannot order from them. No exceptions.
 What if I have an urgent order? / I need something ASAP!
 An order is “urgent” if there is a legitimate, justifiable reason that it absolutely cannot wait to be placed until the next order date. See 
 When are orders placed?
-If the need for an urgent order arises, reach out in 
-#ops-help
- on Slack explaining the situation. Be sure to tag 
-both
- Generate’s Operations Director and Chief Financial Officer. They will determine whether the urgent order is necessary.
+If the need for an urgent order arises, reach out in #ops-help on Slack explaining the situation. Be sure to tag both Generate’s Operations Director and Chief Financial Officer. They will determine whether the urgent order is necessary.
 The Operations Director and CFO reserve the right to deem orders as urgent or non-urgent in their sole discretion.
- In most cases, weekend and holiday orders cannot be expedited due to the business nature of most vendors we utilize. Please consider this in your urgent request before reaching out.
+In most cases, weekend and holiday orders cannot be expedited due to the business nature of most vendors we utilize. Please consider this in your urgent request before reaching out.
 How do I process a return?
-Policies and timelines vary by vendor. The receiving team is responsible for notifying Operations on Slack (
-#ops-help
-) about the return to obtain the necessary labels. Please provide the original order ID and a description of all items to be returned. The receiving team is responsible for boxing and shipping out the return.
+Policies and timelines vary by vendor. The receiving team is responsible for notifying Operations on Slack (#ops-help) about the return to obtain the necessary labels. Please provide the original order ID and a description of all items to be returned. The receiving team is responsible for boxing and shipping out the return.
 Reimbursements
 Generally, all morale purchases must be paid for out-of-pocket and then reimbursed. 
-Project materials should 
-never
- be bought out-of-pocket.
- Key Takeaways:
+Project materials should never be bought out-of-pocket.
+Key Takeaways:
 - Reimbursements requests must be submitted within 14 days of purchase.
 - Keep your itemized receipt! Without it, you cannot be reimbursed.
 - Reimbursements over $75 require prior approval from Generate’s CFO or Operations Director, unless morale-related.
@@ -1357,38 +1054,20 @@ never
 - TO SUBMIT A REIMBURSEMENT, submit a request through our [FinOps Dashboard](https://finops.generatenu.com/reimbursements/new).
 FAQs:
 What can be reimbursed?
-Morale
-: Unless otherwise communicated, all 
-morale
- expenses should be paid out-of-pocket and reimbursed by Generate.
-Urgent Project Materials
-: 
-If approved by your Director
-, urgent project materials 
-$75 or less
- may be purchased out-of-pocket and reimbursed by Generate. Urgent project materials over $75 must be approved by Generate’s CFO or Operations Director. 
-All other project material purchases must flow through our standard procurement policies
-.
+Morale: Unless otherwise communicated, all morale expenses should be paid out-of-pocket and reimbursed by Generate.
+Urgent Project Materials: 
+If approved by your Director, urgent project materials $75 or less may be purchased out-of-pocket and reimbursed by Generate. Urgent project materials over $75 must be approved by Generate’s CFO or Operations Director. 
+All other project material purchases must flow through our standard procurement policies.
 What is required?
-Reimbursement Requests must…
-be submitted 
-within 14 days
- of the purchase.
-include a 
-PDF
- of an 
-itemized receipt
- showing the vendor name, purchase date, items purchased, total price, and payment method.
+Reimbursement Requests must… be submitted within 14 days of the purchase.
+include a PDF of an 
+itemized receipt showing the vendor name, purchase date, items purchased, total price, and payment method.
 Please take 2 extra seconds to find a clean and flat surface, take a clear picture, and crop photos to show just the receipt.
 How long do reimbursements take?
 Reimbursement requests take time. They must be processed by Generate, the Sherman Center, and Northeastern University, as well as either the USPS (physical checks are mailed if you don’t have direct deposit set up) or your bank.
-Please be patient; this process usually takes 
-3-4 weeks
-.
+Please be patient; this process usually takes 3-4 weeks.
 Questions or Issues?
-Reach out in 
-#ops-help
- on Slack. We’re here to help!
+Reach out in #ops-help on Slack. We’re here to help!
 Project Management Tools
 Branch: Hardware
 Parent page: Additional Resources (Additional%20Resources%20150f18dd5a9480b08e9debbd72440983.md)
@@ -1431,8 +1110,7 @@ Running a Frontend ↔ Design Audit
 Branch: Software
 Parent page: Breaking Silos (Breaking%20Silos%202d26a01f9689444bbb069f20491b80ac.md)
 Before any Features are merged from Development → Production they should undergo a 
-Design Audit
-:
+Design Audit:
 Engineers complete the development of the Feature
 Engineers notify the designer and set up a time to Demo and review
 Designer and Engineer walk through the completed feature together, alongside the Figma designs, and identify necessary improvements (as required):

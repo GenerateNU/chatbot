@@ -75,7 +75,7 @@ def get_relevant_context(query, k=3):
             best_index = i
             best_start = result["start"]
             best_end = result["end"]
-        # print(result)  # Debug: print each chunk's result
+        print(result)  # Debug: print each chunk's result
     
     if best_index is not None:
         expanded_sentence = expand_to_sentence(retrieved_texts[best_index], best_start, best_end)
