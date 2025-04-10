@@ -1,5 +1,15 @@
-# Slack Chatbot
+# Genny - Generate Chatbot
+Operations - Data Solutions - Internal Insights
+Spring 2025
+Chigo Ike, Matthew Li, Kaydence Lin
 
+The purpose of the chatbot is to streamline the process of gathering organization wide information for answering internal questions in real-time.
+This documentation is for internal Generate members who may implement or work on the chatbot in the future.
+Knowledge of Python, APIs, LLM, Hugging Face, and Digital Ocean may be useful to understand this documentation.
+
+## Data
+The data that was used was an export of the Generate Notion Wiki (folder named "Wiki Export"). The export contained markdown files of each page. To preprocess this data, we converted all the .md into .txt files (md_to_txt.py). The text files are stored in a folder called "Wiki_txt". We cleaned the .txt files to delete any unnecessary md formatting, emojis, and empty lines and combined all the .txt files to a .json file (wiki_json.py and gen_wiki.json). 
+## Slack
 A Slack chatbot that can respond to messages and answer general FAQs.
 
 ## Setup
