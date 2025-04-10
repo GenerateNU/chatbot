@@ -1,19 +1,24 @@
-# Genny - Generate Chatbot
+# Genny - Generate Slack Chatbot
 ### Operations - Data Solutions - Internal Insights
 ### Spring 2025
 ### Chigo Ike, Matthew Li, Kaydence Lin
+### ADD ANY RESOURCES OR LINKS YOU REFERENCED
 The purpose of the chatbot is to streamline the process of gathering organization wide information for answering internal questions in real-time.
 This documentation is for internal Generate members who may implement or work on the chatbot in the future.
-Knowledge of Python, APIs, LLM, Hugging Face, and Digital Ocean may be useful to understand this documentation.
+Knowledge of Python, Slack APIs, LLM, Hugging Face, and Digital Ocean may be useful to understand this documentation.
 
-## Setup - matthew
+## Setup - Matthew
+### app.py
+
 ### Slack
 1. Create a Slack App at https://api.slack.com/apps
    - Enable Socket Mode
    - Add bot token scopes: `chat:write`, `app_mentions:read`, `channels:history`, `im:history`
    - Install the app to your workspace
 
-2. Set up your environment:
+### Environment
+- libraries needed
+pip install RecursiveCharacterTextSplitter SentenceTransformer numpy faiss-cpu torch
 xyz
 
 ### DigitalOcean
@@ -47,5 +52,32 @@ xyz
 - uses a RAG and feeds it into Ollama
 - Ollama produces good responses, however, after initial research Ollama isn't meant to be deployed, only to use on your local machine
 - this model is a good example of what the chatbot responses should look like
+- if you want to run ollama, you have to download from https://ollama.com/ and download the mistral model
 
+### training.py -chigo
+- distilBERT
+- uses training.jsonl to train model
+
+## Final Product
+- slackbot
+- rag3.py?
+
+## Maintenance and Updates
+xyz
+
+## FAQs
+xyz
+
+## Potential Future Work
+1. Create an API with Notion SDK to integrate with the Generate Notion
+2. Integrate with the Notion Calendar and automate reminders for events
+3. Automate reminders for team meetings
+4. Integrate with Slack message history to return more personalized answers
+
+## Contact Information
+| Name | Email Address | Role | Date of Last Edit |
+| -------- | -------- | -------- | -------- |
+| Chigo Ike | ike.c@northeastern.edu | Data Analyst | 4/11/2025 |
+| Matthew Li | li.matt@northeastern.edu | Data Analyst | 4/11/2025 |
+| Kaydence Lin | lin.kay@northeastern.edu | Data Analyst | 4/11/2025 |
 
