@@ -40,7 +40,7 @@ We created a parser to convert the .json to .jsonl file (json_jsonl.py and train
 
 ### rag3.py - Matthew
 - doesnt run on a M1 Mac Pro with 8GB of memory
-- runs on a M1 Mac Pro with 16 GB of memory, however it runs very slow 
+- runs on a M1 Mac Pro with 16 GB of memory, however it runs very slow, may not run depending on availble memory on local machine
 - if taking an LLM class, you may have access to a GPU you can run this on, it will be much faster
 xyz
 
