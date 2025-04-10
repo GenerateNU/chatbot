@@ -1,6 +1,6 @@
 """
-lightweight_rag_llm.py
-Memory-efficient RAG + LLM integration optimized for MacOS
+rag_flask_api.py
+Flask API for RAG system with LLM integration
 """
 
 import os
@@ -10,9 +10,10 @@ import gc
 import psutil
 from typing import List, Dict, Any, Optional
 
+# Flask imports
+from flask import Flask, request, jsonify
+
 # Import the RAG system
-# Assuming your improved RAG class is in a file named 'improved_json_rag.py'
-# If not, replace with the appropriate import
 try:
     from rag2 import ImprovedJsonRAG
 except ImportError:
@@ -29,18 +30,21 @@ torch.set_num_threads(4)  # Limit CPU threads
 # Disable parallelism in transformers
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
+# Create Flask app
+app = Flask(__name__)
+
 # Add memory monitoring functions
 def get_memory_usage():
     """Get current memory usage of the process in MB."""
     process = psutil.Process(os.getpid())
     memory_info = process.memory_info()
-    memory_mb = memory_info.rss / (1024 * 1024)
+    memory_mb = memory_info.rss / (1024 * 1024 * 1024)  # Convert to GB
     return memory_mb
 
 def print_memory_usage(label=""):
     """Print current memory usage."""
     memory_mb = get_memory_usage()
-    print(f"Memory usage {label}: {memory_mb:.2f} MB")
+    app.logger.info(f"Memory usage {label}: {memory_mb:.2f} GB")
 
 class LightweightRAGAssistant:
     def __init__(
@@ -75,7 +79,7 @@ class LightweightRAGAssistant:
         print_memory_usage("at start")
         
         # Initialize RAG system
-        print(f"Initializing RAG system with {knowledge_file}")
+        app.logger.info(f"Initializing RAG system with {knowledge_file}")
         try:
             # Try to use JSON-specific RAG if available
             if knowledge_file.endswith('.json'):
@@ -92,7 +96,7 @@ class LightweightRAGAssistant:
                     chunk_overlap=chunk_overlap
                 )
         except Exception as e:
-            print(f"Error initializing RAG: {e}")
+            app.logger.error(f"Error initializing RAG: {e}")
             raise
             
         print_memory_usage("after RAG init")
@@ -101,7 +105,7 @@ class LightweightRAGAssistant:
         self._initialize_llm(model_name)
         
         # Conversation history (limited size)
-        self.conversation_history = []
+        self.conversation_history = {}
         self.max_history_turns = 3  # Limit history to save memory
         
         print_memory_usage("after initialization")
@@ -109,7 +113,7 @@ class LightweightRAGAssistant:
     def _initialize_llm(self, model_name: str):
         """Initialize language model with memory-efficient settings."""
         try:
-            print(f"Loading language model: {model_name}")
+            app.logger.info(f"Loading language model: {model_name}")
             
             # Extra configurations to reduce memory usage
             config = transformers.AutoConfig.from_pretrained(model_name)
@@ -134,7 +138,7 @@ class LightweightRAGAssistant:
             )
             
             # Load model with memory optimizations
-            print("Loading model with optimizations for memory efficiency")
+            app.logger.info("Loading model with optimizations for memory efficiency")
             
             model_kwargs = {
                 "device_map": "auto" if self.device == "cuda" else None,
@@ -186,10 +190,10 @@ class LightweightRAGAssistant:
                 self.response_prefix = "\n### Assistant:\n"
                 self.suffix = ""
                 
-            print(f"Model loaded successfully on {self.device}")
+            app.logger.info(f"Model loaded successfully on {self.device}")
             
         except Exception as e:
-            print(f"Error loading language model: {e}")
+            app.logger.error(f"Error loading language model: {e}")
             import traceback
             traceback.print_exc()
             raise
@@ -198,7 +202,7 @@ class LightweightRAGAssistant:
         gc.collect()
         print_memory_usage("after LLM loading")
         
-    def format_prompt(self, query: str, context: str) -> str:
+    def format_prompt(self, query: str, context: str, session_id: str = "default") -> str:
         """Format the prompt for the LLM with system instructions and context."""
         # System instruction
         system_instruction = f"""
@@ -207,9 +211,9 @@ class LightweightRAGAssistant:
         
         # Format conversation history if available
         history_text = ""
-        if self.conversation_history:
+        if session_id in self.conversation_history and self.conversation_history[session_id]:
             # Keep only recent history to save context length
-            recent_history = self.conversation_history[-self.max_history_turns:]
+            recent_history = self.conversation_history[session_id][-self.max_history_turns:]
             for turn in recent_history:
                 history_text += f"User asked: {turn['user']}\nYou answered: {turn['assistant']}\n\n"
         
@@ -255,18 +259,19 @@ class LightweightRAGAssistant:
             return response_text
             
         except Exception as e:
-            print(f"Error in text generation: {e}")
+            app.logger.error(f"Error in text generation: {e}")
             return "I'm sorry, I encountered an error while generating a response."
         finally:
             # Force garbage collection after generation
             gc.collect()
             
-    def answer_question(self, query: str) -> Dict[str, Any]:
+    def answer_question(self, query: str, session_id: str = "default") -> Dict[str, Any]:
         """
         Process a user query through RAG and LLM to generate an answer.
         
         Args:
             query: User's question
+            session_id: Unique identifier for the conversation session
             
         Returns:
             Dictionary with answer and metadata
@@ -276,7 +281,7 @@ class LightweightRAGAssistant:
         
         try:
             # Step 1: Get relevant context using RAG
-            print(f"Retrieving context for: {query}")
+            app.logger.info(f"Retrieving context for: {query}")
             if hasattr(self.rag, 'answer_question'):
                 # Use the RAG's answer_question method if available
                 rag_result = self.rag.answer_question(query, k=self.context_chunks)
@@ -286,26 +291,29 @@ class LightweightRAGAssistant:
                 contexts = self.rag.find_context_window(query, top_k=self.context_chunks)
                 context = " ".join([ctx for ctx, _ in contexts])
             
-            print(f"Retrieved {len(context)} characters of context")
+            app.logger.info(f"Retrieved {len(context)} characters of context")
             print_memory_usage("after RAG retrieval")
             
             # Step 2: Format the prompt with the context
-            prompt = self.format_prompt(query, context)
+            prompt = self.format_prompt(query, context, session_id)
             
             # Step 3: Generate response with the LLM
-            print("Generating response from LLM...")
+            app.logger.info("Generating response from LLM...")
             response = self.generate_response(prompt)
             print_memory_usage("after LLM generation")
             
             # Step 4: Update conversation history
-            self.conversation_history.append({
+            if session_id not in self.conversation_history:
+                self.conversation_history[session_id] = []
+                
+            self.conversation_history[session_id].append({
                 "user": query,
                 "assistant": response
             })
             
             # Limit history size to control memory usage
-            if len(self.conversation_history) > self.max_history_turns:
-                self.conversation_history = self.conversation_history[-self.max_history_turns:]
+            if len(self.conversation_history[session_id]) > self.max_history_turns:
+                self.conversation_history[session_id] = self.conversation_history[session_id][-self.max_history_turns:]
             
             # Calculate processing time
             processing_time = time.time() - start_time
@@ -317,7 +325,7 @@ class LightweightRAGAssistant:
             }
             
         except Exception as e:
-            print(f"Error processing query: {e}")
+            app.logger.error(f"Error processing query: {e}")
             import traceback
             traceback.print_exc()
             
@@ -331,22 +339,118 @@ class LightweightRAGAssistant:
             gc.collect()
             print_memory_usage("after query processing")
     
-    def reset_conversation(self):
+    def reset_conversation(self, session_id: str = "default"):
         """Reset the conversation history to free memory."""
-        self.conversation_history = []
+        if session_id in self.conversation_history:
+            self.conversation_history[session_id] = []
         gc.collect()
-        print("Conversation history has been reset.")
+        app.logger.info(f"Conversation history has been reset for session {session_id}")
         print_memory_usage("after reset")
 
-# Example usage (CLI interface)
+# Initialize the RAG assistant as a global variable
+# This will be loaded when the server starts
+assistant = None
+
+def init_assistant(knowledge_file="gen_wiki.json", model_name="TinyLlama/TinyLlama-1.1B-Chat-v1.0"):
+    """Initialize the RAG assistant."""
+    global assistant
+    try:
+        assistant = LightweightRAGAssistant(
+            knowledge_file=knowledge_file,
+            model_name=model_name
+        )
+        return True
+    except Exception as e:
+        app.logger.error(f"Error initializing assistant: {e}")
+        return False
+
+# API Routes
+@app.route("/ask", methods=["GET", "POST"])
+def ask_question():
+    """
+    API endpoint that takes a query as input and returns the answer.
+    """
+    global assistant
+    
+    # Ensure assistant is initialized
+    if assistant is None:
+        return jsonify({"error": "RAG assistant not initialized"}), 500
+    
+    # Get the query from request
+    if request.method == "GET":
+        query = request.args.get("query")
+        session_id = request.args.get("session_id", "default")
+    elif request.method == "POST":
+        data = request.get_json()
+        query = data.get("query")
+        session_id = data.get("session_id", "default")
+    else:
+        return jsonify({"error": "Method not allowed"}), 405
+
+    if not query:
+        return jsonify({"error": "No query provided"}), 400
+
+    # Process the query
+    app.logger.info(f"Processing query for session {session_id}: {query}")
+    result = assistant.answer_question(query, session_id)
+    
+    # Return the answer
+    return jsonify({
+        "query": query,
+        "answer": result["answer"],
+        "context_snippet": result.get("context_snippet", ""),
+        "processing_time": result.get("processing_time", 0)
+    })
+
+@app.route("/reset", methods=["POST"])
+def reset_session():
+    """
+    Reset the conversation history for a session.
+    """
+    global assistant
+    
+    # Ensure assistant is initialized
+    if assistant is None:
+        return jsonify({"error": "RAG assistant not initialized"}), 500
+    
+    # Get session ID
+    data = request.get_json() or {}
+    session_id = data.get("session_id", "default")
+    
+    # Reset the conversation
+    assistant.reset_conversation(session_id)
+    
+    return jsonify({
+        "success": True,
+        "message": f"Conversation history reset for session {session_id}"
+    })
+
+@app.route("/test", methods=["GET"])
+def test():
+    """Test endpoint to verify the API is working."""
+    return jsonify({"out": "Working"})
+
+@app.route("/memory", methods=["GET"])
+def memory():
+    """Return current memory usage."""
+    mem_usage = get_memory_usage()
+    return jsonify({
+        "memory_usage_gb": mem_usage,
+        "uptime": time.time() - start_time
+    })
+
+# Initialize server
 if __name__ == "__main__":
     import argparse
     
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description="Lightweight RAG + LLM Assistant")
+    parser = argparse.ArgumentParser(description="RAG API Server")
     parser.add_argument("--knowledge", default="gen_wiki.json", help="Path to knowledge base file")
     parser.add_argument("--model", default="TinyLlama/TinyLlama-1.1B-Chat-v1.0", 
                         help="Model to use (default: TinyLlama-1.1B-Chat)")
+    parser.add_argument("--port", type=int, default=6000, help="Port to run the server on")
+    parser.add_argument("--host", default="0.0.0.0", help="Host to run the server on")
+    parser.add_argument("--debug", action="store_true", help="Run in debug mode")
     args = parser.parse_args()
     
     # Print system information
@@ -364,40 +468,15 @@ if __name__ == "__main__":
     except:
         print("Psutil not available, memory monitoring limited")
     
-    try:
-        # Initialize the assistant
-        print(f"Initializing assistant with model: {args.model}")
-        assistant = LightweightRAGAssistant(
-            knowledge_file=args.knowledge,
-            model_name=args.model
-        )
-        
-        # Interactive CLI
-        print("\n" + "="*80)
-        print("Lightweight RAG Conversational Assistant")
-        print("Type 'exit' to quit or 'reset' to clear conversation history")
-        print("="*80 + "\n")
-        
-        while True:
-            user_input = input("\nYou: ")
-            
-            if user_input.lower() in ['exit', 'quit', 'q']:
-                break
-            
-            if user_input.lower() == 'reset':
-                assistant.reset_conversation()
-                continue
-            
-            # Process the query
-            result = assistant.answer_question(user_input)
-            
-            # Print the response
-            print(f"\nAssistant: {result['answer']}")
-            print(f"\n[Processing time: {result['processing_time']:.2f}s]")
-            
-    except KeyboardInterrupt:
-        print("\nExiting...")
-    except Exception as e:
-        print(f"Error: {e}")
-        import traceback
-        traceback.print_exc()
+    # Track server start time
+    start_time = time.time()
+    
+    # Initialize the assistant
+    print(f"Initializing assistant with model: {args.model}")
+    success = init_assistant(args.knowledge, args.model)
+    
+    if success:
+        print(f"Starting server on {args.host}:{args.port}, debug={args.debug}")
+        app.run(host=args.host, port=args.port, debug=args.debug)
+    else:
+        print("Failed to initialize assistant. Exiting.")

@@ -23,7 +23,7 @@ class ImprovedJsonRAG:
                  json_file_path="gen_wiki.json", 
                  embedding_model_name="all-MiniLM-L6-v2",
                  qa_model_name="twmkn9/distilbert-base-uncased-squad2",
-                 chunk_size=650, 
+                 chunk_size=1000, 
                  chunk_overlap=150):
         """
         Initialize the RAG model for JSON wiki data.
