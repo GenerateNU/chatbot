@@ -1,74 +1,51 @@
 # Genny - Generate Chatbot
-Operations - Data Solutions - Internal Insights
-Spring 2025
-Chigo Ike, Matthew Li, Kaydence Lin
-
+### Operations - Data Solutions - Internal Insights
+### Spring 2025
+### Chigo Ike, Matthew Li, Kaydence Lin
 The purpose of the chatbot is to streamline the process of gathering organization wide information for answering internal questions in real-time.
 This documentation is for internal Generate members who may implement or work on the chatbot in the future.
 Knowledge of Python, APIs, LLM, Hugging Face, and Digital Ocean may be useful to understand this documentation.
 
-## Data
-The data that was used was an export of the Generate Notion Wiki (folder named "Wiki Export"). The export contained markdown files of each page. To preprocess this data, we converted all the .md into .txt files (md_to_txt.py). The text files are stored in a folder called "Wiki_txt". We cleaned the .txt files to delete any unnecessary md formatting, emojis, and empty lines and combined all the .txt files to a .json file (wiki_json.py and gen_wiki.json). 
-## Slack
-A Slack chatbot that can respond to messages and answer general FAQs.
-
-## Setup
-
+## Setup - matthew
+### Slack
 1. Create a Slack App at https://api.slack.com/apps
    - Enable Socket Mode
    - Add bot token scopes: `chat:write`, `app_mentions:read`, `channels:history`, `im:history`
    - Install the app to your workspace
 
 2. Set up your environment:
-   ```bash
-   # Clone the repository
-   git clone <repository-url>
-   cd chatbot
+xyz
 
-   # Create and activate virtual environment (optional but recommended)
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+### DigitalOcean
+xyz
 
-   # Install dependencies
-   pip install -r requirements.txt
+## Data
+The data that was used was an export of the Generate Notion Wiki (folder named "Wiki Export"). The export contained markdown files of each page. To preprocess this data, we converted all the .md into .txt files (md_to_txt.py). The text files are stored in a folder called "Wiki_txt". We cleaned the .txt files to delete any unnecessary md formatting, emojis, and empty lines and combined all the .txt files to a .json file (wiki_json.py and gen_wiki.json). The gen_wiki.json was used as the knowledge base for the models. 
 
-   # Copy example environment file and update with your Slack credentials
-   cp .env.example .env
-   ```
+### Training Data
+We created training data with Question-Answer pairs called training.json. This data encompasses content that can be found in Generate's Notion and was manually created.
+We created a parser to convert the .json to .jsonl file (json_jsonl.py and training.jsonl). We found that the training.jsonl worked better for the DistilBERT model. This data was not used for the RAG.
+- xyz, fix and clean
 
-3. Update the `.env` file with your Slack credentials:
-   - `SLACK_BOT_TOKEN`: Your bot's OAuth token (starts with `xoxb-`)
-   - `SLACK_SIGNING_SECRET`: Your app's signing secret
-   - `SLACK_APP_TOKEN`: Your app-level token (starts with `xapp-`)
+## Models
+### Introduction
+- we initially tried the rag.py, didnt work well
+- rag3.py works well
+- xyz - talk about other limitations and processes to reach final stage
 
-## Running the Bot
+### rag3.py - Matthew
+- doesnt run on a M1 Mac Pro with 8GB of memory
+- runs on a M1 Mac Pro with 16 GB of memory, however it runs very slow 
+- if taking an LLM class, you may have access to a GPU you can run this on, it will be much faster
+xyz
 
-1. Start the Flask server:
-   ```bash
-   python app.py
-   ```
+### rag.py - matthew
+xyz
 
-2. Use a tool like ngrok to expose your local server:
-   ```bash
-   ngrok http 5000
-   ```
+### rag_ollama.py - edit this, kaydence
+- download ollama and models
+- uses a RAG and feeds it into Ollama
+- Ollama produces good responses, however, after initial research Ollama isn't meant to be deployed, only to use on your local machine
+- this model is a good example of what the chatbot responses should look like
 
-3. Update your Slack App's Event Subscriptions URL with the ngrok URL + `/slack/events`
-   (e.g., `https://your-ngrok-url.ngrok.io/slack/events`)
 
-## Features
-
-- Responds to messages in channels where the bot is invited
-- Basic message processing functionality
-- Extensible architecture for adding more features
-
-## Adding New Features
-
-To add new bot responses or features:
-1. Modify the `process_message()` function in `app.py`
-2. Add your custom logic for handling different message types
-3. Test the new functionality in your Slack workspace
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
