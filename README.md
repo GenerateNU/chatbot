@@ -64,7 +64,7 @@ xyz
 - rag3.py?
 
 ## Maintenance and Updates
-xyz
+- rag3.py is too resource intensive, need to figure out a less resource intensive or more money for more ram on hosting?
 
 ## FAQs
 xyz
