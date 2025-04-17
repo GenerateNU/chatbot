@@ -9,15 +9,7 @@ import time
 import gc
 import psutil
 from typing import List, Dict, Any, Optional
-
-# Import the RAG system
-# Assuming your improved RAG class is in a file named 'improved_json_rag.py'
-# If not, replace with the appropriate import
-try:
-    from rag2 import ImprovedJsonRAG
-except ImportError:
-    # Fallback assuming JSON handling is part of your other RAG implementation
-    from improved_rag import ImprovedRAG
+from rag2 import ImprovedJsonRAG
 
 # Importing necessary libraries for the LLM
 import torch
