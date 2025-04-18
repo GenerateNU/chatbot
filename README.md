@@ -35,7 +35,7 @@ The rag3.py is our ideal LLM model for the final chatbot. It does not run on a M
 
 This file is legacy code. It was the first implementation of our rag model, which originally used combined.txt as the knowledge base. We improved to use the JSON knowledge base in rag2.py.
 
-#### rag_ollama.py - edit this, kaydence
+#### rag_ollama.py
 
 The file is an implementation of a RAG + Ollama model. To use Ollama, please download [Ollama]([url](https://ollama.com/)) and install the mistral model using "ollama pull mistral" in the terminal. This model uses an RAG and feeds it into an Ollama model. This model produces good responses, however, after initial research, Ollama is not meant to be deployed, but only to be used on your local machine. Ollama is also an API. This model is very easy to run on your local machine, so it is a good example of what the chatbot responses should look like.
 
