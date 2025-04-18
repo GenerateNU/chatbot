@@ -2,7 +2,7 @@
 
 ## Operations - Data Solutions - Internal Insights Spring 2025
 
-### Chigo Ike, Matthew Li, Kaydence Lin
+### Chigozirim Ike, Matthew Li, Kaydence Lin
 
 ### ADD ANY RESOURCES OR LINKS YOU REFERENCED
 
@@ -87,6 +87,6 @@ Currently, rag3.py is too resource-intensive. The next steps are to figure out a
 
 | Name         | Email Address            | Role         | Date of Last Edit |
 | ------------ | ------------------------ | ------------ | ----------------- |
-| Chigo Ike    | ike.c@northeastern.edu   | Data Analyst | 4/18/2025         |
+| Chigozirim Ike    | ike.c@northeastern.edu   | Data Analyst | 4/18/2025         |
 | Matthew Li   | li.matt@northeastern.edu | Data Analyst | 4/18/2025         |
 | Kaydence Lin | lin.kay@northeastern.edu | Data Analyst | 4/18/2025         |
