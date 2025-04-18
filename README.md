@@ -16,7 +16,7 @@ Knowledge of Python, Slack APIs, LLM, RAG, Hugging Face, and Digital Ocean may b
 
 The data that was used was an export of the Generate Notion Wiki (folder named "Wiki Export"). The export contained markdown files of each page. To preprocess this data, we converted all the .md into .txt files (md_to_txt.py). The text files are stored in a folder called "Wiki_txt". We cleaned the .txt files to delete any unnecessary md formatting, emojis, and empty lines and combined all the .txt files to a .json file (wiki_json.py and gen_wiki.json). The gen_wiki.json was used as the knowledge base for the models.
 
-#### Training Data - Chigo, plz look over
+#### Training Data
 
 We created training data with Question-Answer pairs called training.json. This data encompasses content that can be found in Generate's Notion and was manually created.
 We created a parser to convert the .json to .jsonl file (json_jsonl.py and training.jsonl). We found that the training.jsonl worked better for the DistilBERT model. This data was not used for the RAG.
@@ -39,10 +39,15 @@ This file is legacy code. It was the first implementation of our rag model, whic
 
 The file is an implementation of a RAG + Ollama model. To use Ollama, please download Ollama https://ollama.com/ and install the mistral model using "ollama pull mistral" in the terminal. This model uses an RAG and feeds it into an Ollama model. This model produces good responses, however, after initial research, Ollama is not meant to be deployed, but only to be used on your local machine. Ollama is also an API. This model is easy to run on your local machine, so it is a good example of what the chatbot responses should look like.
 
-#### training.py -chigo
+#### training.py
 
-- distilBERT
-- uses training.jsonl to train model
+The `training.py` file is responsible for fine-tuning the DistilBERT model using the training.jsonl file. It tokenizes the data, sets up a Trainer pipeline, and saves the trained model checkpoints.
+
+The process includes:
+1. Loading the training.jsonl file using the Hugging Face `datasets` library.
+2. Tokenizing the data with `distilbert-base-uncased`.
+3. Training the model using the Hugging Face `Trainer` API.
+4. Saving the model and evaluation logs to an output folder.
 
 ## User Guide 
 
