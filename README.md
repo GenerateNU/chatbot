@@ -37,7 +37,7 @@ This file is legacy code. It was the first implementation of our rag model, whic
 
 #### rag_ollama.py
 
-The file is an implementation of a RAG + Ollama model. To use Ollama, please download [Ollama]([url](https://ollama.com/)) and install the mistral model using "ollama pull mistral" in the terminal. This model uses an RAG and feeds it into an Ollama model. This model produces good responses, however, after initial research, Ollama is not meant to be deployed, but only to be used on your local machine. Ollama is also an API. This model is very easy to run on your local machine, so it is a good example of what the chatbot responses should look like.
+The file is an implementation of a RAG + Ollama model. To use Ollama, please download [Ollama]([url](https://www.google.com/search?q=ollama&oq=oll&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIYCAEQLhgKGIMBGMcBGLEDGNEDGIAEGIoFMgYIAhBFGEAyBggDEEUYOTIGCAQQRRg7MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEHNTQyajFqNKgCALACAA&sourceid=chrome&ie=UTF-8)) and install the mistral model using "ollama pull mistral" in the terminal. This model uses an RAG and feeds it into an Ollama model. This model produces good responses, however, after initial research, Ollama is not meant to be deployed, but only to be used on your local machine. Ollama is also an API. This model is very easy to run on your local machine, so it is a good example of what the chatbot responses should look like.
 
 #### training.py -chigo
 
