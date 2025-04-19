@@ -4,8 +4,6 @@
 
 ### Chigozirim Ike, Matthew Li, Kaydence Lin
 
-### ADD ANY RESOURCES OR LINKS YOU REFERENCED
-
 The purpose of the chatbot, Genny, is to streamline the process of gathering organization wide information for answering internal questions in real-time.
 This documentation is for internal Generate members who may implement or work on the chatbot in the future.
 Knowledge of Python, Slack APIs, LLM, RAG, Hugging Face, and Digital Ocean may be useful to understand this documentation.
